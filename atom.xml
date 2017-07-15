@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-07-15T04:35:08.000Z</updated>
+  <updated>2017-07-15T05:13:42.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>悟空传</title>
+    <link href="http://tisfeng.com/2017/07/15/%E6%82%9F%E7%A9%BA%E4%BC%A0/"/>
+    <id>http://tisfeng.com/2017/07/15/悟空传/</id>
+    <published>2017-07-15T05:13:06.000Z</published>
+    <updated>2017-07-15T05:13:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>每一夜，都要如此往复，<br>说不清，是冷漠还是孤独。<br>枕边还放着你离开我，留下的礼物，<br>这一生我读过的最多的一本书。</p>
+<a id="more"></a>
+<p>我是谁，怎么一个人住，<br>我从哪儿来？又要去向何处？<br>好像我犯下过<br>某一种，不能原谅的错误，<br>总觉得有些什么要我背负。</p>
+<p>每一夜，都要如此往复，<br>说不清，是冷漠还是孤独。<br>枕边还放着你离开我，留下的礼物，<br>这一生我读过的最多的一本书。<br>我要这天，再遮不住我的眼。<br>我要这地，再埋不了我的心。<br>我要那众生，都明白我的意。<br>我要那诸佛，都烟消云散。</p>
+<p>每一夜，都要如此往复，<br>说不清，是冷漠还是孤独。<br>枕边还放着你离开我，留下的礼物，<br>这一生我读过的，最多的一本书。<br>我要这天，再遮不住我的眼。<br>我要这地，再埋不了我的心。<br>我要那众生，都明白我的意。<br>我要那诸佛，都烟消云散。<br>我要这天，再遮不住我的眼。<br>我要这地，再埋不了我的心。<br>我要那众生，都明白我的意。<br>我要那诸佛，都烟消云散。<br>我要这天，再遮不住我的眼。<br>我要这地，再埋不了我的心。<br>我要那众生，都明白我的意。<br>我要那诸佛，都烟消云散。<br>我要那诸佛，都烟消云散！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;每一夜，都要如此往复，&lt;br&gt;说不清，是冷漠还是孤独。&lt;br&gt;枕边还放着你离开我，留下的礼物，&lt;br&gt;这一生我读过的最多的一本书。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>test note</title>
@@ -51,7 +74,7 @@
 <h2 id="1234"><a href="#1234" class="headerlink" title=" 1234"></a> 1234</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">fdfdfdf</div><div class="line">fdfdff</div><div class="line">dfadfad</div></pre></td></tr></table></figure>
 </blockquote>
 <p>注脚内容[^注脚内容]</p>
-<p><a href="&#x6d;&#97;&#105;&#108;&#x74;&#111;&#x3a;&#x77;&#120;&#x66;&#55;&#50;&#57;&#64;&#x69;&#x63;&#x6c;&#x6f;&#117;&#100;&#46;&#99;&#x6f;&#x6d;">&#x77;&#120;&#x66;&#55;&#50;&#57;&#64;&#x69;&#x63;&#x6c;&#x6f;&#117;&#100;&#46;&#99;&#x6f;&#x6d;</a></p>
+<p><a href="&#109;&#x61;&#105;&#108;&#x74;&#x6f;&#x3a;&#119;&#120;&#x66;&#x37;&#x32;&#57;&#x40;&#x69;&#x63;&#108;&#111;&#117;&#x64;&#x2e;&#x63;&#x6f;&#x6d;">&#119;&#120;&#x66;&#x37;&#x32;&#57;&#x40;&#x69;&#x63;&#108;&#111;&#117;&#x64;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
 <p><a href="http://www.jianshu.com" target="_blank" rel="external">http://www.jianshu.com</a></p>
 <h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><p><img src="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" alt="图片"></p>
 <h3 id="插入连接"><a href="#插入连接" class="headerlink" title="插入连接"></a>插入连接</h3><p><a href="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" target="_blank" rel="external">这是一个连接</a></p>
