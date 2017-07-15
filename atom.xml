@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-07-15T06:01:12.000Z</updated>
+  <updated>2017-07-15T06:06:28.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -14,6 +14,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>雨之语</title>
+    <link href="http://tisfeng.com/2017/07/15/%E9%9B%A8%E4%B9%8B%E8%AF%AD/"/>
+    <id>http://tisfeng.com/2017/07/15/雨之语/</id>
+    <published>2017-07-15T06:06:20.000Z</published>
+    <updated>2017-07-15T06:06:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>我感到有些冷﻿<br>因为我在蒙蒙细雨中﻿<br>独自前行﻿<br>我的手心和额头都湿了﻿<br>不知何时起 我变得阴暗﻿<br>似乎只要一直倚靠在这里﻿<br>就能等来光明    </p>
+<p>外面的无声细雨﻿<br>向我倾诉着一天之中<br>﻿不曾获知 也不曾期待的琐事﻿<br>静寂与燥热的白天﻿<br>都在雨滴的细语中悄然改变<br>﻿我听着这些声音﻿<br>不知何时 又像平时一样入睡了</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我感到有些冷﻿&lt;br&gt;因为我在蒙蒙细雨中﻿&lt;br&gt;独自前行﻿&lt;br&gt;我的手心和额头都湿了﻿&lt;br&gt;不知何时起 我变得阴暗﻿&lt;br&gt;似乎只要一直倚靠在这里﻿&lt;br&gt;就能等来光明    &lt;/p&gt;
+&lt;p&gt;外面的无声细雨﻿&lt;br&gt;向我倾诉着一天之中&lt;br&gt;﻿不曾获知 也不曾期待的琐
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>关于历史</title>
@@ -137,7 +158,7 @@
 <h2 id="1234"><a href="#1234" class="headerlink" title=" 1234"></a> 1234</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">fdfdfdf</div><div class="line">fdfdff</div><div class="line">dfadfad</div></pre></td></tr></table></figure>
 </blockquote>
 <p>注脚内容[^注脚内容]</p>
-<p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#x3a;&#119;&#x78;&#102;&#x37;&#x32;&#x39;&#x40;&#x69;&#x63;&#x6c;&#111;&#x75;&#x64;&#x2e;&#99;&#111;&#109;">&#119;&#x78;&#102;&#x37;&#x32;&#x39;&#x40;&#x69;&#x63;&#x6c;&#111;&#x75;&#x64;&#x2e;&#99;&#111;&#109;</a></p>
+<p><a href="&#x6d;&#x61;&#105;&#108;&#x74;&#111;&#58;&#x77;&#x78;&#102;&#55;&#50;&#x39;&#64;&#x69;&#x63;&#108;&#x6f;&#x75;&#100;&#x2e;&#x63;&#x6f;&#x6d;">&#x77;&#x78;&#102;&#55;&#50;&#x39;&#64;&#x69;&#x63;&#108;&#x6f;&#x75;&#100;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
 <p><a href="http://www.jianshu.com" target="_blank" rel="external">http://www.jianshu.com</a></p>
 <h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><p><img src="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" alt="图片"></p>
 <h3 id="插入连接"><a href="#插入连接" class="headerlink" title="插入连接"></a>插入连接</h3><p><a href="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" target="_blank" rel="external">这是一个连接</a></p>
