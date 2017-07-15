@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-07-15T17:08:45.000Z</updated>
+  <updated>2017-07-15T17:14:36.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <link href="http://tisfeng.com/2017/07/15/%E6%88%8F%E5%AD%90/"/>
     <id>http://tisfeng.com/2017/07/15/戏子/</id>
     <published>2017-07-15T14:58:46.000Z</published>
-    <updated>2017-07-15T17:08:45.000Z</updated>
+    <updated>2017-07-15T17:14:36.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>photos:</p>
-<p>​    - <a href="http://oswrcb6b2.bkt.clouddn.com/IMG_7796.png" target="_blank" rel="external">http://oswrcb6b2.bkt.clouddn.com/IMG_7796.png</a></p>
+<p>​    -  <a href="http://oswrcb6b2.bkt.clouddn.com/IMG_7796.png" target="_blank" rel="external">http://oswrcb6b2.bkt.clouddn.com/IMG_7796.png</a></p>
 <p>this is a basic footnote<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="basic footnote content ">[1]</span></a></sup></p>
 <p>dfdsfdf</p>
 <blockquote>
@@ -39,33 +39,19 @@
 <p>777</p>
 <p>888</p>
 <p>999</p>
-<a id="more"></a>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">请不要相信我的美丽</div><div class="line">也不要相信我的爱情</div><div class="line">在涂满了油彩的面容之下</div><div class="line">我有的是颗戏子的心</div><div class="line">所以 请千万不要</div><div class="line">不要把我的悲哀当真</div><div class="line">也别随着我的表演心碎</div><div class="line">亲爱的朋友 今生今世</div><div class="line">我只是个戏子</div><div class="line">永远在别人的故事里</div><div class="line">流着自己的泪</div></pre></td></tr></table></figure>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">basic footnote content<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;photos:&lt;/p&gt;
-&lt;p&gt;​    - &lt;a href=&quot;http://oswrcb6b2.bkt.clouddn.com/IMG_7796.png&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://oswrcb6b2.bkt.clouddn.com/IMG_7796.png&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;this is a basic footnote&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;basic footnote content &quot;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;dfdsfdf&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;111&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;ddd&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;222&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;333&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;*444*&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;555&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;666&lt;/p&gt;
-&lt;p&gt;777&lt;/p&gt;
-&lt;p&gt;888&lt;/p&gt;
-&lt;p&gt;999&lt;/p&gt;
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;photos:&lt;/p&gt;
+&lt;p&gt;​    -  &lt;a href=&quot;http:/
     
     </summary>
     
-      <category term="-随笔 -瞬间" scheme="http://tisfeng.com/categories/%E9%9A%8F%E7%AC%94-%E7%9E%AC%E9%97%B4/"/>
+      <category term="随笔" scheme="http://tisfeng.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="瞬间" scheme="http://tisfeng.com/categories/%E9%9A%8F%E7%AC%94/%E7%9E%AC%E9%97%B4/"/>
     
     
       <category term="test" scheme="http://tisfeng.com/tags/test/"/>
@@ -298,7 +284,7 @@
 <h2 id="1234"><a href="#1234" class="headerlink" title=" 1234"></a> 1234</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">fdfdfdf</div><div class="line">fdfdff</div><div class="line">dfadfad</div></pre></td></tr></table></figure>
 </blockquote>
 <p>注脚内容[^注脚内容]</p>
-<p><a href="&#109;&#97;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#119;&#x78;&#x66;&#55;&#50;&#x39;&#x40;&#105;&#99;&#x6c;&#x6f;&#117;&#100;&#x2e;&#x63;&#111;&#x6d;">&#119;&#x78;&#x66;&#55;&#50;&#x39;&#x40;&#105;&#99;&#x6c;&#x6f;&#117;&#100;&#x2e;&#x63;&#111;&#x6d;</a></p>
+<p><a href="&#109;&#97;&#x69;&#x6c;&#116;&#111;&#58;&#x77;&#120;&#102;&#x37;&#50;&#x39;&#x40;&#105;&#x63;&#x6c;&#111;&#x75;&#x64;&#x2e;&#x63;&#x6f;&#x6d;">&#x77;&#120;&#102;&#x37;&#50;&#x39;&#x40;&#105;&#x63;&#x6c;&#111;&#x75;&#x64;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
 <p><a href="http://www.jianshu.com" target="_blank" rel="external">http://www.jianshu.com</a></p>
 <h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><p><img src="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" alt="图片"></p>
 <h3 id="插入连接"><a href="#插入连接" class="headerlink" title="插入连接"></a>插入连接</h3><p><a href="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" target="_blank" rel="external">这是一个连接</a></p>
