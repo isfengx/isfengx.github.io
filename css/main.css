@@ -487,8 +487,8 @@ code {
 code {
   padding: 2px 4px;
   word-wrap: break-word;
-  color: #555;
-  background: #eee;
+  color: #fff;
+  background: #000;
   border-radius: 3px;
   font-size: 13px;
 }
@@ -1677,7 +1677,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #67853e;
+  background: #499ec2;
 }
 .links-of-blogroll {
   font-size: 13px;
