@@ -394,9 +394,11 @@
           
 
 
+<br/>
+
  <!-- 在下面的位置加上如下代码 -->
       <span id="busuanzi_container_page_pv">
-      &nbsp; | &nbsp; 热度&nbsp; <span id="busuanzi_value_page_pv"></span>°C
+         热度&nbsp; <span id="busuanzi_value_page_pv"></span>°C
       </span>
   <!-- 在上面的位置加上如上代码 -->
 
@@ -425,7 +427,6 @@
 
           
 
-<br/>
 
 
          
@@ -504,8 +505,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/07/15/渡口/" rel="next" title="渡口">
-                <i class="fa fa-chevron-left"></i> 渡口
+              <a href="/2017/07/15/青春/" rel="next" title="青春">
+                <i class="fa fa-chevron-left"></i> 青春
               </a>
             
           </div>
@@ -545,6 +546,11 @@
           
   <div class="comments" id="comments">
     
+
+    <div style="text-align:center;">
+        <button class="btn" id="load-disqus" onclick="disqus.load();">加载 Disqus 评论</button>
+    </div>
+
       <div id="disqus_thread">
         <noscript>
           Please enable JavaScript to view the
@@ -713,7 +719,6 @@
 
 
 
-
 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <span id="busuanzi_container_site_pv">
   <i class="fa fa-user" aria-hidden="true"></i>
@@ -847,6 +852,9 @@
         s.src = 'https://isfeng-1.disqus.com/embed.js';
         s.setAttribute('data-timestamp', '' + +new Date());
         (d.head || d.body).appendChild(s);
+
+        $('#load-disqus').html("评论加载中，请确保你有梯子，若评论长时间未加载则你可能翻墙失败...").fadeOut(9000); //加载后移除按钮
+        
       </script>
     
 
