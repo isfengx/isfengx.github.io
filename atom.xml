@@ -41,7 +41,7 @@
     <link href="http://tisfeng.com/2017/07/15/%E6%88%8F%E5%AD%90/"/>
     <id>http://tisfeng.com/2017/07/15/戏子/</id>
     <published>2017-07-15T14:58:46.000Z</published>
-    <updated>2017-07-17T18:20:58.000Z</updated>
+    <updated>2017-07-17T18:34:46.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">111222</div></pre></td></tr></table></figure>
 <p>photos:</p>
@@ -70,7 +70,7 @@
 </blockquote>
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div></pre></td><td class="code"><pre><div class="line">//</div><div class="line">//  MPUtilities.m</div><div class="line">//  MacDown</div><div class="line">//</div><div class="line">//  Created by Tzu-ping Chung  on 8/06/2014.</div><div class="line">//  Copyright (c) 2014 Tzu-ping Chung . All rights reserved.</div><div class="line">//</div><div class="line"></div><div class="line">#import &quot;MPUtilities.h&quot;</div><div class="line">#import &quot;NSString+Lookup.h&quot;</div><div class="line">#import &lt;JavaScriptCore/JavaScriptCore.h&gt;</div><div class="line"></div><div class="line">NSString * const kMPStylesDirectoryName = @&quot;Styles&quot;;</div><div class="line">NSString * const kMPStyleFileExtension = @&quot;css&quot;;</div><div class="line">NSString * const kMPThemesDirectoryName = @&quot;Themes&quot;;</div><div class="line">NSString * const kMPThemeFileExtension = @&quot;style&quot;;</div><div class="line">NSString * const kMPPlugInsDirectoryName = @&quot;PlugIns&quot;;</div><div class="line">NSString * const kMPPlugInFileExtension = @&quot;plugin&quot;;</div><div class="line"></div><div class="line">static NSString *MPDataRootDirectory()</div><div class="line">&#123;</div><div class="line">    static NSString *path = nil;</div><div class="line">    if (!path)</div><div class="line">    &#123;</div><div class="line">        NSArray *paths =</div><div class="line">            NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory,</div><div class="line">                                                NSUserDomainMask, YES);</div><div class="line">        NSCAssert(paths.count &gt; 0,</div><div class="line">                  @&quot;Cannot find directory for NSApplicationSupportDirectory.&quot;);</div><div class="line">        NSDictionary *infoDictionary = [NSBundle mainBundle].infoDictionary;</div><div class="line">        path = [NSString pathWithComponents:@[paths[0],</div><div class="line">                                              infoDictionary[@&quot;CFBundleName&quot;]]];</div><div class="line">    &#125;</div><div class="line">    return path;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p><img src="https://drive.google.com/file/d/1CUo3BI6oc_fq0VMJgnXLmahQg2VWvh1xSQ/view" alt=""></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">&lt;!-- JiaThis Button BEGIN --&gt;</div><div class="line">&lt;div class="jiathis_style_24x24"&gt;</div><div class="line">	&lt;a class="jiathis_button_qzone"&gt;&lt;/a&gt;</div><div class="line">	&lt;a class="jiathis_button_tsina"&gt;&lt;/a&gt;</div><div class="line">	&lt;a class="jiathis_button_tqq"&gt;&lt;/a&gt;</div><div class="line">	&lt;a class="jiathis_button_weixin"&gt;&lt;/a&gt;</div><div class="line">	&lt;a class="jiathis_button_renren"&gt;&lt;/a&gt;</div><div class="line">	&lt;a href="http://www.jiathis.com/share?uid=2139285" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"&gt;&lt;/a&gt;</div><div class="line">	&lt;a class="jiathis_counter_style"&gt;&lt;/a&gt;</div><div class="line">&lt;/div&gt;</div><div class="line">&lt;script type="text/javascript"&gt;</div><div class="line">var jiathis_config = &#123;data_track_clickback:'true'&#125;;</div><div class="line">&lt;/script&gt;</div><div class="line">&lt;script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=2139285" charset="utf-8"&gt;&lt;/script&gt;</div><div class="line">&lt;!-- JiaThis Button END --&gt;</div></pre></td></tr></table></figure>
 <blockquote>
 <p>888</p>
 <blockquote>
@@ -145,6 +145,26 @@
   </entry>
   
   <entry>
+    <title>渡口</title>
+    <link href="http://tisfeng.com/2017/07/15/%E6%B8%A1%E5%8F%A3/"/>
+    <id>http://tisfeng.com/2017/07/15/渡口/</id>
+    <published>2017-07-15T06:21:58.000Z</published>
+    <updated>2017-07-15T06:22:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>让我与你握别<br>再轻轻抽出我的手<br>知道思念从此生根<br>浮云白日 山川庄严温柔<br>让我与你握别<br>再轻轻抽出我的手<br>华年从此停顿<br>热泪在心中汇成河流<br>是那样万般无奈的凝视<br>渡口旁找不到一朵可以相送的花<br>就把祝福别在襟上吧<br>而明日<br>明日又隔天涯</p>
+<p>—— 北岛</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;让我与你握别&lt;br&gt;再轻轻抽出我的手&lt;br&gt;知道思念从此生根&lt;br&gt;浮云白日
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>青春</title>
     <link href="http://tisfeng.com/2017/07/15/%E9%9D%92%E6%98%A5/"/>
     <id>http://tisfeng.com/2017/07/15/青春/</id>
@@ -163,26 +183,6 @@
     
     
       <category term="诗和远方" scheme="http://tisfeng.com/tags/%E8%AF%97%E5%92%8C%E8%BF%9C%E6%96%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>渡口</title>
-    <link href="http://tisfeng.com/2017/07/15/%E6%B8%A1%E5%8F%A3/"/>
-    <id>http://tisfeng.com/2017/07/15/渡口/</id>
-    <published>2017-07-15T06:21:58.000Z</published>
-    <updated>2017-07-15T06:22:59.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>让我与你握别<br>再轻轻抽出我的手<br>知道思念从此生根<br>浮云白日 山川庄严温柔<br>让我与你握别<br>再轻轻抽出我的手<br>华年从此停顿<br>热泪在心中汇成河流<br>是那样万般无奈的凝视<br>渡口旁找不到一朵可以相送的花<br>就把祝福别在襟上吧<br>而明日<br>明日又隔天涯</p>
-<p>—— 北岛</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;让我与你握别&lt;br&gt;再轻轻抽出我的手&lt;br&gt;知道思念从此生根&lt;br&gt;浮云白日
-    
-    </summary>
-    
     
   </entry>
   
@@ -327,7 +327,7 @@
 <h2 id="1234"><a href="#1234" class="headerlink" title=" 1234"></a> 1234</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">fdfdfdf</div><div class="line">fdfdff</div><div class="line">dfadfad</div></pre></td></tr></table></figure>
 </blockquote>
 <p>注脚内容[^注脚内容]</p>
-<p><a href="&#109;&#97;&#105;&#x6c;&#x74;&#x6f;&#58;&#x77;&#x78;&#x66;&#55;&#50;&#x39;&#x40;&#105;&#x63;&#108;&#x6f;&#x75;&#100;&#x2e;&#99;&#x6f;&#109;">&#x77;&#x78;&#x66;&#55;&#50;&#x39;&#x40;&#105;&#x63;&#108;&#x6f;&#x75;&#100;&#x2e;&#99;&#x6f;&#109;</a></p>
+<p><a href="&#x6d;&#97;&#105;&#x6c;&#116;&#x6f;&#x3a;&#119;&#120;&#x66;&#55;&#x32;&#57;&#x40;&#105;&#x63;&#108;&#111;&#117;&#100;&#x2e;&#x63;&#x6f;&#x6d;">&#119;&#120;&#x66;&#55;&#x32;&#57;&#x40;&#105;&#x63;&#108;&#111;&#117;&#100;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
 <p><a href="http://www.jianshu.com" target="_blank" rel="external">http://www.jianshu.com</a></p>
 <h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><p><img src="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" alt="图片"></p>
 <h3 id="插入连接"><a href="#插入连接" class="headerlink" title="插入连接"></a>插入连接</h3><p><a href="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" target="_blank" rel="external">这是一个连接</a></p>
