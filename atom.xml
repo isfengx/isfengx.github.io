@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-07-17T18:20:21.000Z</updated>
+  <updated>2017-07-18T19:46:42.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://tisfeng.com/2017/07/19/test/"/>
+    <id>http://tisfeng.com/2017/07/19/test/</id>
+    <published>2017-07-18T19:41:38.000Z</published>
+    <updated>2017-07-18T19:46:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>title: test</p>
+<p>十五年前<br>阴凉的晨</p>
+<p>恍恍惚惚<br>清晰的诀别</p>
+<p>每夜，梦中的你<br>梦中是你</p>
+<p>与枕俱醒<br>觉得不是你</p>
+<p>另一些人<br>扮演你入我梦中</p>
+<p>哪有你，你这样好<br>哪有你这样你</p>
+<p> —— 木心</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div></pre></td><td class="code"><pre><div class="line">//</div><div class="line">//  MPUtilities.m</div><div class="line">//  MacDown</div><div class="line">//</div><div class="line">//  Created by Tzu-ping Chung  on 8/06/2014.</div><div class="line">//  Copyright (c) 2014 Tzu-ping Chung . All rights reserved.</div><div class="line">//</div><div class="line"></div><div class="line">#import &quot;MPUtilities.h&quot;</div><div class="line">#import &quot;NSString+Lookup.h&quot;</div><div class="line">#import &lt;JavaScriptCore/JavaScriptCore.h&gt;</div><div class="line"></div><div class="line">NSString * const kMPStylesDirectoryName = @&quot;Styles&quot;;</div><div class="line">NSString * const kMPStyleFileExtension = @&quot;css&quot;;</div><div class="line">NSString * const kMPThemesDirectoryName = @&quot;Themes&quot;;</div><div class="line">NSString * const kMPThemeFileExtension = @&quot;style&quot;;</div><div class="line">NSString * const kMPPlugInsDirectoryName = @&quot;PlugIns&quot;;</div><div class="line">NSString * const kMPPlugInFileExtension = @&quot;plugin&quot;;</div><div class="line"></div><div class="line">static NSString *MPDataRootDirectory()</div><div class="line">&#123;</div><div class="line">    static NSString *path = nil;</div><div class="line">    if (!path)</div><div class="line">    &#123;</div><div class="line">        NSArray *paths =</div><div class="line">            NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory,</div><div class="line">                                                NSUserDomainMask, YES);</div><div class="line">        NSCAssert(paths.count &gt; 0,</div><div class="line">                  @&quot;Cannot find directory for NSApplicationSupportDirectory.&quot;);</div><div class="line">        NSDictionary *infoDictionary = [NSBundle mainBundle].infoDictionary;</div><div class="line">        path = [NSString pathWithComponents:@[paths[0],</div><div class="line">                                              infoDictionary[@&quot;CFBundleName&quot;]]];</div><div class="line">    &#125;</div><div class="line">    return path;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>ddddddd</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;p&gt;title: test&lt;/p&gt;
+&lt;p&gt;十五年前&lt;br&gt;阴凉的晨&lt;/p&gt;
+&lt;p
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>ibook</title>
