@@ -4,12 +4,12 @@
 
     
   <url>
-    <loc>http://tisfeng.com/2017/07/15/markdown-%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2017-07-18T19:51:26.000Z</lastmod>
+    <loc>http://tisfeng.com/2017/07/19/test2/</loc>
+    <lastmod>2017-07-18T20:23:34.000Z</lastmod>
     <data>
         <display>
-        <title>markdown 测试</title>
-        <pubTime>2017-07-15T03:59:00.000Z</pubTime>
+        <title>test2</title>
+        <pubTime>2017-07-18T20:23:02.000Z</pubTime>
         
          
            
@@ -20,11 +20,26 @@
     
   <url>
     <loc>http://tisfeng.com/2017/07/19/test/</loc>
-    <lastmod>2017-07-18T19:46:42.000Z</lastmod>
+    <lastmod>2017-07-18T20:18:56.000Z</lastmod>
     <data>
         <display>
         <title>test</title>
         <pubTime>2017-07-18T19:41:38.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://tisfeng.com/2017/07/15/markdown-%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2017-07-18T19:51:26.000Z</lastmod>
+    <data>
+        <display>
+        <title>markdown 测试</title>
+        <pubTime>2017-07-15T03:59:00.000Z</pubTime>
         
          
            
