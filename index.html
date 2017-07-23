@@ -609,7 +609,7 @@
              <i class="fa fa-file-word-o"></i>
            </span>
            <span class="post-meta-item-text">WordCount:</span>
-           <span class="post-count">208字</span>
+           <span class="post-count">509字</span>
            
          </span>
     
@@ -619,7 +619,7 @@
              <i class="fa fa-clock-o"></i>
            </span>
            <span class="post-meta-item-text">min2read:</span>
-           <span class="post-count">1分钟</span>
+           <span class="post-count">3分钟</span>
            
          </span>
 
@@ -638,20 +638,43 @@
         
           
             <link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<h1 id="添加音乐"><a href="#添加音乐" class="headerlink" title="添加音乐"></a>添加音乐</h1><p>这个由网易云音乐网站上直接外链生成（设置auto=1为自动播放）：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=147030&auto=1&height=66"></iframe>
+<h1 id="暴力添加音乐"><a href="#暴力添加音乐" class="headerlink" title="暴力添加音乐"></a>暴力添加音乐</h1><p>这个由网易云音乐网站上直接外链生成（设置auto=1为自动播放）：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" </div><div class="line">marginheight="0" width=330 height=86 </div><div class="line">src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=147030&auto=0&height=66"></iframe>
 
 
 
 <p>这个是从YouTube视频上直接趴下来的：</p>
-<h1 id="添加视频"><a href="#添加视频" class="headerlink" title="添加视频"></a>添加视频</h1><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=1&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
+<h1 id="暴力添加视频"><a href="#暴力添加视频" class="headerlink" title="暴力添加视频"></a>暴力添加视频</h1><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" </div><div class="line">marginheight="0" width=330 height=86 </div><div class="line">src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=1&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
 <iframe width="640" height="360" src="https://www.youtube.com/embed/NwfolzojHCY?list=PL2EC551493D61ED9D" frameborder="0" allowfullscreen></iframe>
 
-<h1 id="使用APlayer、DPlayer"><a href="#使用APlayer、DPlayer" class="headerlink" title="使用APlayer、DPlayer"></a>使用APlayer、DPlayer</h1><p>两款插件基于 <a href="https://github.com/DIYgod" target="_blank" rel="external">DIYgod</a> 编写的 html5 播放器</p>
-<p>需要先安装插件 <a href="https://github.com/DIYgod/APlayer" target="_blank" rel="external">APlayer</a> 和 <a href="https://github.com/DIYgod/DPlayer" target="_blank" rel="external">DPlayer</a> ：</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">npm</span> <span class="selector-tag">install</span> <span class="selector-tag">hexo-tag-dplayer</span> <span class="selector-tag">--save</span></div><div class="line"><span class="selector-tag">npm</span> <span class="selector-tag">install</span> <span class="selector-tag">hexo-tag-aplayer</span> <span class="selector-tag">--save</span></div></pre></td></tr></table></figure>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&#123;% aplayer "耿耿于怀" "Jeff 麦浚龙" "http://music.163.com/#/song?id=135355" "autoplay" %&#125;</div><div class="line"></div><div class="line">&#123;% dplayer "url=http://devtest.qiniudn.com/若能绽放光芒.mp4" "api=http://dplayer.daoapp.io" "pic=http://devtest.qiniudn.com/若能绽放光芒.png" "id=9E2E3368B56CDBB4" "loop=yes" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %&#125;</div></pre></td></tr></table></figure>
+<h1 id="使用APlayer、DPlayer方式添加"><a href="#使用APlayer、DPlayer方式添加" class="headerlink" title="使用APlayer、DPlayer方式添加"></a>使用APlayer、DPlayer方式添加</h1><p><a href="https://github.com/DIYgod/APlayer" target="_blank" rel="external">APlayer</a> 和 <a href="https://github.com/DIYgod/DPlayer" target="_blank" rel="external">DPlayer</a> 是两款插件基于 <a href="https://github.com/DIYgod" target="_blank" rel="external">DIYgod</a> 的 html5 播放器</p>
+<p>对应hexo下的两款插件分别是 <a href="https://github.com/grzhan/hexo-tag-aplayer" target="_blank" rel="external">hexo-tag-aplayer</a> 和 <a href="https://github.com/NextMoe/hexo-tag-dplayer" target="_blank" rel="external">hexo-tag-dplayer</a></p>
+<p>cd到hexo目录下安装 hexo-tag-aplayer</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">npm</span> <span class="selector-tag">install</span> <span class="selector-tag">hexo-tag-aplayer</span> <span class="selector-tag">--save</span></div></pre></td></tr></table></figure>
+<p><strong>usage:</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% aplayer title author url [picture_url, narrow, autoplay, width:xxx, lrc:xxx] %&#125;</div></pre></td></tr></table></figure>
+<ul>
+<li><code>title</code> : music title</li>
+<li><code>author</code>: music author</li>
+<li><code>url</code>: music file url</li>
+<li><code>picture_url</code>: optional, music picture url</li>
+<li><code>narrow</code>: optional, narrow style</li>
+<li><code>autoplay</code>: optional, autoplay music, not supported by mobile browsers</li>
+<li><code>width:xxx</code>: optional, prefix <code>width:</code>, player’s width (default: 100%)</li>
+<li><code>lrc:xxx</code>: optional, prefix <code>lrc:</code>, LRC file url</li>
+</ul>
+<p><strong>for example:</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123; % aplayer "耿耿于怀" "Jeff 麦浚龙" "http://music.163.com/#/song?id=135355" "autoplay" % &#125;</div></pre></td></tr></table></figure>
+<p>安装插件 hexo-tag-dplayer</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-tag-dplayer --save</div></pre></td></tr></table></figure>
+<p><strong>usage:</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% dplayer key=value ... %&#125;</div></pre></td></tr></table></figure>
+<p>key can be</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">'autoplay': autoplay video, not supported by mobile browsers</div><div class="line">'theme': theme color, default: #b7daff</div><div class="line">'loop': loop play music, default: true</div><div class="line">'lang': language, `zh` for Chinese, `en` for English, default: Navigator language</div><div class="line">'screenshot':  enable screenshot function, default: false, NOTICE: if set it to true, video and video poster must enable Cross-Origin</div><div class="line">'hotkey': binding hot key, including left right and Space, default: true</div><div class="line">'preload': 'auto', the way to load music, can be 'none' 'metadata' 'auto', default: 'auto'</div><div class="line">'url': Required, video url</div><div class="line">'pic': video cover picture</div><div class="line">'api': DPlayer danmaku backend url</div><div class="line">'addition': Dplayer danmuku for bilibili </div><div class="line">'id': see https://github.com/DIYgod/DPlayer</div><div class="line">'token': see https://github.com/DIYgod/DPlayer</div><div class="line">'maximum': maximum quantity of danmaku</div><div class="line"></div><div class="line">'width' maximum width of the dplayer wraper</div><div class="line">'height' maximum height of the dplayer wraper, you can use this like "height=233px"</div></pre></td></tr></table></figure>
+<p><strong>for example:</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">&#123;% dplayer "url=http://devtest.qiniudn.com/若能绽放光芒.mp4" "addition=https://dplayer.daoapp.io/bilibili?aid=4157142" "api=http://dplayer.daoapp.io" </div><div class="line">"pic=http://devtest.qiniudn.com/若能绽放光芒.png" </div><div class="line">"id=9E2E3368B56CDBB4" </div><div class="line">"loop=yes" </div><div class="line">"theme=#FADFA3"</div><div class="line">"autoplay=false" </div><div class="line">"token=tokendemo" %&#125;</div><div class="line"></div><div class="line">&#123;% dplayer "url=http://devtest.qiniudn.com/若能绽放光芒.mp4" "addition=https://dplayer.daoapp.io/bilibili?aid=4157142" "api=http://dplayer.donot.help/dplayerpy" </div><div class="line">"pic=http://devtest.qiniudn.com/若能绽放光芒.png" </div><div class="line">"id=2622668" "loop=yes" </div><div class="line">"theme=#FADFA3" </div><div class="line">"autoplay=false" </div><div class="line">"width=233px" %&#125;</div></pre></td></tr></table></figure>
+<div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":false,"theme":"#FADFA3","loop":true,"video":{"url":"http://devtest.qiniudn.com/若能绽放光芒.mp4","pic":"http://devtest.qiniudn.com/若能绽放光芒.png"},"danmaku":{"api":"http://dplayer.daoapp.io","id":"9E2E3368B56CDBB4","token":"tokendemo","addition":["https://dplayer.daoapp.io/bilibili?aid=4157142"]}});</script>
 <div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
 			new APlayer({
@@ -662,12 +685,11 @@
 				music: {
 					title: "耿耿于怀",
 					author: "Jeff 麦浚龙",
-					url: "http://music.163.com/#/song?id=135355",
+					url: "http://ot8me0b2r.bkt.clouddn.com/%E9%BA%A6%E6%B5%9A%E9%BE%99%20-%20%E8%80%BF%E8%80%BF%E4%BA%8E%E6%80%80.mp3",
 					pic: "",
 				}
 			});
 		</script>
-<div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":false,"theme":"#FADFA3","loop":true,"video":{"url":"http://devtest.qiniudn.com/若能绽放光芒.mp4","pic":"http://devtest.qiniudn.com/若能绽放光芒.png"},"danmaku":{"api":"http://dplayer.daoapp.io","id":"9E2E3368B56CDBB4","token":"tokendemo"}});</script>
 <p><a href="http://music.163.com/#/m/song?id=86489" target="_blank" rel="external">耿耿于怀</a></p>
 
           
