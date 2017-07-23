@@ -4,8 +4,41 @@
 
     
   <url>
+    <loc>http://tisfeng.com/2017/07/24/hexo%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91/</loc>
+    <lastmod>2017-07-23T18:20:31.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo添加音乐、视频</title>
+        <pubTime>2017-07-23T18:20:31.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="code" url="http://tisfeng.com/categories/code/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://tisfeng.com/2017/07/24/markdown-test/</loc>
+    <lastmod>2017-07-23T17:49:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>markdown test</title>
+        <pubTime>2017-07-23T17:46:16.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://tisfeng.com/2017/07/15/%E6%88%8F%E5%AD%90/</loc>
-    <lastmod>2017-07-23T15:57:02.000Z</lastmod>
+    <lastmod>2017-07-23T17:15:58.000Z</lastmod>
     <data>
         <display>
         <title>戏子</title>
@@ -29,28 +62,11 @@
 
     
   <url>
-    <loc>http://tisfeng.com/2017/07/15/%E9%9D%92%E6%98%A5/</loc>
-    <lastmod>2017-07-23T14:47:37.000Z</lastmod>
-    <data>
-        <display>
-        <title>青春 (置顶测试5)</title>
-        <pubTime>2017-07-15T06:21:58.000Z</pubTime>
-        
-        <tag>诗和远方</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://tisfeng.com/2017/07/19/test2/</loc>
-    <lastmod>2017-07-18T20:23:34.000Z</lastmod>
+    <lastmod>2017-07-23T16:57:30.000Z</lastmod>
     <data>
         <display>
-        <title>test2</title>
+        <title>逃离</title>
         <pubTime>2017-07-18T20:23:02.000Z</pubTime>
         
          
@@ -62,12 +78,29 @@
     
   <url>
     <loc>http://tisfeng.com/2017/07/19/test/</loc>
-    <lastmod>2017-07-18T20:18:56.000Z</lastmod>
+    <lastmod>2017-07-23T16:56:55.000Z</lastmod>
     <data>
         <display>
         <title>test</title>
         <pubTime>2017-07-18T19:41:38.000Z</pubTime>
         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://tisfeng.com/2017/07/15/%E9%9D%92%E6%98%A5/</loc>
+    <lastmod>2017-07-23T14:47:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>青春 (置顶测试5)</title>
+        <pubTime>2017-07-15T06:21:58.000Z</pubTime>
+        
+        <tag>诗和远方</tag>
+         
          
            
         </display>
