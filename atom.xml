@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-07-23T20:16:26.000Z</updated>
+  <updated>2017-07-23T20:20:37.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -20,17 +20,18 @@
     <link href="http://tisfeng.com/2017/07/24/hexo%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91/"/>
     <id>http://tisfeng.com/2017/07/24/hexo添加音乐、视频/</id>
     <published>2017-07-23T18:20:31.000Z</published>
-    <updated>2017-07-23T20:16:26.000Z</updated>
+    <updated>2017-07-23T20:20:37.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<h1 id="暴力添加音乐"><a href="#暴力添加音乐" class="headerlink" title="暴力添加音乐"></a>暴力添加音乐</h1><p>这个由网易云音乐网站上直接外链生成（设置auto=1为自动播放）：</p>
+<h1 id="暴力方式添加音乐、视频"><a href="#暴力方式添加音乐、视频" class="headerlink" title="暴力方式添加音乐、视频"></a>暴力方式添加音乐、视频</h1><p>markdown语法兼容html，因此可直接使用HTML方式嵌入</p>
+<p>这个由网易云音乐网站上直接外链生成（设置auto=1为自动播放）：</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" </div><div class="line">marginheight="0" width=330 height=86 </div><div class="line">src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=147030&auto=0&height=66"></iframe>
 
 
 
 <p>这个是从YouTube视频上直接趴下来的：</p>
-<h1 id="暴力添加视频"><a href="#暴力添加视频" class="headerlink" title="暴力添加视频"></a>暴力添加视频</h1><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" </div><div class="line">marginheight="0" width=330 height=86 </div><div class="line">src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=1&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" </div><div class="line">marginheight="0" width=330 height=86 </div><div class="line">src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=1&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
 <iframe width="640" height="360" src="https://www.youtube.com/embed/NwfolzojHCY?list=PL2EC551493D61ED9D" frameborder="0" allowfullscreen></iframe>
 
 <h1 id="使用APlayer、DPlayer方式添加"><a href="#使用APlayer、DPlayer方式添加" class="headerlink" title="使用APlayer、DPlayer方式添加"></a>使用APlayer、DPlayer方式添加</h1><p><a href="https://github.com/DIYgod/APlayer" target="_blank" rel="external">APlayer</a> 和 <a href="https://github.com/DIYgod/DPlayer" target="_blank" rel="external">DPlayer</a> 是两款插件基于 <a href="https://github.com/DIYgod" target="_blank" rel="external">DIYgod</a> 的 html5 播放器</p>
@@ -531,7 +532,7 @@
 <h2 id="1234"><a href="#1234" class="headerlink" title=" 1234"></a> 1234</h2><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">fdfdfdf</span></div><div class="line">fdfdff</div><div class="line">dfadfad</div></pre></td></tr></table></figure>
 </blockquote>
 <p>注脚内容[^注脚内容]</p>
-<p><a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#119;&#x78;&#102;&#x37;&#50;&#x39;&#64;&#105;&#99;&#x6c;&#111;&#117;&#x64;&#46;&#x63;&#x6f;&#109;">&#119;&#x78;&#102;&#x37;&#50;&#x39;&#64;&#105;&#99;&#x6c;&#111;&#117;&#x64;&#46;&#x63;&#x6f;&#109;</a></p>
+<p><a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#119;&#x78;&#102;&#55;&#50;&#x39;&#64;&#105;&#99;&#108;&#x6f;&#117;&#x64;&#x2e;&#99;&#x6f;&#109;">&#119;&#x78;&#102;&#55;&#50;&#x39;&#64;&#105;&#99;&#108;&#x6f;&#117;&#x64;&#x2e;&#99;&#x6f;&#109;</a></p>
 <p><a href="http://www.jianshu.com" target="_blank" rel="external">http://www.jianshu.com</a></p>
 <h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><p><img src="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" alt="图片"></p>
 <h3 id="插入连接"><a href="#插入连接" class="headerlink" title="插入连接"></a>插入连接</h3><p><a href="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" target="_blank" rel="external">这是一个连接</a></p>
