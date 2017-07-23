@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-07-23T18:51:04.000Z</updated>
+  <updated>2017-07-23T19:05:28.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://tisfeng.com/2017/07/24/hexo%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91/"/>
     <id>http://tisfeng.com/2017/07/24/hexo添加音乐、视频/</id>
     <published>2017-07-23T18:20:31.000Z</published>
-    <updated>2017-07-23T18:51:04.000Z</updated>
+    <updated>2017-07-23T19:05:28.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
 <h1 id="添加音乐"><a href="#添加音乐" class="headerlink" title="添加音乐"></a>添加音乐</h1><p>这个由网易云音乐网站上直接外链生成（设置auto=1为自动播放）：</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=1&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=147030&auto=1&height=66"></iframe>
@@ -49,11 +49,14 @@
 					pic: "",
 				}
 			});
-		</script><div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":false,"theme":"#FADFA3","loop":true,"video":{"url":"http://devtest.qiniudn.com/若能绽放光芒.mp4","pic":"http://devtest.qiniudn.com/若能绽放光芒.png"},"danmaku":{"api":"http://dplayer.daoapp.io","id":"9E2E3368B56CDBB4","token":"tokendemo"}});</script>]]></content>
+		</script>
+<div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":false,"theme":"#FADFA3","loop":true,"video":{"url":"http://devtest.qiniudn.com/若能绽放光芒.mp4","pic":"http://devtest.qiniudn.com/若能绽放光芒.png"},"danmaku":{"api":"http://dplayer.daoapp.io","id":"9E2E3368B56CDBB4","token":"tokendemo"}});</script>
+<p><a href="http://music.163.com/#/m/song?id=86489" target="_blank" rel="external">耿耿于怀</a></p>
+]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/as
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
     
     </summary>
     
@@ -71,7 +74,7 @@
     <published>2017-07-23T17:46:16.000Z</published>
     <updated>2017-07-23T17:49:06.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="title1"><a href="#title1" class="headerlink" title="title1"></a>title1</h1><h2 id="title2"><a href="#title2" class="headerlink" title="title2"></a>title2</h2><h3 id="title3"><a href="#title3" class="headerlink" title="title3"></a>title3</h3><blockquote>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="title1"><a href="#title1" class="headerlink" title="title1"></a>title1</h1><h2 id="title2"><a href="#title2" class="headerlink" title="title2"></a>title2</h2><h3 id="title3"><a href="#title3" class="headerlink" title="title3"></a>title3</h3><blockquote>
 <p>sdfdfdfdfdf</p>
 <p>dfdfdf</p>
 <blockquote>
@@ -109,7 +112,7 @@
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/as
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
     
     </summary>
     
@@ -123,14 +126,14 @@
     <published>2017-07-18T20:23:02.000Z</published>
     <updated>2017-07-23T16:57:30.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
 <p>我希望能够远走，逃离我的所知，逃离我的所有。我想出发，去任何地方，不论是村庄或者荒原，只要不是这里就行。我向往的只是不再见到这些人，不再过这种没完没了的日子。我想做到的，是卸下我已习惯的伪装，成为另一个我，以此得到喘息。不幸的是，我在这些事情上从来都事与愿违。</p>
 <p>——佩索阿《惶然录》</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/as
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
     
     </summary>
     
@@ -144,7 +147,7 @@
     <published>2017-07-18T19:41:38.000Z</published>
     <updated>2017-07-23T16:56:55.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
 <p>十五年前<br>阴凉的晨</p>
 <p>恍恍惚惚<br>清晰的诀别</p>
 <p>每夜，梦中的你<br>梦中是你</p>
@@ -160,7 +163,7 @@
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/as
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
     
     </summary>
     
@@ -174,12 +177,12 @@
     <published>2017-07-17T18:16:22.000Z</published>
     <updated>2017-07-17T18:20:21.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- JiaThis Button BEGIN --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"jiathis_style_24x24"</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_qzone"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_tsina"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_tqq"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_weixin"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_renren"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://www.jiathis.com/share?uid=2139285"</span> <span class="attr">class</span>=<span class="string">"jiathis jiathis_txt jtico jtico_jiathis"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_counter_style"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="actionscript"></span></div><div class="line"><span class="keyword">var</span> jiathis_config = &#123;data_track_clickback:<span class="string">'true'</span>&#125;;</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"http://v3.jiathis.com/code/jia.js?uid=2139285"</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- JiaThis Button END --&gt;</span></div></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- JiaThis Button BEGIN --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"jiathis_style_24x24"</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_qzone"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_tsina"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_tqq"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_weixin"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_renren"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://www.jiathis.com/share?uid=2139285"</span> <span class="attr">class</span>=<span class="string">"jiathis jiathis_txt jtico jtico_jiathis"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_counter_style"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="actionscript"></span></div><div class="line"><span class="keyword">var</span> jiathis_config = &#123;data_track_clickback:<span class="string">'true'</span>&#125;;</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"http://v3.jiathis.com/code/jia.js?uid=2139285"</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- JiaThis Button END --&gt;</span></div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/as
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
     
     </summary>
     
@@ -195,7 +198,7 @@
     <published>2017-07-15T14:58:46.000Z</published>
     <updated>2017-07-23T17:15:58.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">111222</span></div></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">111222</span></div></pre></td></tr></table></figure>
 <p>photos:</p>
 <p><img src="http://oswrcb6b2.bkt.clouddn.com/IMG_7796.png" alt="you"></p>
 <p>this is a basic footnote<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="basic footnote content ">[1]</span></a></sup></p>
@@ -278,12 +281,12 @@
     <published>2017-07-15T12:54:56.000Z</published>
     <updated>2017-07-15T12:55:07.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>冬天的相簿总是如此洁白，让人心中不适。<br>冬日的街道，寒冷的风中，传来的歌声使人停住了脚步。<br>屏幕中，她在那头唱着歌，他在这头静静地看着。<br>冬季里的风，在他回大学的路上，一直吹着。<br>对他来说，这样的风，一直都是普通的。<br>至少，到现在为止，她过着她特别的生活，他过着他普通的生活。<br>他们没有一起被卷进什么事件中，自己过着自己的日子。<br>被如同寒冬一样白色相簿点缀的故事，无论什么时候，都在这里——</p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>冬天的相簿总是如此洁白，让人心中不适。<br>冬日的街道，寒冷的风中，传来的歌声使人停住了脚步。<br>屏幕中，她在那头唱着歌，他在这头静静地看着。<br>冬季里的风，在他回大学的路上，一直吹着。<br>对他来说，这样的风，一直都是普通的。<br>至少，到现在为止，她过着她特别的生活，他过着他普通的生活。<br>他们没有一起被卷进什么事件中，自己过着自己的日子。<br>被如同寒冬一样白色相簿点缀的故事，无论什么时候，都在这里——</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/as
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
     
     </summary>
     
@@ -297,13 +300,13 @@
     <published>2017-07-15T06:40:29.000Z</published>
     <updated>2017-07-18T17:41:30.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>不是所有的梦都来得及实现<br>不是所有的话都来得及告诉你<br>内疚和悔恨<br>总要深深地种植在离别後的心中<br>尽管他们说 世间种种<br>最後终必成空<br>我并不是立意要错过<br>可是我 一直都在这样做<br>错过那花满枝桠的昨日<br>又要错过今朝<br>今朝 仍要重复那相同的别离<br>馀生将成陌路<br>一去千里<br>在暮霭里<br>向你深深地俯首<br>请为我珍重<br>尽管他们说 世间种种<br>最後终必 终必成空</p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>不是所有的梦都来得及实现<br>不是所有的话都来得及告诉你<br>内疚和悔恨<br>总要深深地种植在离别後的心中<br>尽管他们说 世间种种<br>最後终必成空<br>我并不是立意要错过<br>可是我 一直都在这样做<br>错过那花满枝桠的昨日<br>又要错过今朝<br>今朝 仍要重复那相同的别离<br>馀生将成陌路<br>一去千里<br>在暮霭里<br>向你深深地俯首<br>请为我珍重<br>尽管他们说 世间种种<br>最後终必 终必成空</p>
 <p>—— 席慕蓉</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/as
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
     
     </summary>
     
@@ -315,33 +318,13 @@
   </entry>
   
   <entry>
-    <title>渡口</title>
-    <link href="http://tisfeng.com/2017/07/15/%E6%B8%A1%E5%8F%A3/"/>
-    <id>http://tisfeng.com/2017/07/15/渡口/</id>
-    <published>2017-07-15T06:21:58.000Z</published>
-    <updated>2017-07-15T06:22:59.000Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>让我与你握别<br>再轻轻抽出我的手<br>知道思念从此生根<br>浮云白日 山川庄严温柔<br>让我与你握别<br>再轻轻抽出我的手<br>华年从此停顿<br>热泪在心中汇成河流<br>是那样万般无奈的凝视<br>渡口旁找不到一朵可以相送的花<br>就把祝福别在襟上吧<br>而明日<br>明日又隔天涯</p>
-<p>—— 北岛</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/as
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>青春 (置顶测试5)</title>
     <link href="http://tisfeng.com/2017/07/15/%E9%9D%92%E6%98%A5/"/>
     <id>http://tisfeng.com/2017/07/15/青春/</id>
     <published>2017-07-15T06:21:58.000Z</published>
     <updated>2017-07-23T14:47:37.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>所有的结局都已写好<br>所有的泪水也都已启程<br>却忽然忘了是怎麽样的一个开始<br>在那个古老的不再回来的夏日<br>无论我如何地去追索<br>年轻的你只如云影掠过<br>而你微笑的面容极浅极淡<br>逐渐隐没在日落後的群岚<br>遂翻开那发黄的扉页<br>命运将它装订得极为拙劣<br>含著泪 我一读再读<br>却不得不承认<br>青春是一本太仓促的书</p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>所有的结局都已写好<br>所有的泪水也都已启程<br>却忽然忘了是怎麽样的一个开始<br>在那个古老的不再回来的夏日<br>无论我如何地去追索<br>年轻的你只如云影掠过<br>而你微笑的面容极浅极淡<br>逐渐隐没在日落後的群岚<br>遂翻开那发黄的扉页<br>命运将它装订得极为拙劣<br>含著泪 我一读再读<br>却不得不承认<br>青春是一本太仓促的书</p>
 <p>—— 席慕蓉</p>
 <a id="more"></a>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">时光不会倒着走，我也不会再回头</div><div class="line">流水若是会回头，落花亦会再驻留</div></pre></td></tr></table></figure>
@@ -366,19 +349,39 @@
   </entry>
   
   <entry>
+    <title>渡口</title>
+    <link href="http://tisfeng.com/2017/07/15/%E6%B8%A1%E5%8F%A3/"/>
+    <id>http://tisfeng.com/2017/07/15/渡口/</id>
+    <published>2017-07-15T06:21:58.000Z</published>
+    <updated>2017-07-15T06:22:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>让我与你握别<br>再轻轻抽出我的手<br>知道思念从此生根<br>浮云白日 山川庄严温柔<br>让我与你握别<br>再轻轻抽出我的手<br>华年从此停顿<br>热泪在心中汇成河流<br>是那样万般无奈的凝视<br>渡口旁找不到一朵可以相送的花<br>就把祝福别在襟上吧<br>而明日<br>明日又隔天涯</p>
+<p>—— 北岛</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>雨之语</title>
     <link href="http://tisfeng.com/2017/07/15/%E9%9B%A8%E4%B9%8B%E8%AF%AD/"/>
     <id>http://tisfeng.com/2017/07/15/雨之语/</id>
     <published>2017-07-15T06:06:20.000Z</published>
     <updated>2017-07-15T06:06:28.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>我感到有些冷﻿<br>因为我在蒙蒙细雨中﻿<br>独自前行﻿<br>我的手心和额头都湿了﻿<br>不知何时起 我变得阴暗﻿<br>似乎只要一直倚靠在这里﻿<br>就能等来光明    </p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>我感到有些冷﻿<br>因为我在蒙蒙细雨中﻿<br>独自前行﻿<br>我的手心和额头都湿了﻿<br>不知何时起 我变得阴暗﻿<br>似乎只要一直倚靠在这里﻿<br>就能等来光明    </p>
 <p>外面的无声细雨﻿<br>向我倾诉着一天之中<br>﻿不曾获知 也不曾期待的琐事﻿<br>静寂与燥热的白天﻿<br>都在雨滴的细语中悄然改变<br>﻿我听着这些声音﻿<br>不知何时 又像平时一样入睡了</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/as
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
     
     </summary>
     
@@ -392,14 +395,14 @@
     <published>2017-07-15T06:00:23.000Z</published>
     <updated>2017-07-15T06:01:12.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>当年明月结束语：</p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>当年明月结束语：</p>
 <p>很多人问，为什么看历史，很多人回答，以史为鉴。<br>现在我来告诉你，以史为鉴，是不可能的。<br>因为我发现，其实历史没有变化，技术变了，衣服变了，饮食变了，这都是外壳，里面什么都没变化，还是几千年前那一套，转来转去，该犯的错误还是要犯，该杀的人还是要杀，岳飞会死，袁崇焕会死，再过一千年，还是会死。<br>所有发生的，是因为它有发生的理由，能超越历史的人，才叫以史为鉴，然而我们终究不能超越，因为我们自己的欲望和弱点。<br>所有的错误，我们都知道，然而终究改不掉。<br>能改的，叫做缺点，不能改的，叫做弱点。<br>顺便说下，能超越历史的人，还是有的，我们管这种人，叫做圣人。<br>因为看得历史比较多，所以我这个人比较有历史感，当然，这是文明的说法，粗点讲，就是悲观。<br>这并非开玩笑，我本人虽然经常幽默幽默，但对很多事情都很悲观，因为我经常看历史（就好比很多人看电视剧一样），不同的是，我看到的那些古文中，只有悲剧结局，无一例外。<br>每一个人，他的飞黄腾达和他的没落，对他本人而言，是几十年，而对我而言，只有几页，前一页他很牛，后一页就怂了。<br>王朝也是如此。<br>真没意思，没意思透了。<br>但我坚持幽默，是因为我明白，无论这个世界有多绝望，你自己都要充满希望。</p>
 <p>我们每个人都有自己的人性、欲望和弱点，只要摆脱不了，超脱不了，那么就回陷入历史的轮回中。我们这些人弱点可能就是太重情义太正直了吧……</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/as
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
     
     </summary>
     
@@ -413,7 +416,7 @@
     <published>2017-07-15T05:43:42.000Z</published>
     <updated>2017-07-15T05:44:36.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>秋波一转成姻缘──崔莺莺的求爱之路<br>《西厢记》之所以成为经典，就在于它一反以往“痴心女子负心汉”的故事线，通过塑造机灵聪颖的丫头红娘、大胆求爱的深闺小姐莺莺、痴心一片的书生张珙，最后求得个“天下有情人终成眷属”的大团圆结局。这样一份不被礼教不被世人所看好的爱情，其结局却如此圆满，不得不说对于当时的人们来说是一种莫大的冲击与震撼。官府禁而不止，民间争相誊写传阅，则一定程度上反应了人们对于伦理纲常禁锢情欲的挣脱之愿望，也体现了民间对于美好自由爱情的向往与追求。</p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>秋波一转成姻缘──崔莺莺的求爱之路<br>《西厢记》之所以成为经典，就在于它一反以往“痴心女子负心汉”的故事线，通过塑造机灵聪颖的丫头红娘、大胆求爱的深闺小姐莺莺、痴心一片的书生张珙，最后求得个“天下有情人终成眷属”的大团圆结局。这样一份不被礼教不被世人所看好的爱情，其结局却如此圆满，不得不说对于当时的人们来说是一种莫大的冲击与震撼。官府禁而不止，民间争相誊写传阅，则一定程度上反应了人们对于伦理纲常禁锢情欲的挣脱之愿望，也体现了民间对于美好自由爱情的向往与追求。</p>
 <a id="more"></a>
 <p>作品中塑造最成功的人物形象，在我看来，莫过于是这位深闺小姐──崔莺莺。<br>故事的开头之处，往往为读者所津津乐道的，大概是张生那句突兀的自我介绍：“小生姓张，名珙，字君瑞，本贯西洛人也。年方二十三岁，正月十七日子时建生。并不曾娶妻。”一见到红娘便自报生辰八字，明摆着是有与崔莺莺婚配之意。对于一个深谙儒学礼法的书生来说，这一举动着实可笑，难怪红娘要用“男女授受不亲”、“非礼勿视，非礼勿听，非礼勿言，非礼勿动”等来嘲笑他一番。而张生之所以如此鲁莽，并非只是自己一厢热忱。乃是与莺莺在寺庙大殿初见，莺莺临走时“怎当她，临走秋波那一转。”只一眼，那秋波便如同一道闪电，不偏不倚，正击中了张生的心扉。由此，正是年轻气盛的张生，体内的荷尔蒙再也按捺不住，全身每一个毛孔，喷薄的都是对莺莺的思念和爱恋，也难怪他举止如此轻薄。从小家教甚严的莺莺，本是连被陌生男子看一眼也要觉得羞耻，在遇到张生时，竟然还主动回头看了一眼。这一回眸，是她反叛传统的开始，也是她追求爱情的开端。<br>崔张的爱情之路走的并不顺畅，也正是在这一路过五关斩六将的求爱途中，莺莺的聪明智慧、勇敢果决，可见一斑。<br>首先，她所追求是有情趣的生活。作为前相国之女，莺莺必定是知书达礼，文中也说莺莺“针黹女红，诗词书算，无不能者。”她还通音律。那晚隔墙听张生抚琴，久久不愿离开，想必是张生那曲《凤求凰》，挑动了她心中的情丝。那夜张生隔墙云：<br>月色溶溶夜，花阴寂寂春。<br>如何临皓魄，不见月中人？<br>她便立刻对曰：<br>兰闺久寂寞，无事度芳春。<br>料得行吟者，应怜长叹人。<br>再到后来写给张生的那帖深意难猜的“药方”，无一不体现了她对有情趣生活的追求。恰好，张生又是个心思细腻的书生，对她字中情句中意，解析的透彻。这为他们之间的互动提供了可能。倘若莺莺面对的是那个抢人的孙飞虎，或是一位只懂兵事的武将，即便她再有一腔意趣，无人能懂，也会在岁月的洪流中消磨了去，连她自己，也会被磨得没有了灵气，继而成为下一个像母亲那样循规蹈矩的封建夫权的附属品，或者是牺牲品。而这，并非是她所想要的生活。正所谓：有趣的灵魂碰撞在一起，才会产生有趣的生活。所以当莺莺碰到能够懂她的张生时，便一步步冲破礼教的束缚，奔着理想的爱情而去。<br>其次，她相当聪明。且不说她与张生书信往来中的智慧，就平日里所为，也是聪伶毓秀。普救寺及时出谋划策谋求获救之法，小心应对郑恒逼婚，尽量与老夫人谨慎相处，不增其烦忧。最使我印象深刻的，该是“戏耍”张生那一回。<br>“待月西厢下，迎风户半开。<br>隔墙花影动，疑是玉人来。”<br>病榻之上的张生一见此诗，病立马好了大半。度日如年等待夜晚的到来，甚至恨不得后羿能立马射掉那唯一的太阳才好。可到了晚上，一切却并未如想象的那样发生，张生自是心里有气说不出，只是病的更厉害。莺莺口头虽说要讲给老夫人听，倒并不会真那样做，而是假装托了红娘的情面才不与张生计较。这一折戏看似是一出闹剧，增添故事的趣味性。而于我看来，不如说这是聪明的莺莺对张生能否理解自己诗中意的试探。显然张生理解了，这才有了第二日“药方”的出现，崔张才得以能够近距离接触。莺莺这想要瞒住众人并且不显得自己轻浮的计策，不得不让人佩服。<br>最后，也是最为重要的一点，莺莺十分勇敢果决。当初兵围普救寺，为救众人，她曾有过随孙飞虎去换得众人平安后自杀的念头，可谓是位烈女子。未婚便与张生有夫妻之实，是她最大胆的突破──不顾母亲反对，违逆纲常伦理。长亭送别，莺莺所盼乃是：“你休忧文齐福不齐，我则怕你停妻再娶妻。休要一春鱼雁无消息，我这里青鸾有信频须寄，你却休金榜无名誓不归。此一节君须记：若见了那异乡花草，再休似此处栖迟。”此之前，书生高中后抛弃原配者，大有人在，莺莺此番叮嘱，是对张生的期望。也是说给自己听，她该是给了自己多大的勇气才能放手丈夫赴京赶考。相比之下，尽管张生状元及第之后没有忘记莺莺另攀高枝，但是张生的行为中，总有一种束手束脚的拘谨束缚之感，反而像个女子。像“思念成疾”的戏码，一般都是发生在弱女子身上。张生此番思念成疾，一是为了推动故事的发展，再则，是为了突显莺莺的果敢与坚强。<br>生在深闺的莺莺深深明白，想要的幸福需要自己争取，而非一味听取父母之命媒妁之言，任由家庭安排。那秋波一转，成就了她与张生的大好姻缘。求爱之路虽艰辛，但世事终究会成人之美。尽管她该是比较幸运的那一个，但我们不得不说，敢于努力追求自由爱情的有情人，才会有成为眷属的可能。这才是莺莺这一形象想要告诉世人的。</p>
 ]]></content>
@@ -434,12 +437,12 @@
     <published>2017-07-15T05:30:33.000Z</published>
     <updated>2017-07-15T05:39:41.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>我想在大地上<br>画满窗子<br>让所有习惯黑暗的眼睛<br>都习惯光明</p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>我想在大地上<br>画满窗子<br>让所有习惯黑暗的眼睛<br>都习惯光明</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/as
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
     
     </summary>
     
@@ -453,7 +456,7 @@
     <published>2017-07-15T05:13:06.000Z</published>
     <updated>2017-07-15T05:13:42.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>每一夜，都要如此往复，<br>说不清，是冷漠还是孤独。<br>枕边还放着你离开我，留下的礼物，<br>这一生我读过的最多的一本书。</p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>每一夜，都要如此往复，<br>说不清，是冷漠还是孤独。<br>枕边还放着你离开我，留下的礼物，<br>这一生我读过的最多的一本书。</p>
 <a id="more"></a>
 <p>我是谁，怎么一个人住，<br>我从哪儿来？又要去向何处？<br>好像我犯下过<br>某一种，不能原谅的错误，<br>总觉得有些什么要我背负。</p>
 <p>每一夜，都要如此往复，<br>说不清，是冷漠还是孤独。<br>枕边还放着你离开我，留下的礼物，<br>这一生我读过的最多的一本书。<br>我要这天，再遮不住我的眼。<br>我要这地，再埋不了我的心。<br>我要那众生，都明白我的意。<br>我要那诸佛，都烟消云散。</p>
@@ -476,7 +479,7 @@
     <published>2017-07-15T04:33:43.000Z</published>
     <updated>2017-07-15T04:35:08.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="wang-xunfeng"><a href="#wang-xunfeng" class="headerlink" title="wang xunfeng"></a>wang xunfeng</h1><h2 id="duanfenfen"><a href="#duanfenfen" class="headerlink" title="duanfenfen"></a>duanfenfen</h2><hr>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="wang-xunfeng"><a href="#wang-xunfeng" class="headerlink" title="wang xunfeng"></a>wang xunfeng</h1><h2 id="duanfenfen"><a href="#duanfenfen" class="headerlink" title="duanfenfen"></a>duanfenfen</h2><hr>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">E = mc^2</div></pre></td></tr></table></figure>
 <ul>
 <li>[x] one</li>
@@ -505,7 +508,7 @@
 <h2 id="1234"><a href="#1234" class="headerlink" title=" 1234"></a> 1234</h2><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">fdfdfdf</span></div><div class="line">fdfdff</div><div class="line">dfadfad</div></pre></td></tr></table></figure>
 </blockquote>
 <p>注脚内容[^注脚内容]</p>
-<p><a href="&#x6d;&#x61;&#105;&#108;&#x74;&#111;&#x3a;&#x77;&#120;&#x66;&#55;&#50;&#x39;&#x40;&#x69;&#x63;&#x6c;&#111;&#117;&#100;&#46;&#99;&#111;&#109;">&#x77;&#120;&#x66;&#55;&#50;&#x39;&#x40;&#x69;&#x63;&#x6c;&#111;&#117;&#100;&#46;&#99;&#111;&#109;</a></p>
+<p><a href="&#x6d;&#x61;&#105;&#108;&#x74;&#x6f;&#x3a;&#119;&#x78;&#102;&#55;&#50;&#x39;&#x40;&#x69;&#x63;&#x6c;&#x6f;&#x75;&#x64;&#46;&#99;&#x6f;&#x6d;">&#119;&#x78;&#102;&#55;&#50;&#x39;&#x40;&#x69;&#x63;&#x6c;&#x6f;&#x75;&#x64;&#46;&#99;&#x6f;&#x6d;</a></p>
 <p><a href="http://www.jianshu.com" target="_blank" rel="external">http://www.jianshu.com</a></p>
 <h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><p><img src="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" alt="图片"></p>
 <h3 id="插入连接"><a href="#插入连接" class="headerlink" title="插入连接"></a>插入连接</h3><p><a href="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" target="_blank" rel="external">这是一个连接</a></p>
@@ -575,7 +578,7 @@
     <published>2017-07-15T03:59:00.000Z</published>
     <updated>2017-07-18T19:51:26.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="欢迎使用-Cmd-Markdown-编辑阅读器"><a href="#欢迎使用-Cmd-Markdown-编辑阅读器" class="headerlink" title="欢迎使用 Cmd Markdown 编辑阅读器"></a>欢迎使用 Cmd Markdown 编辑阅读器</h1><hr>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="欢迎使用-Cmd-Markdown-编辑阅读器"><a href="#欢迎使用-Cmd-Markdown-编辑阅读器" class="headerlink" title="欢迎使用 Cmd Markdown 编辑阅读器"></a>欢迎使用 Cmd Markdown 编辑阅读器</h1><hr>
 <p>我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，<strong>Cmd Markdown</strong> 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：</p>
 <blockquote>
 <ul>
@@ -688,7 +691,7 @@
     <published>2017-07-15T03:54:15.000Z</published>
     <updated>2017-07-15T03:54:15.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
@@ -701,7 +704,7 @@
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/as
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
     
     </summary>
     
