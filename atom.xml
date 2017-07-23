@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-07-23T19:12:09.000Z</updated>
+  <updated>2017-07-23T19:14:42.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="http://tisfeng.com/2017/07/24/hexo%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91/"/>
     <id>http://tisfeng.com/2017/07/24/hexo添加音乐、视频/</id>
     <published>2017-07-23T18:20:31.000Z</published>
-    <updated>2017-07-23T19:12:09.000Z</updated>
+    <updated>2017-07-23T19:14:42.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
 <h1 id="添加音乐"><a href="#添加音乐" class="headerlink" title="添加音乐"></a>添加音乐</h1><p>这个由网易云音乐网站上直接外链生成（设置auto=1为自动播放）：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=1&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=147030&auto=1&height=66"></iframe>
 
 
@@ -33,7 +33,6 @@
 <h1 id="添加视频"><a href="#添加视频" class="headerlink" title="添加视频"></a>添加视频</h1><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=1&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
 <iframe width="640" height="360" src="https://www.youtube.com/embed/NwfolzojHCY?list=PL2EC551493D61ED9D" frameborder="0" allowfullscreen></iframe>
 
-<hr>
 <h1 id="使用APlayer、DPlayer"><a href="#使用APlayer、DPlayer" class="headerlink" title="使用APlayer、DPlayer"></a>使用APlayer、DPlayer</h1><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&#123;% aplayer "耿耿于怀" "Jeff 麦浚龙" "http://music.163.com/#/song?id=135355" "autoplay" %&#125;</div><div class="line"></div><div class="line">&#123;% dplayer "url=http://devtest.qiniudn.com/若能绽放光芒.mp4" "api=http://dplayer.daoapp.io" "pic=http://devtest.qiniudn.com/若能绽放光芒.png" "id=9E2E3368B56CDBB4" "loop=yes" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %&#125;</div></pre></td></tr></table></figure>
 <div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
@@ -318,6 +317,26 @@
   </entry>
   
   <entry>
+    <title>渡口</title>
+    <link href="http://tisfeng.com/2017/07/15/%E6%B8%A1%E5%8F%A3/"/>
+    <id>http://tisfeng.com/2017/07/15/渡口/</id>
+    <published>2017-07-15T06:21:58.000Z</published>
+    <updated>2017-07-15T06:22:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>让我与你握别<br>再轻轻抽出我的手<br>知道思念从此生根<br>浮云白日 山川庄严温柔<br>让我与你握别<br>再轻轻抽出我的手<br>华年从此停顿<br>热泪在心中汇成河流<br>是那样万般无奈的凝视<br>渡口旁找不到一朵可以相送的花<br>就把祝福别在襟上吧<br>而明日<br>明日又隔天涯</p>
+<p>—— 北岛</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>青春 (置顶测试5)</title>
     <link href="http://tisfeng.com/2017/07/15/%E9%9D%92%E6%98%A5/"/>
     <id>http://tisfeng.com/2017/07/15/青春/</id>
@@ -345,26 +364,6 @@
     
     
       <category term="诗和远方" scheme="http://tisfeng.com/tags/%E8%AF%97%E5%92%8C%E8%BF%9C%E6%96%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>渡口</title>
-    <link href="http://tisfeng.com/2017/07/15/%E6%B8%A1%E5%8F%A3/"/>
-    <id>http://tisfeng.com/2017/07/15/渡口/</id>
-    <published>2017-07-15T06:21:58.000Z</published>
-    <updated>2017-07-15T06:22:59.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>让我与你握别<br>再轻轻抽出我的手<br>知道思念从此生根<br>浮云白日 山川庄严温柔<br>让我与你握别<br>再轻轻抽出我的手<br>华年从此停顿<br>热泪在心中汇成河流<br>是那样万般无奈的凝视<br>渡口旁找不到一朵可以相送的花<br>就把祝福别在襟上吧<br>而明日<br>明日又隔天涯</p>
-<p>—— 北岛</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
-    
-    </summary>
-    
     
   </entry>
   
@@ -508,7 +507,7 @@
 <h2 id="1234"><a href="#1234" class="headerlink" title=" 1234"></a> 1234</h2><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">fdfdfdf</span></div><div class="line">fdfdff</div><div class="line">dfadfad</div></pre></td></tr></table></figure>
 </blockquote>
 <p>注脚内容[^注脚内容]</p>
-<p><a href="&#109;&#97;&#x69;&#x6c;&#116;&#111;&#x3a;&#119;&#120;&#x66;&#x37;&#x32;&#57;&#64;&#105;&#x63;&#x6c;&#111;&#x75;&#x64;&#x2e;&#99;&#111;&#x6d;">&#119;&#120;&#x66;&#x37;&#x32;&#57;&#64;&#105;&#x63;&#x6c;&#111;&#x75;&#x64;&#x2e;&#99;&#111;&#x6d;</a></p>
+<p><a href="&#109;&#97;&#x69;&#108;&#116;&#x6f;&#x3a;&#x77;&#120;&#102;&#x37;&#50;&#57;&#x40;&#105;&#99;&#x6c;&#x6f;&#117;&#x64;&#x2e;&#x63;&#111;&#109;">&#x77;&#120;&#102;&#x37;&#50;&#57;&#x40;&#105;&#99;&#x6c;&#x6f;&#117;&#x64;&#x2e;&#x63;&#111;&#109;</a></p>
 <p><a href="http://www.jianshu.com" target="_blank" rel="external">http://www.jianshu.com</a></p>
 <h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><p><img src="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" alt="图片"></p>
 <h3 id="插入连接"><a href="#插入连接" class="headerlink" title="插入连接"></a>插入连接</h3><p><a href="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" target="_blank" rel="external">这是一个连接</a></p>

@@ -104,7 +104,7 @@
 <meta property="og:url" content="http://tisfeng.com/2017/07/24/hexo添加音乐、视频/index.html">
 <meta property="og:site_name" content="今宵别梦寒">
 <meta property="og:description" content="添加音乐这个由网易云音乐网站上直接外链生成（设置auto=1为自动播放）： 1&amp;lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=147030&amp;amp;auto">
-<meta property="og:updated_time" content="2017-07-23T19:12:09.000Z">
+<meta property="og:updated_time" content="2017-07-23T19:14:42.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo添加音乐、视频">
 <meta name="twitter:description" content="添加音乐这个由网易云音乐网站上直接外链生成（设置auto=1为自动播放）： 1&amp;lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=147030&amp;amp;auto">
@@ -464,7 +464,7 @@
       
         <link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
 <h1 id="添加音乐"><a href="#添加音乐" class="headerlink" title="添加音乐"></a>添加音乐</h1><p>这个由网易云音乐网站上直接外链生成（设置auto=1为自动播放）：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=1&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=147030&auto=1&height=66"></iframe>
 
 
@@ -473,7 +473,6 @@
 <h1 id="添加视频"><a href="#添加视频" class="headerlink" title="添加视频"></a>添加视频</h1><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=1&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
 <iframe width="640" height="360" src="https://www.youtube.com/embed/NwfolzojHCY?list=PL2EC551493D61ED9D" frameborder="0" allowfullscreen></iframe>
 
-<hr>
 <h1 id="使用APlayer、DPlayer"><a href="#使用APlayer、DPlayer" class="headerlink" title="使用APlayer、DPlayer"></a>使用APlayer、DPlayer</h1><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&#123;% aplayer "耿耿于怀" "Jeff 麦浚龙" "http://music.163.com/#/song?id=135355" "autoplay" %&#125;</div><div class="line"></div><div class="line">&#123;% dplayer "url=http://devtest.qiniudn.com/若能绽放光芒.mp4" "api=http://dplayer.daoapp.io" "pic=http://devtest.qiniudn.com/若能绽放光芒.png" "id=9E2E3368B56CDBB4" "loop=yes" "theme=#FADFA3" "autoplay=false" "token=tokendemo" %&#125;</div></pre></td></tr></table></figure>
 <div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
