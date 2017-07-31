@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-07-31T13:27:38.000Z</updated>
+  <updated>2017-07-31T13:32:15.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -16,16 +16,17 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>修改文章默认模板</title>
+    <title>hexo小记</title>
     <link href="http://tisfeng.com/2017/07/31/%E4%BF%AE%E6%94%B9%E6%96%87%E7%AB%A0%E9%BB%98%E8%AE%A4%E6%A8%A1%E6%9D%BF/"/>
     <id>http://tisfeng.com/2017/07/31/修改文章默认模板/</id>
     <published>2017-07-31T13:01:18.000Z</published>
-    <updated>2017-07-31T13:27:38.000Z</updated>
+    <updated>2017-07-31T13:32:15.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<p>修改文章默认模板 hexo/scaffolds/post.md</p>
-<p> 插件包 hexo/package.json</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="string">"name"</span>: <span class="string">"hexo-site"</span>,</div><div class="line">  <span class="string">"version"</span>: <span class="string">"0.0.0"</span>,</div><div class="line">  <span class="string">"private"</span>: <span class="literal">true</span>,</div><div class="line">  <span class="string">"hexo"</span>: &#123;</div><div class="line">    <span class="string">"version"</span>: <span class="string">"3.3.7"</span></div><div class="line">  &#125;,</div><div class="line">  <span class="string">"dependencies"</span>: &#123;</div><div class="line">    <span class="string">"hexo"</span>: <span class="string">"^3.2.0"</span>,</div><div class="line">    <span class="string">"hexo-admin"</span>: <span class="string">"^2.2.1"</span>, <span class="comment">//简单后台管理</span></div><div class="line">    <span class="string">"hexo-algolia"</span>: <span class="string">"^1.1.0"</span>, <span class="comment">// algolia搜索</span></div><div class="line">    <span class="string">"hexo-deployer-git"</span>: <span class="string">"^0.3.0"</span>,  <span class="comment">//git部署</span></div><div class="line">    <span class="string">"hexo-deployer-rsync"</span>: <span class="string">"^0.1.3"</span>,  <span class="comment">// 远程同步上传</span></div><div class="line">    <span class="string">"hexo-fs"</span>: <span class="string">"^0.2.1"</span>,    <span class="comment">//文件相关，去除为函数未调用警告</span></div><div class="line">    <span class="string">"hexo-generator-archive"</span>: <span class="string">"^0.1.4"</span>,   <span class="comment">//文章归档</span></div><div class="line">    <span class="string">"hexo-generator-baidu-sitemap"</span>: <span class="string">"^0.1.2"</span>, <span class="comment">//百度站点地图</span></div><div class="line">    <span class="string">"hexo-generator-category"</span>: <span class="string">"^0.1.3"</span>,  <span class="comment">//文章分类</span></div><div class="line">    <span class="string">"hexo-generator-feed"</span>: <span class="string">"^1.2.0"</span>,    <span class="comment">//RSS订阅</span></div><div class="line">    <span class="string">"hexo-generator-index"</span>: <span class="string">"^0.2.1"</span>,   <span class="comment">//首页配置</span></div><div class="line">    <span class="string">"hexo-generator-searchdb"</span>: <span class="string">"^1.0.7"</span>,  <span class="comment">//本地搜索</span></div><div class="line">    <span class="string">"hexo-generator-sitemap"</span>: <span class="string">"^1.2.0"</span>, <span class="comment">//谷歌站点地图</span></div><div class="line">    <span class="string">"hexo-generator-tag"</span>: <span class="string">"^0.2.0"</span>,   <span class="comment">//生成文章页面</span></div><div class="line">    <span class="string">"hexo-helper-post-top"</span>: <span class="string">"0.0.1"</span>, <span class="comment">// 文章置顶</span></div><div class="line">    <span class="string">"hexo-reference"</span>: <span class="string">"^1.0.3"</span>,  <span class="comment">//添加注脚</span></div><div class="line">    <span class="string">"hexo-renderer-ejs"</span>: <span class="string">"^0.2.0"</span>,</div><div class="line">    <span class="string">"hexo-renderer-marked"</span>: <span class="string">"^0.2.10"</span>,</div><div class="line">    <span class="string">"hexo-renderer-stylus"</span>: <span class="string">"^0.3.1"</span>,</div><div class="line">    <span class="string">"hexo-server"</span>: <span class="string">"^0.2.0"</span>,        <span class="comment">//本地预览</span></div><div class="line">    <span class="string">"hexo-tag-aplayer"</span>: <span class="string">"^2.0.1"</span>,   <span class="comment">//插入音乐</span></div><div class="line">    <span class="string">"hexo-tag-dplayer"</span>: <span class="string">"^0.1.7"</span>, <span class="comment">//插入视频</span></div><div class="line">    <span class="string">"hexo-wordcount"</span>: <span class="string">"^3.0.2"</span>   <span class="comment">//统计字数</span></div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>修改文章默认模板  hexo/scaffolds/post.md</p>
+<p> 插件包 hexo/package.json。哎，这个文件里居然不能写注释….想下面这样一写就报错</p>
+<p>可使用 <code>npm ls --depth 0</code> 来排查</p>
+<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="string">"name"</span>: <span class="string">"hexo-site"</span>,</div><div class="line">  <span class="string">"version"</span>: <span class="string">"0.0.0"</span>,</div><div class="line">  <span class="string">"private"</span>: <span class="literal">true</span>,</div><div class="line">  <span class="string">"hexo"</span>: &#123;</div><div class="line">    <span class="string">"version"</span>: <span class="string">"3.3.7"</span></div><div class="line">  &#125;,</div><div class="line">  <span class="string">"dependencies"</span>: &#123;</div><div class="line">    <span class="string">"hexo"</span>: <span class="string">"^3.2.0"</span>,</div><div class="line">    <span class="string">"hexo-admin"</span>: <span class="string">"^2.2.1"</span>, <span class="comment">//简单后台管理</span></div><div class="line">    <span class="string">"hexo-algolia"</span>: <span class="string">"^1.1.0"</span>, <span class="comment">// algolia搜索</span></div><div class="line">    <span class="string">"hexo-deployer-git"</span>: <span class="string">"^0.3.0"</span>,  <span class="comment">//git部署</span></div><div class="line">    <span class="string">"hexo-deployer-rsync"</span>: <span class="string">"^0.1.3"</span>,  <span class="comment">// 远程同步上传</span></div><div class="line">    <span class="string">"hexo-fs"</span>: <span class="string">"^0.2.1"</span>,    <span class="comment">//文件相关，去除为函数未调用警告</span></div><div class="line">    <span class="string">"hexo-generator-archive"</span>: <span class="string">"^0.1.4"</span>,   <span class="comment">//文章归档</span></div><div class="line">    <span class="string">"hexo-generator-baidu-sitemap"</span>: <span class="string">"^0.1.2"</span>, <span class="comment">//百度站点地图</span></div><div class="line">    <span class="string">"hexo-generator-category"</span>: <span class="string">"^0.1.3"</span>,  <span class="comment">//文章分类</span></div><div class="line">    <span class="string">"hexo-generator-feed"</span>: <span class="string">"^1.2.0"</span>,    <span class="comment">//RSS订阅</span></div><div class="line">    <span class="string">"hexo-generator-index"</span>: <span class="string">"^0.2.1"</span>,   <span class="comment">//首页配置</span></div><div class="line">    <span class="string">"hexo-generator-searchdb"</span>: <span class="string">"^1.0.7"</span>,  <span class="comment">//本地搜索</span></div><div class="line">    <span class="string">"hexo-generator-sitemap"</span>: <span class="string">"^1.2.0"</span>, <span class="comment">//谷歌站点地图</span></div><div class="line">    <span class="string">"hexo-generator-tag"</span>: <span class="string">"^0.2.0"</span>,   <span class="comment">//生成文章页面</span></div><div class="line">    <span class="string">"hexo-helper-post-top"</span>: <span class="string">"0.0.1"</span>, <span class="comment">// 文章置顶</span></div><div class="line">    <span class="string">"hexo-reference"</span>: <span class="string">"^1.0.3"</span>,  <span class="comment">//添加注脚</span></div><div class="line">    <span class="string">"hexo-renderer-ejs"</span>: <span class="string">"^0.2.0"</span>,</div><div class="line">    <span class="string">"hexo-renderer-marked"</span>: <span class="string">"^0.2.10"</span>,</div><div class="line">    <span class="string">"hexo-renderer-stylus"</span>: <span class="string">"^0.3.1"</span>,</div><div class="line">    <span class="string">"hexo-server"</span>: <span class="string">"^0.2.0"</span>,        <span class="comment">//本地预览</span></div><div class="line">    <span class="string">"hexo-tag-aplayer"</span>: <span class="string">"^2.0.1"</span>,   <span class="comment">//插入音乐</span></div><div class="line">    <span class="string">"hexo-tag-dplayer"</span>: <span class="string">"^0.1.7"</span>, <span class="comment">//插入视频</span></div><div class="line">    <span class="string">"hexo-wordcount"</span>: <span class="string">"^3.0.2"</span>   <span class="comment">//统计字数</span></div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
@@ -34,6 +35,8 @@
     
     </summary>
     
+    
+      <category term="hexo" scheme="http://tisfeng.com/tags/hexo/"/>
     
   </entry>
   
@@ -92,7 +95,7 @@
     <link href="http://tisfeng.com/2017/07/24/hexo%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91/"/>
     <id>http://tisfeng.com/2017/07/24/hexo添加音乐、视频/</id>
     <published>2017-07-23T18:20:31.000Z</published>
-    <updated>2017-07-31T13:21:03.000Z</updated>
+    <updated>2017-07-31T13:37:57.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
 <h1 id="暴力方式添加音乐、视频"><a href="#暴力方式添加音乐、视频" class="headerlink" title="暴力方式添加音乐、视频"></a>暴力方式添加音乐、视频</h1><p>markdown语法兼容html，因此可直接使用HTML方式嵌入</p>
@@ -142,7 +145,6 @@
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">'autoplay': autoplay video, not supported by mobile browsers</div><div class="line">'theme': theme color, default: #b7daff</div><div class="line">'loop': loop play music, default: true</div><div class="line">'lang': language, `zh` for Chinese, `en` for English, default: Navigator language</div><div class="line">'screenshot':  enable screenshot function, default: false, NOTICE: if set it to true, video and video poster must enable Cross-Origin</div><div class="line">'hotkey': binding hot key, including left right and Space, default: true</div><div class="line">'preload': 'auto', the way to load music, can be 'none' 'metadata' 'auto', default: 'auto'</div><div class="line">'url': Required, video url</div><div class="line">'pic': video cover picture</div><div class="line">'api': DPlayer danmaku backend url</div><div class="line">'addition': Dplayer danmuku for bilibili </div><div class="line">'id': see https://github.com/DIYgod/DPlayer</div><div class="line">'token': see https://github.com/DIYgod/DPlayer</div><div class="line">'maximum': maximum quantity of danmaku</div><div class="line"></div><div class="line">'width' maximum width of the dplayer wraper</div><div class="line">'height' maximum height of the dplayer wraper, you can use this like "height=233px"</div></pre></td></tr></table></figure>
 <p><strong>for example:</strong></p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">&#123;% dplayer "url=http://devtest.qiniudn.com/若能绽放光芒.mp4" "addition=https://dplayer.daoapp.io/bilibili?aid=4157142" "api=http://dplayer.daoapp.io" </div><div class="line">"pic=http://devtest.qiniudn.com/若能绽放光芒.png" </div><div class="line">"id=9E2E3368B56CDBB4" </div><div class="line">"loop=yes" </div><div class="line">"theme=#FADFA3"</div><div class="line">"autoplay=false" </div><div class="line">"token=tokendemo" %&#125;</div><div class="line"></div><div class="line">&#123;% dplayer "url=http://devtest.qiniudn.com/若能绽放光芒.mp4" "addition=https://dplayer.daoapp.io/bilibili?aid=4157142" "api=http://dplayer.donot.help/dplayerpy" </div><div class="line">"pic=http://devtest.qiniudn.com/若能绽放光芒.png" </div><div class="line">"id=2622668" "loop=yes" </div><div class="line">"theme=#FADFA3" </div><div class="line">"autoplay=false" </div><div class="line">"width=233px" %&#125;</div></pre></td></tr></table></figure>
-<div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":false,"theme":"#FADFA3","loop":true,"video":{"url":"https://www.jianguoyun.com/p/DXP2S1YQsZL1BRj3qTE","pic":"http://devtest.qiniudn.com/若能绽放光芒.png"},"danmaku":{"api":"http://dplayer.daoapp.io","id":"9E2E3368B56CDBB4","token":"tokendemo"}});</script>
 <figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&#123;%<span class="built_in"> raw </span>%&#125;</div><div class="line">&lt;div <span class="attribute">id</span>=<span class="string">"player1"</span> <span class="attribute">class</span>=<span class="string">"dplayer"</span>&gt;&lt;/div&gt;</div><div class="line">&lt;script <span class="attribute">src</span>=<span class="string">"dist/DPlayer.min.js"</span>&gt;&lt;/script&gt;&lt;https://www.jianguoyun.com/p/DXP2S1YQsZL1BRj3qTE</div><div class="line">&#123;% endraw %&#125;</div></pre></td></tr></table></figure>
 
 <div id="player1" class="dplayer"></div>
@@ -411,6 +413,26 @@
   </entry>
   
   <entry>
+    <title>渡口</title>
+    <link href="http://tisfeng.com/2017/07/15/%E6%B8%A1%E5%8F%A3/"/>
+    <id>http://tisfeng.com/2017/07/15/渡口/</id>
+    <published>2017-07-15T06:21:58.000Z</published>
+    <updated>2017-07-15T06:22:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>让我与你握别<br>再轻轻抽出我的手<br>知道思念从此生根<br>浮云白日 山川庄严温柔<br>让我与你握别<br>再轻轻抽出我的手<br>华年从此停顿<br>热泪在心中汇成河流<br>是那样万般无奈的凝视<br>渡口旁找不到一朵可以相送的花<br>就把祝福别在襟上吧<br>而明日<br>明日又隔天涯</p>
+<p>—— 北岛</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>青春 (置顶测试5)</title>
     <link href="http://tisfeng.com/2017/07/15/%E9%9D%92%E6%98%A5/"/>
     <id>http://tisfeng.com/2017/07/15/青春/</id>
@@ -438,26 +460,6 @@
     
     
       <category term="诗和远方" scheme="http://tisfeng.com/tags/%E8%AF%97%E5%92%8C%E8%BF%9C%E6%96%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>渡口</title>
-    <link href="http://tisfeng.com/2017/07/15/%E6%B8%A1%E5%8F%A3/"/>
-    <id>http://tisfeng.com/2017/07/15/渡口/</id>
-    <published>2017-07-15T06:21:58.000Z</published>
-    <updated>2017-07-15T06:22:59.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>让我与你握别<br>再轻轻抽出我的手<br>知道思念从此生根<br>浮云白日 山川庄严温柔<br>让我与你握别<br>再轻轻抽出我的手<br>华年从此停顿<br>热泪在心中汇成河流<br>是那样万般无奈的凝视<br>渡口旁找不到一朵可以相送的花<br>就把祝福别在襟上吧<br>而明日<br>明日又隔天涯</p>
-<p>—— 北岛</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
-    
-    </summary>
-    
     
   </entry>
   
@@ -601,7 +603,7 @@
 <h2 id="1234"><a href="#1234" class="headerlink" title=" 1234"></a> 1234</h2><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">fdfdfdf</span></div><div class="line">fdfdff</div><div class="line">dfadfad</div></pre></td></tr></table></figure>
 </blockquote>
 <p>注脚内容[^注脚内容]</p>
-<p><a href="&#109;&#97;&#105;&#x6c;&#x74;&#x6f;&#58;&#x77;&#x78;&#102;&#55;&#x32;&#x39;&#x40;&#105;&#x63;&#x6c;&#111;&#x75;&#x64;&#x2e;&#99;&#x6f;&#109;">&#x77;&#x78;&#102;&#55;&#x32;&#x39;&#x40;&#105;&#x63;&#x6c;&#111;&#x75;&#x64;&#x2e;&#99;&#x6f;&#109;</a></p>
+<p><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#119;&#x78;&#102;&#x37;&#x32;&#x39;&#x40;&#x69;&#x63;&#x6c;&#111;&#x75;&#x64;&#x2e;&#99;&#111;&#109;">&#119;&#x78;&#102;&#x37;&#x32;&#x39;&#x40;&#x69;&#x63;&#x6c;&#111;&#x75;&#x64;&#x2e;&#99;&#111;&#109;</a></p>
 <p><a href="http://www.jianshu.com" target="_blank" rel="external">http://www.jianshu.com</a></p>
 <h3 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h3><p><img src="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" alt="图片"></p>
 <h3 id="插入连接"><a href="#插入连接" class="headerlink" title="插入连接"></a>插入连接</h3><p><a href="http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg" target="_blank" rel="external">这是一个连接</a></p>
