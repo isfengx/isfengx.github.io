@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[修改文章默认模板]]></title>
+    <url>%2F2017%2F07%2F31%2F%E4%BF%AE%E6%94%B9%E6%96%87%E7%AB%A0%E9%BB%98%E8%AE%A4%E6%A8%A1%E6%9D%BF%2F</url>
+    <content type="text"><![CDATA[修改文章默认模板 hexo/scaffolds/post.md]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[hexo成功迁移到自由域名]]></title>
     <url>%2F2017%2F07%2F29%2Fhexo%E6%88%90%E5%8A%9F%E8%BF%81%E7%A7%BB%E5%88%B0%E8%87%AA%E7%94%B1%E5%9F%9F%E5%90%8D%2F</url>
     <content type="text"><![CDATA[在搞HTTPS证书，，坑好多。。。]]></content>
@@ -123,7 +128,7 @@
   <entry>
     <title><![CDATA[test note]]></title>
     <url>%2F2017%2F07%2F15%2Ftest-note%2F</url>
-    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#119;&#120;&#x66;&#x37;&#x32;&#x39;&#64;&#105;&#99;&#108;&#x6f;&#x75;&#x64;&#x2e;&#99;&#111;&#x6d; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
+    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#119;&#120;&#102;&#x37;&#x32;&#57;&#64;&#105;&#x63;&#108;&#x6f;&#117;&#100;&#x2e;&#99;&#111;&#x6d; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
   </entry>
   <entry>
     <title><![CDATA[markdown 测试]]></title>
