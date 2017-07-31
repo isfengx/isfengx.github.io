@@ -4,8 +4,29 @@
 
     
   <url>
+    <loc>http://tisfeng.com/2017/07/28/new-test/</loc>
+    <lastmod>2017-07-31T09:56:18.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo搬迁到自由域名</title>
+        <pubTime>2017-07-27T21:19:41.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>Ubuntu</tag>
+         
+        <tag>nginx</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://tisfeng.com/2017/07/15/%E6%88%8F%E5%AD%90/</loc>
-    <lastmod>2017-07-29T23:01:11.000Z</lastmod>
+    <lastmod>2017-07-31T09:55:36.000Z</lastmod>
     <data>
         <display>
         <title>戏子</title>
@@ -23,25 +44,6 @@
              
               <breadCrumb title="瞬间" url="http://tisfeng.com/categories/%E9%9A%8F%E7%AC%94/%E7%9E%AC%E9%97%B4/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://tisfeng.com/2017/07/28/new-test/</loc>
-    <lastmod>2017-07-29T21:57:42.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo搬迁到自由域名</title>
-        <pubTime>2017-07-27T21:19:41.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-        <tag>Ubuntu</tag>
-         
-         
-           
         </display>
     </data>
     </url>
