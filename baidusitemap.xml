@@ -4,6 +4,40 @@
 
     
   <url>
+    <loc>http://tisfeng.com/2017/08/02/nginx-%E5%88%B6%E4%BD%9C%E8%B0%B7%E6%AD%8C%E9%95%9C%E5%83%8F/</loc>
+    <lastmod>2017-08-02T13:54:39.000Z</lastmod>
+    <data>
+        <display>
+        <title>nginx 制作谷歌镜像</title>
+        <pubTime>2017-08-02T13:48:56.000Z</pubTime>
+        
+        <tag>nginx</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://tisfeng.com/2017/07/31/hexo%20%E5%B0%8F%E8%AE%B0/</loc>
+    <lastmod>2017-08-02T13:39:43.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo 小记</title>
+        <pubTime>2017-07-31T13:01:18.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://tisfeng.com/2017/07/24/hexo%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91/</loc>
     <lastmod>2017-07-31T14:56:24.000Z</lastmod>
     <data>
@@ -18,23 +52,6 @@
              
               <breadCrumb title="code" url="http://tisfeng.com/categories/code/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://tisfeng.com/2017/07/31/%E4%BF%AE%E6%94%B9%E6%96%87%E7%AB%A0%E9%BB%98%E8%AE%A4%E6%A8%A1%E6%9D%BF/</loc>
-    <lastmod>2017-07-31T14:42:24.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo小记</title>
-        <pubTime>2017-07-31T13:01:18.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
         </display>
     </data>
     </url>
