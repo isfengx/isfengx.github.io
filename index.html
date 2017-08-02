@@ -438,7 +438,7 @@
              <i class="fa fa-file-word-o"></i>
            </span>
            <span class="post-meta-item-text">WordCount:</span>
-           <span class="post-count">605字</span>
+           <span class="post-count">648字</span>
            
          </span>
     
@@ -465,65 +465,20 @@
 
       
         
-          
-            <link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<h1 id="暴力方式添加音乐、视频"><a href="#暴力方式添加音乐、视频" class="headerlink" title="暴力方式添加音乐、视频"></a>暴力方式添加音乐、视频</h1><p>因为markdown语法兼容html，所以一种方法就是直接使用HTML方式嵌入</p>
-<h2 id="插入音乐"><a href="#插入音乐" class="headerlink" title="插入音乐"></a>插入音乐</h2><p>这个由网易云音乐网站上直接外链生成（设置auto=1为自动播放）：</p>
+          <hr>
+<h1 id="暴力方式添加音乐、视频"><a href="#暴力方式添加音乐、视频" class="headerlink" title="暴力方式添加音乐、视频"></a>暴力方式添加音乐、视频</h1><p>因为markdown语法兼容html，所以一种简单的方法就是直接使用HTML嵌入</p>
+<h2 id="插入音乐"><a href="#插入音乐" class="headerlink" title="插入音乐"></a>插入音乐</h2><p>去网易云音乐网站上找喜欢的歌，然后选择生成外链播放。下面这段代码就是由网易云上直接外链生成的（设置auto=1为自动播放）：</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" </div><div class="line">marginheight="0" width=330 height=86 </div><div class="line">src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
-<h2 id="插入视频"><a href="#插入视频" class="headerlink" title="插入视频"></a>插入视频</h2><p>这个是从YouTube视频上直接趴下来的：</p>
+<h2 id="插入视频"><a href="#插入视频" class="headerlink" title="插入视频"></a>插入视频</h2><p>和音乐类似，视频也可以类似插入，像这个是从YouTube视频上直接趴下来的：</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;iframe frameborder="no" border="0" marginwidth="0" </div><div class="line">marginheight="0" width=330 height=86 </div><div class="line">src="//music.163.com/outchain/player?type=2&amp;id=147030&amp;auto=1&amp;height=66"&gt;&lt;/iframe&gt;</div></pre></td></tr></table></figure>
 <iframe width="640" height="360" src="https://www.youtube.com/embed/NwfolzojHCY" frameborder="0" allowfullscreen></iframe>
-
-
-
-<h1 id="自定义使用APlayer、DPlayer方式添加"><a href="#自定义使用APlayer、DPlayer方式添加" class="headerlink" title="自定义使用APlayer、DPlayer方式添加"></a>自定义使用APlayer、DPlayer方式添加</h1><p><a href="https://github.com/DIYgod/APlayer" target="_blank" rel="external">APlayer</a> 和 <a href="https://github.com/DIYgod/DPlayer" target="_blank" rel="external">DPlayer</a> 是两款插件基于 <a href="https://github.com/DIYgod" target="_blank" rel="external">DIYgod</a> 的 html5 播放器</p>
-<p>对应hexo下的两款插件分别是 <a href="https://github.com/grzhan/hexo-tag-aplayer" target="_blank" rel="external">hexo-tag-aplayer</a> 和 <a href="https://github.com/NextMoe/hexo-tag-dplayer" target="_blank" rel="external">hexo-tag-dplayer</a></p>
-<h2 id="音乐插件APlayer"><a href="#音乐插件APlayer" class="headerlink" title="音乐插件APlayer"></a>音乐插件APlayer</h2><p>cd到hexo目录下安装音乐播放插件 hexo-tag-aplayer</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">npm</span> <span class="selector-tag">install</span> <span class="selector-tag">hexo-tag-aplayer</span> <span class="selector-tag">--save</span></div></pre></td></tr></table></figure>
-<p><strong>usage:</strong></p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% aplayer title author url [picture_url, narrow, autoplay, width:xxx, lrc:xxx] %&#125;</div></pre></td></tr></table></figure>
-<ul>
-<li><code>title</code> : music title</li>
-<li><code>author</code>: music author</li>
-<li><code>url</code>: music file url</li>
-<li><code>picture_url</code>: optional, music picture url</li>
-<li><code>narrow</code>: optional, narrow style</li>
-<li><code>autoplay</code>: optional, autoplay music, not supported by mobile browsers</li>
-<li><code>width:xxx</code>: optional, prefix <code>width:</code>, player’s width (default: 100%)</li>
-<li><code>lrc:xxx</code>: optional, prefix <code>lrc:</code>, LRC file url</li>
-</ul>
-<p><strong>用例:</strong></p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123; % aplayer "耿耿于怀" "麦浚龙" "http://ot8me0b2r.bkt.clouddn.com/%E9%BA%A6%E6%B5%9A%E9%BE%99%20-%20%E8%80%BF%E8%80%BF%E4%BA%8E%E6%80%80.mp3" "autoplay" % &#125;</div></pre></td></tr></table></figure>
-<div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
-		<script>
-			new APlayer({
-				element: document.getElementById("aplayer0"),
-				narrow: false,
-				autoplay: false,
-				showlrc: 0,
-				music: {
-					title: "耿耿于怀",
-					author: "麦浚龙",
-					url: "https://www.jianguoyun.com/p/DZbLl0AQsZL1BRiOqjE",
-					pic: "",
-				}
-			});
-		</script>
-<p><a href="https://is.gd/4mexy3" target="_blank" rel="external">https://is.gd/4mexy3</a></p>
-<p>##视频插件DPlayer</p>
-<p>安装视频播放插件 hexo-tag-dplayer</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-tag-dplayer --save</div></pre></td></tr></table></figure>
-<p><strong>usage:</strong></p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% dplayer key=value ... %&#125;</div></pre></td></tr></table></figure>
-<p>key can be</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">'autoplay': autoplay video, not supported by mobile browsers</div><div class="line">'theme': theme color, default: #b7daff</div><div class="line">'loop': loop play music, default: true</div><div class="line">'lang': language, `zh` for Chinese, `en` for English, default: Navigator language</div><div class="line">'screenshot':  enable screenshot function, default: false, NOTICE: if set it to true, video and video poster must enable Cross-Origin</div><div class="line">'hotkey': binding hot key, including left right and Space, default: true</div><div class="line">'preload': 'auto', the way to load music, can be 'none' 'metadata' 'auto', default: 'auto'</div><div class="line">'url': Required, video url</div><div class="line">'pic': video cover picture</div><div class="line">'api': DPlayer danmaku backend url</div><div class="line">'addition': Dplayer danmuku for bilibili </div><div class="line">'id': see https://github.com/DIYgod/DPlayer</div><div class="line">'token': see https://github.com/DIYgod/DPlayer</div><div class="line">'maximum': maximum quantity of danmaku</div><div class="line"></div><div class="line">'width' maximum width of the dplayer wraper</div><div class="line">'height' maximum height of the dplayer wraper, you can use this like "height=233px"</div></pre></td></tr></table></figure>
-<p><strong>for example:</strong></p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">&#123;% dplayer "url=http://devtest.qiniudn.com/若能绽放光芒.mp4" "addition=https://dplayer.daoapp.io/bilibili?aid=4157142" "api=http://dplayer.daoapp.io" </div><div class="line">"pic=http://devtest.qiniudn.com/若能绽放光芒.png" </div><div class="line">"id=9E2E3368B56CDBB4" </div><div class="line">"loop=yes" </div><div class="line">"theme=#FADFA3"</div><div class="line">"autoplay=false" </div><div class="line">"token=tokendemo" %&#125;</div><div class="line"></div><div class="line">&#123;% dplayer "url=http://devtest.qiniudn.com/若能绽放光芒.mp4" "addition=https://dplayer.daoapp.io/bilibili?aid=4157142" "api=http://dplayer.donot.help/dplayerpy" </div><div class="line">"pic=http://devtest.qiniudn.com/若能绽放光芒.png" </div><div class="line">"id=2622668" "loop=yes" </div><div class="line">"theme=#FADFA3" </div><div class="line">"autoplay=false" </div><div class="line">"width=233px" %&#125;</div></pre></td></tr></table></figure>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&#123;%<span class="built_in"> raw </span>%&#125;</div><div class="line">&lt;div <span class="attribute">id</span>=<span class="string">"player1"</span> <span class="attribute">class</span>=<span class="string">"dplayer"</span>&gt;&lt;/div&gt;</div><div class="line">&lt;script <span class="attribute">src</span>=<span class="string">"dist/DPlayer.min.js"</span>&gt;&lt;/script&gt;&lt;https://www.jianguoyun.com/p/DXP2S1YQsZL1BRj3qTE</div><div class="line">&#123;% endraw %&#125;</div></pre></td></tr></table></figure>
-
-<div id="player1" class="dplayer"></div>
-<script src="dist/DPlayer.min.js"></script>
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/07/24/hexo添加音乐、视频/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
