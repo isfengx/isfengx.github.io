@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Pin]]></title>
+    <url>%2F2017%2F08%2F10%2FPin%2F</url>
+    <content type="text"><![CDATA[Pin 是一个很新奇的iOS App，有点遗憾，用了这么久了以前却只都把它当做一个简单的复制粘贴板来用，今天才发现里面各种有趣实用的功能。Twitter上看见作者已经在内测3.0了，听说增加了JS插件实现热插拔，以后所有新增的功能都通过插件完成。有点类似workflow，或许可以做成的功能平台，很期待。 详细使用介绍，留坑。。]]></content>
+      <tags>
+        <tag>iOS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[nginx 制作谷歌镜像]]></title>
     <url>%2F2017%2F08%2F02%2Fnginx-%E5%88%B6%E4%BD%9C%E8%B0%B7%E6%AD%8C%E9%95%9C%E5%83%8F%2F</url>
     <content type="text"><![CDATA[失败O..O以前还不习惯翻墙的时候，想查点资料都是去网上找别人的谷歌镜像用，现在有了自己的服务器也好想做个自己的镜像。以为很简单然而搞了一整天还是不行。。。网上的教程似乎都点问题，不怎么靠谱 再试一试，还不行就先放下吧。 留坑]]></content>
@@ -139,7 +147,7 @@
   <entry>
     <title><![CDATA[test note]]></title>
     <url>%2F2017%2F07%2F15%2Ftest-note%2F</url>
-    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#x77;&#120;&#x66;&#x37;&#x32;&#57;&#64;&#105;&#99;&#108;&#x6f;&#x75;&#100;&#x2e;&#99;&#x6f;&#x6d; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
+    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#119;&#x78;&#x66;&#x37;&#x32;&#57;&#x40;&#x69;&#x63;&#108;&#111;&#x75;&#100;&#46;&#99;&#111;&#109; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
   </entry>
   <entry>
     <title><![CDATA[markdown 测试]]></title>

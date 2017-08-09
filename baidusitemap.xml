@@ -4,13 +4,15 @@
 
     
   <url>
-    <loc>http://tisfeng.com/2017/07/19/test2/</loc>
-    <lastmod>2017-08-02T18:29:22.000Z</lastmod>
+    <loc>http://tisfeng.com/2017/08/10/Pin/</loc>
+    <lastmod>2017-08-09T18:05:13.000Z</lastmod>
     <data>
         <display>
-        <title>逃离</title>
-        <pubTime>2017-07-18T20:23:02.000Z</pubTime>
+        <title>Pin</title>
+        <pubTime>2017-08-09T17:46:41.000Z</pubTime>
         
+        <tag>iOS</tag>
+         
          
            
         </display>
@@ -20,7 +22,7 @@
     
   <url>
     <loc>http://tisfeng.com/2017/07/24/hexo%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91/</loc>
-    <lastmod>2017-08-02T16:33:35.000Z</lastmod>
+    <lastmod>2017-08-04T15:51:30.000Z</lastmod>
     <data>
         <display>
         <title>hexo添加音乐、视频 (置顶test)</title>
@@ -33,6 +35,21 @@
              
               <breadCrumb title="code" url="http://tisfeng.com/categories/code/"/>
           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://tisfeng.com/2017/07/19/test2/</loc>
+    <lastmod>2017-08-04T15:51:27.000Z</lastmod>
+    <data>
+        <display>
+        <title>逃离</title>
+        <pubTime>2017-07-18T20:23:02.000Z</pubTime>
+        
+         
+           
         </display>
     </data>
     </url>
