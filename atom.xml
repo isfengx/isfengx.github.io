@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-08-10T13:04:50.000Z</updated>
+  <updated>2017-08-10T13:30:25.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://tisfeng.com/2017/08/10/hexo%20markdown%E6%A0%B7%E5%BC%8F/"/>
     <id>http://tisfeng.com/2017/08/10/hexo markdown样式/</id>
     <published>2017-08-10T12:30:11.000Z</published>
-    <updated>2017-08-10T13:04:50.000Z</updated>
+    <updated>2017-08-10T13:30:25.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
 <h3 id="在文档中增加图标"><a href="#在文档中增加图标" class="headerlink" title="在文档中增加图标"></a>在文档中增加图标</h3><ul>
@@ -29,10 +29,9 @@
 <li><i class="fa fa-cog"></i>丰富的插件<br><i>Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。</i></li>
 </ul>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">- <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fa fa-pencil"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span>支持Markdown</div><div class="line"><span class="tag">&lt;<span class="name">i</span>&gt;</span>Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。<span class="tag">&lt;/<span class="name">i</span>&gt;</span></div><div class="line">- <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fa fa-cloud-upload"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span>一件部署</div><div class="line"><span class="tag">&lt;<span class="name">i</span>&gt;</span>只需一条指令即可部署到Github Pages，或其他网站<span class="tag">&lt;/<span class="name">i</span>&gt;</span></div><div class="line">- <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fa fa-cog"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span>丰富的插件</div><div class="line"><span class="tag">&lt;<span class="name">i</span>&gt;</span>Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。<span class="tag">&lt;/<span class="name">i</span>&gt;</span></div></pre></td></tr></table></figure>
-<p><strong><code>&lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;</code>
-</strong><code>&lt;i class=&quot;fa fa-github fa-lg&quot;&gt;&lt;/i&gt;</code><br>**<code>&lt;i class=&quot;fa fa-github fa-2x&quot;&gt;&lt;/i&gt;</code></p>
+<p><i class="fa fa-github"></i><code>&lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;</code><br><i class="fa fa-github fa-lg"></i><code>&lt;i class=&quot;fa fa-github fa-lg&quot;&gt;&lt;/i&gt;</code><br><i class="fa fa-github fa-2x"></i><code>&lt;i class=&quot;fa fa-github fa-2x&quot;&gt;&lt;/i&gt;</code></p>
 <p>采用的是<strong>Font Awesome</strong>的图标。</p>
-<h3 id="图形边框效果"><a href="#图形边框效果" class="headerlink" title="图形边框效果"></a>图形边框效果</h3><p><a href="https://git-scm.com/download/win" target="_blank" rel="external">** Download Now</a></p>
+<h3 id="图形边框效果"><a href="#图形边框效果" class="headerlink" title="图形边框效果"></a>图形边框效果</h3><p><a id="download" href="https://git-scm.com/download/win" target="_blank" rel="external"><i class="fa fa-download"></i><span> Download Now</span><br></a></p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"download"</span> <span class="attr">href</span>=<span class="string">"https://git-scm.com/download/win"</span>&gt;</span><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fa fa-download"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span> Download Now<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div></pre></td></tr></table></figure>
 <p>这也是调用了<strong>Font Awesome</strong>的方法。</p>
 <h1 id="诗歌居中"><a href="#诗歌居中" class="headerlink" title="诗歌居中"></a>诗歌居中</h1><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">请不要相信我的美丽</div><div class="line">也不要相信我的爱情</div><div class="line">在涂满了油彩的面容之下</div><div class="line">我有的是颗戏子的心</div><div class="line">所以 请千万不要</div><div class="line">不要把我的悲哀当真</div><div class="line">也别随着我的表演心碎</div><div class="line">亲爱的朋友 今生今世</div><div class="line">我只是个戏子</div><div class="line">永远在别人的故事里</div><div class="line">流着自己的泪</div></pre></td></tr></table></figure>
@@ -234,9 +233,9 @@
     
       <category term="hexo" scheme="http://tisfeng.com/tags/hexo/"/>
     
-      <category term="nginx" scheme="http://tisfeng.com/tags/nginx/"/>
-    
       <category term="Ubuntu" scheme="http://tisfeng.com/tags/Ubuntu/"/>
+    
+      <category term="nginx" scheme="http://tisfeng.com/tags/nginx/"/>
     
   </entry>
   
