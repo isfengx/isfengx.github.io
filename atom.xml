@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-08-10T12:56:48.000Z</updated>
+  <updated>2017-08-10T13:04:50.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo markdown样式</title>
+    <title>hexo · markdown样式</title>
     <link href="http://tisfeng.com/2017/08/10/hexo%20markdown%E6%A0%B7%E5%BC%8F/"/>
     <id>http://tisfeng.com/2017/08/10/hexo markdown样式/</id>
     <published>2017-08-10T12:30:11.000Z</published>
-    <updated>2017-08-10T12:56:48.000Z</updated>
+    <updated>2017-08-10T13:04:50.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
 <h3 id="在文档中增加图标"><a href="#在文档中增加图标" class="headerlink" title="在文档中增加图标"></a>在文档中增加图标</h3><ul>
@@ -39,10 +39,7 @@
  <blockquote class="blockquote-center"><p>戏子 </p>
 </blockquote>
  <blockquote class="blockquote-center"><p>请不要相信我的美丽<br>也不要相信我的爱情<br>在涂满了油彩的面容之下<br>我有的是颗戏子的心<br>所以 请千万不要<br>不要把我的悲哀当真<br>也别随着我的表演心碎<br>亲爱的朋友 今生今世<br>我只是个戏子<br>永远在别人的故事里<br>流着自己的泪</p>
-<p>戏子 </p>
 </blockquote>
-<p>另一种 <blockquote class="blockquote-center"><p>请不要相信我的美丽</p>
-</blockquote></p>
 <figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="xml">简单居中 <span class="tag">&lt;<span class="name">center</span>&gt;</span>戏子<span class="tag">&lt;/<span class="name">center</span>&gt;</span></span></div><div class="line">另一种 <span class="template-tag">&#123;% <span class="name">cq</span> %&#125;</span><span class="xml"> 戏子 </span><span class="template-tag">&#123;% <span class="name">endcq</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
 <center>戏子</center>
 
@@ -71,7 +68,8 @@
 </blockquote>  
 <blockquote class="blockquote-center"><p>流着自己的泪  </p>
 </blockquote>  
-<h1 id="图片居中"><a href="#图片居中" class="headerlink" title="图片居中"></a>图片居中</h1><div align="center"><br><br><a href="https://img.icos8.cc/image/B7p7" target="_blank" rel="external"><img src="https://img.icos8.cc/images/2017/07/29/Leaf_leave11.md.jpg" alt="Leaf_leave11.md.jpg"></a><br><br></div>]]></content>
+<h1 id="图片居中"><a href="#图片居中" class="headerlink" title="图片居中"></a>图片居中</h1><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">align</span> = <span class="string">center</span>&gt;</span></div><div class="line">——&gt;&gt;图片url</div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
+<div align="center"><br><br><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fi1j9a61rhj30kz0k6k9j.jpg" alt=""><br><br></div>]]></content>
     
     <summary type="html">
     
@@ -236,9 +234,9 @@
     
       <category term="hexo" scheme="http://tisfeng.com/tags/hexo/"/>
     
-      <category term="Ubuntu" scheme="http://tisfeng.com/tags/Ubuntu/"/>
-    
       <category term="nginx" scheme="http://tisfeng.com/tags/nginx/"/>
+    
+      <category term="Ubuntu" scheme="http://tisfeng.com/tags/Ubuntu/"/>
     
   </entry>
   

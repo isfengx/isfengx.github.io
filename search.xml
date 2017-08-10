@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[hexo markdown样式]]></title>
+    <title><![CDATA[hexo · markdown样式]]></title>
     <url>%2F2017%2F08%2F10%2Fhexo%20markdown%E6%A0%B7%E5%BC%8F%2F</url>
-    <content type="text"><![CDATA[在文档中增加图标 支持MarkdownHexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。 一件部署只需一条指令即可部署到Github Pages，或其他网站 丰富的插件Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。 123456- &lt;i class="fa fa-pencil"&gt;&lt;/i&gt;支持Markdown&lt;i&gt;Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。&lt;/i&gt;- &lt;i class="fa fa-cloud-upload"&gt;&lt;/i&gt;一件部署&lt;i&gt;只需一条指令即可部署到Github Pages，或其他网站&lt;/i&gt;- &lt;i class="fa fa-cog"&gt;&lt;/i&gt;丰富的插件&lt;i&gt;Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。&lt;/i&gt; &lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt; &lt;i class=&quot;fa fa-github fa-lg&quot;&gt;&lt;/i&gt;**&lt;i class=&quot;fa fa-github fa-2x&quot;&gt;&lt;/i&gt; 采用的是Font Awesome的图标。 图形边框效果** Download Now 12&lt;a id="download" href="https://git-scm.com/download/win"&gt;&lt;i class="fa fa-download"&gt;&lt;/i&gt;&lt;span&gt; Download Now&lt;/span&gt;&lt;/a&gt; 这也是调用了Font Awesome的方法。 诗歌居中1234567891011请不要相信我的美丽也不要相信我的爱情在涂满了油彩的面容之下我有的是颗戏子的心所以 请千万不要不要把我的悲哀当真也别随着我的表演心碎亲爱的朋友 今生今世我只是个戏子永远在别人的故事里流着自己的泪 戏子 请不要相信我的美丽也不要相信我的爱情在涂满了油彩的面容之下我有的是颗戏子的心所以 请千万不要不要把我的悲哀当真也别随着我的表演心碎亲爱的朋友 今生今世我只是个戏子永远在别人的故事里流着自己的泪 戏子 另一种 请不要相信我的美丽 12简单居中 &lt;center&gt;戏子&lt;/center&gt;另一种 &#123;% cq %&#125; 戏子 &#123;% endcq %&#125; 戏子 戏子 请不要相信我的美丽 也不要相信我的爱情 在涂满了油彩的面容之下 我有的是颗戏子的心 所以 请千万不要 不要把我的悲哀当真 也别随着我的表演心碎 亲爱的朋友 今生今世 我只是个戏子 永远在别人的故事里 流着自己的泪 图片居中]]></content>
+    <content type="text"><![CDATA[在文档中增加图标 支持MarkdownHexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。 一件部署只需一条指令即可部署到Github Pages，或其他网站 丰富的插件Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。 123456- &lt;i class="fa fa-pencil"&gt;&lt;/i&gt;支持Markdown&lt;i&gt;Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。&lt;/i&gt;- &lt;i class="fa fa-cloud-upload"&gt;&lt;/i&gt;一件部署&lt;i&gt;只需一条指令即可部署到Github Pages，或其他网站&lt;/i&gt;- &lt;i class="fa fa-cog"&gt;&lt;/i&gt;丰富的插件&lt;i&gt;Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。&lt;/i&gt; &lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt; &lt;i class=&quot;fa fa-github fa-lg&quot;&gt;&lt;/i&gt;**&lt;i class=&quot;fa fa-github fa-2x&quot;&gt;&lt;/i&gt; 采用的是Font Awesome的图标。 图形边框效果** Download Now 12&lt;a id="download" href="https://git-scm.com/download/win"&gt;&lt;i class="fa fa-download"&gt;&lt;/i&gt;&lt;span&gt; Download Now&lt;/span&gt;&lt;/a&gt; 这也是调用了Font Awesome的方法。 诗歌居中1234567891011请不要相信我的美丽也不要相信我的爱情在涂满了油彩的面容之下我有的是颗戏子的心所以 请千万不要不要把我的悲哀当真也别随着我的表演心碎亲爱的朋友 今生今世我只是个戏子永远在别人的故事里流着自己的泪 戏子 请不要相信我的美丽也不要相信我的爱情在涂满了油彩的面容之下我有的是颗戏子的心所以 请千万不要不要把我的悲哀当真也别随着我的表演心碎亲爱的朋友 今生今世我只是个戏子永远在别人的故事里流着自己的泪 12简单居中 &lt;center&gt;戏子&lt;/center&gt;另一种 &#123;% cq %&#125; 戏子 &#123;% endcq %&#125; 戏子 戏子 请不要相信我的美丽 也不要相信我的爱情 在涂满了油彩的面容之下 我有的是颗戏子的心 所以 请千万不要 不要把我的悲哀当真 也别随着我的表演心碎 亲爱的朋友 今生今世 我只是个戏子 永远在别人的故事里 流着自己的泪 图片居中123&lt;div align = center&gt;——&gt;&gt;图片url&lt;/div&gt;]]></content>
       <tags>
         <tag>hexo</tag>
       </tags>
@@ -54,8 +54,8 @@
     <content type="text"><![CDATA[测试，hexo搬迁到自有域名 test …..]]></content>
       <tags>
         <tag>hexo</tag>
-        <tag>Ubuntu</tag>
         <tag>nginx</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -160,7 +160,7 @@
   <entry>
     <title><![CDATA[test note]]></title>
     <url>%2F2017%2F07%2F15%2Ftest-note%2F</url>
-    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#119;&#120;&#102;&#x37;&#x32;&#57;&#x40;&#x69;&#x63;&#108;&#111;&#x75;&#100;&#x2e;&#99;&#111;&#109; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
+    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#x77;&#x78;&#x66;&#55;&#50;&#57;&#64;&#105;&#x63;&#108;&#111;&#117;&#100;&#x2e;&#99;&#x6f;&#109; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
   </entry>
   <entry>
     <title><![CDATA[markdown 测试]]></title>
