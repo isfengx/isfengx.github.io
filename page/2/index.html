@@ -330,6 +330,183 @@
 
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://tisfeng.com/2017/07/19/test/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Tisfeng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/You729.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="今宵别梦寒">
+    </span>
+
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/07/19/test/" itemprop="url">test</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-19T03:41:38+08:00">
+                2017-07-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+
+ <!-- 在下面的位置加上如下代码 -->
+
+
+ <!-- 在上面的位置加上如上代码 -->
+
+  
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/07/19/test/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/07/19/test/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+
+
+         
+    
+
+         <span class="post-time">
+     &nbsp; | &nbsp;
+           <span class="post-meta-item-icon">
+             <i class="fa fa-file-word-o"></i>
+           </span>
+           <span class="post-meta-item-text">WordCount:</span>
+           <span class="post-count">158字</span>
+           
+         </span>
+    
+      <span class="post-time">
+     &nbsp; | &nbsp;
+           <span class="post-meta-item-icon">
+             <i class="fa fa-clock-o"></i>
+           </span>
+           <span class="post-meta-item-text">min2read:</span>
+           <span class="post-count">1分钟</span>
+           
+         </span>
+
+
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<p>十五年前<br>阴凉的晨</p>
+<p>恍恍惚惚<br>清晰的诀别</p>
+<p>每夜，梦中的你<br>梦中是你</p>
+<p>与枕俱醒<br>觉得不是你</p>
+<p>另一些人<br>扮演你入我梦中</p>
+<p>哪有你，你这样好<br>哪有你这样你</p>
+<p> —— 木心</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div></pre></td><td class="code"><pre><div class="line">//</div><div class="line">//  MPUtilities.m</div><div class="line">//  MacDown</div><div class="line">//</div><div class="line">//  Created by Tzu-ping Chung  on 8/06/2014.</div><div class="line">//  Copyright (c) 2014 Tzu-ping Chung . All rights reserved.</div><div class="line">//</div><div class="line"></div><div class="line">#import &quot;MPUtilities.h&quot;</div><div class="line">#import &quot;NSString+Lookup.h&quot;</div><div class="line">#import &lt;JavaScriptCore/JavaScriptCore.h&gt;</div><div class="line"></div><div class="line">NSString * const kMPStylesDirectoryName = @&quot;Styles&quot;;</div><div class="line">NSString * const kMPStyleFileExtension = @&quot;css&quot;;</div><div class="line">NSString * const kMPThemesDirectoryName = @&quot;Themes&quot;;</div><div class="line">NSString * const kMPThemeFileExtension = @&quot;style&quot;;</div><div class="line">NSString * const kMPPlugInsDirectoryName = @&quot;PlugIns&quot;;</div><div class="line">NSString * const kMPPlugInFileExtension = @&quot;plugin&quot;;</div><div class="line"></div><div class="line">static NSString *MPDataRootDirectory()</div><div class="line">&#123;</div><div class="line">    static NSString *path = nil;</div><div class="line">    if (!path)</div><div class="line">    &#123;</div><div class="line">        NSArray *paths =</div><div class="line">            NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory,</div><div class="line">                                                NSUserDomainMask, YES);</div><div class="line">        NSCAssert(paths.count &gt; 0,</div><div class="line">                  @&quot;Cannot find directory for NSApplicationSupportDirectory.&quot;);</div><div class="line">        NSDictionary *infoDictionary = [NSBundle mainBundle].infoDictionary;</div><div class="line">        path = [NSString pathWithComponents:@[paths[0],</div><div class="line">                                              infoDictionary[@&quot;CFBundleName&quot;]]];</div><div class="line">    &#125;</div><div class="line">    return path;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>ddddddd</p>
+</blockquote>
+
+          
+        
+      
+    </div>
+
+<div style="text-align:center;color: #ccc;font-size:14px;">—————————————— The End ——————————————</div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://tisfeng.com/2017/07/18/ibook/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1921,176 +2098,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://tisfeng.com/2017/07/15/悟空传/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Tisfeng">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/You729.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="今宵别梦寒">
-    </span>
-
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/07/15/悟空传/" itemprop="url">悟空传</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-15T13:13:06+08:00">
-                2017-07-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-
- <!-- 在下面的位置加上如下代码 -->
-
-
- <!-- 在上面的位置加上如上代码 -->
-
-  
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/07/15/悟空传/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2017/07/15/悟空传/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-
-
-         
-    
-
-         <span class="post-time">
-     &nbsp; | &nbsp;
-           <span class="post-meta-item-icon">
-             <i class="fa fa-file-word-o"></i>
-           </span>
-           <span class="post-meta-item-text">WordCount:</span>
-           <span class="post-count">367字</span>
-           
-         </span>
-    
-      <span class="post-time">
-     &nbsp; | &nbsp;
-           <span class="post-meta-item-icon">
-             <i class="fa fa-clock-o"></i>
-           </span>
-           <span class="post-meta-item-text">min2read:</span>
-           <span class="post-count">1分钟</span>
-           
-         </span>
-
-
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>每一夜，都要如此往复，<br>说不清，是冷漠还是孤独。<br>枕边还放着你离开我，留下的礼物，<br>这一生我读过的最多的一本书。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/07/15/悟空传/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-<div style="text-align:center;color: #ccc;font-size:14px;">—————————————— The End ——————————————</div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-
-
-
-    
   </section>
 
   
@@ -2141,7 +2148,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">23</span>
+                <span class="site-state-item-count">24</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

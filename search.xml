@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[oh my zsh]]></title>
+    <url>%2F2017%2F08%2F10%2Foh-my-zsh%2F</url>
+    <content type="text"><![CDATA[#test 1oh my zsh]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Pin]]></title>
     <url>%2F2017%2F08%2F10%2FPin%2F</url>
     <content type="text"><![CDATA[Pin 是一个很新奇的iOS App，有点遗憾，用了这么久了以前却只都把它当做一个简单的复制粘贴板来用，今天才发现里面各种有趣实用的功能。Twitter上看见作者说是已经在内测3.0了，这次大版本增加了JS插件实现热插拔，以后所有新增的功能都通过插件完成。有点类似workflow，或许可以做成的功能平台，很期待。 详细使用介绍，留坑。。]]></content>
@@ -147,7 +152,7 @@
   <entry>
     <title><![CDATA[test note]]></title>
     <url>%2F2017%2F07%2F15%2Ftest-note%2F</url>
-    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#119;&#120;&#x66;&#55;&#x32;&#x39;&#x40;&#x69;&#x63;&#x6c;&#111;&#x75;&#100;&#46;&#x63;&#x6f;&#109; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
+    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#x77;&#x78;&#102;&#x37;&#x32;&#x39;&#64;&#x69;&#x63;&#x6c;&#x6f;&#117;&#x64;&#x2e;&#99;&#111;&#x6d; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
   </entry>
   <entry>
     <title><![CDATA[markdown 测试]]></title>
