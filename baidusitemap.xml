@@ -4,6 +4,48 @@
 
     
   <url>
+    <loc>http://tisfeng.com/2017/08/10/hexo%20markdown%E6%A0%B7%E5%BC%8F/</loc>
+    <lastmod>2017-08-10T12:56:48.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo markdown样式</title>
+        <pubTime>2017-08-10T12:30:11.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://tisfeng.com/2017/07/15/%E6%88%8F%E5%AD%90/</loc>
+    <lastmod>2017-08-10T12:54:09.000Z</lastmod>
+    <data>
+        <display>
+        <title>戏子</title>
+        <pubTime>2017-07-15T14:58:46.000Z</pubTime>
+        
+        <tag>test</tag>
+         
+        <tag>blog</tag>
+         
+         
+           
+             
+              <breadCrumb title="随笔" url="http://tisfeng.com/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+             
+              <breadCrumb title="瞬间" url="http://tisfeng.com/categories/%E9%9A%8F%E7%AC%94/%E7%9E%AC%E9%97%B4/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://tisfeng.com/2017/08/10/oh-my-zsh/</loc>
     <lastmod>2017-08-10T10:35:07.000Z</lastmod>
     <data>
@@ -155,31 +197,6 @@
          
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://tisfeng.com/2017/07/15/%E6%88%8F%E5%AD%90/</loc>
-    <lastmod>2017-07-31T09:55:36.000Z</lastmod>
-    <data>
-        <display>
-        <title>戏子</title>
-        <pubTime>2017-07-15T14:58:46.000Z</pubTime>
-        
-        <tag>test</tag>
-         
-        <tag>blog</tag>
-         
-         
-           
-             
-              <breadCrumb title="随笔" url="http://tisfeng.com/categories/%E9%9A%8F%E7%AC%94/"/>
-          
-             
-              <breadCrumb title="瞬间" url="http://tisfeng.com/categories/%E9%9A%8F%E7%AC%94/%E7%9E%AC%E9%97%B4/"/>
-          
         </display>
     </data>
     </url>

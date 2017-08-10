@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-08-10T10:35:07.000Z</updated>
+  <updated>2017-08-10T12:56:48.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -14,6 +14,75 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo markdown样式</title>
+    <link href="http://tisfeng.com/2017/08/10/hexo%20markdown%E6%A0%B7%E5%BC%8F/"/>
+    <id>http://tisfeng.com/2017/08/10/hexo markdown样式/</id>
+    <published>2017-08-10T12:30:11.000Z</published>
+    <updated>2017-08-10T12:56:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<h3 id="在文档中增加图标"><a href="#在文档中增加图标" class="headerlink" title="在文档中增加图标"></a>在文档中增加图标</h3><ul>
+<li><i class="fa fa-pencil"></i>支持Markdown<br><i>Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。</i></li>
+<li><i class="fa fa-cloud-upload"></i>一件部署<br><i>只需一条指令即可部署到Github Pages，或其他网站</i></li>
+<li><i class="fa fa-cog"></i>丰富的插件<br><i>Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。</i></li>
+</ul>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">- <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fa fa-pencil"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span>支持Markdown</div><div class="line"><span class="tag">&lt;<span class="name">i</span>&gt;</span>Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。<span class="tag">&lt;/<span class="name">i</span>&gt;</span></div><div class="line">- <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fa fa-cloud-upload"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span>一件部署</div><div class="line"><span class="tag">&lt;<span class="name">i</span>&gt;</span>只需一条指令即可部署到Github Pages，或其他网站<span class="tag">&lt;/<span class="name">i</span>&gt;</span></div><div class="line">- <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fa fa-cog"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span>丰富的插件</div><div class="line"><span class="tag">&lt;<span class="name">i</span>&gt;</span>Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。<span class="tag">&lt;/<span class="name">i</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><strong><code>&lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;</code>
+</strong><code>&lt;i class=&quot;fa fa-github fa-lg&quot;&gt;&lt;/i&gt;</code><br>**<code>&lt;i class=&quot;fa fa-github fa-2x&quot;&gt;&lt;/i&gt;</code></p>
+<p>采用的是<strong>Font Awesome</strong>的图标。</p>
+<h3 id="图形边框效果"><a href="#图形边框效果" class="headerlink" title="图形边框效果"></a>图形边框效果</h3><p><a href="https://git-scm.com/download/win" target="_blank" rel="external">** Download Now</a></p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"download"</span> <span class="attr">href</span>=<span class="string">"https://git-scm.com/download/win"</span>&gt;</span><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fa fa-download"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span> Download Now<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>这也是调用了<strong>Font Awesome</strong>的方法。</p>
+<h1 id="诗歌居中"><a href="#诗歌居中" class="headerlink" title="诗歌居中"></a>诗歌居中</h1><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">请不要相信我的美丽</div><div class="line">也不要相信我的爱情</div><div class="line">在涂满了油彩的面容之下</div><div class="line">我有的是颗戏子的心</div><div class="line">所以 请千万不要</div><div class="line">不要把我的悲哀当真</div><div class="line">也别随着我的表演心碎</div><div class="line">亲爱的朋友 今生今世</div><div class="line">我只是个戏子</div><div class="line">永远在别人的故事里</div><div class="line">流着自己的泪</div></pre></td></tr></table></figure>
+ <blockquote class="blockquote-center"><p>戏子 </p>
+</blockquote>
+ <blockquote class="blockquote-center"><p>请不要相信我的美丽<br>也不要相信我的爱情<br>在涂满了油彩的面容之下<br>我有的是颗戏子的心<br>所以 请千万不要<br>不要把我的悲哀当真<br>也别随着我的表演心碎<br>亲爱的朋友 今生今世<br>我只是个戏子<br>永远在别人的故事里<br>流着自己的泪</p>
+<p>戏子 </p>
+</blockquote>
+<p>另一种 <blockquote class="blockquote-center"><p>请不要相信我的美丽</p>
+</blockquote></p>
+<figure class="highlight django"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="xml">简单居中 <span class="tag">&lt;<span class="name">center</span>&gt;</span>戏子<span class="tag">&lt;/<span class="name">center</span>&gt;</span></span></div><div class="line">另一种 <span class="template-tag">&#123;% <span class="name">cq</span> %&#125;</span><span class="xml"> 戏子 </span><span class="template-tag">&#123;% <span class="name">endcq</span> %&#125;</span><span class="xml"></span></div></pre></td></tr></table></figure>
+<center>戏子</center>
+
+<blockquote class="blockquote-center"><p>戏子 </p>
+</blockquote>
+<!-- 标签别名 -->
+<blockquote class="blockquote-center"><p>请不要相信我的美丽 </p>
+</blockquote>
+<blockquote class="blockquote-center"><p>也不要相信我的爱情 </p>
+</blockquote>
+<blockquote class="blockquote-center"><p>在涂满了油彩的面容之下   </p>
+</blockquote>
+<blockquote class="blockquote-center"><p>我有的是颗戏子的心  </p>
+</blockquote>
+<blockquote class="blockquote-center"><p>所以 请千万不要  </p>
+</blockquote>
+<blockquote class="blockquote-center"><p>不要把我的悲哀当真  </p>
+</blockquote>
+<blockquote class="blockquote-center"><p>也别随着我的表演心碎  </p>
+</blockquote>
+<blockquote class="blockquote-center"><p>亲爱的朋友 今生今世 </p>
+</blockquote>
+<blockquote class="blockquote-center"><p>我只是个戏子  </p>
+</blockquote>  
+<blockquote class="blockquote-center"><p>永远在别人的故事里  </p>
+</blockquote>  
+<blockquote class="blockquote-center"><p>流着自己的泪  </p>
+</blockquote>  
+<h1 id="图片居中"><a href="#图片居中" class="headerlink" title="图片居中"></a>图片居中</h1><div align="center"><br><br><a href="https://img.icos8.cc/image/B7p7" target="_blank" rel="external"><img src="https://img.icos8.cc/images/2017/07/29/Leaf_leave11.md.jpg" alt="Leaf_leave11.md.jpg"></a><br><br></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://tisfeng.com/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>oh my zsh</title>
@@ -385,10 +454,10 @@
     <link href="http://tisfeng.com/2017/07/15/%E6%88%8F%E5%AD%90/"/>
     <id>http://tisfeng.com/2017/07/15/戏子/</id>
     <published>2017-07-15T14:58:46.000Z</published>
-    <updated>2017-07-31T09:55:36.000Z</updated>
+    <updated>2017-08-10T12:54:09.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">请不要相信我的美丽</div><div class="line">   也不要相信我的爱情</div><div class="line">   在涂满了油彩的面容之下</div><div class="line">   我有的是颗戏子的心</div><div class="line">   所以 请千万不要</div><div class="line">   不要把我的悲哀当真</div><div class="line">   也别随着我的表演心碎</div><div class="line">   亲爱的朋友 今生今世</div><div class="line">   我只是个戏子</div><div class="line">   永远在别人的故事里</div><div class="line">   流着自己的泪</div></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">请不要相信我的美丽</div><div class="line">也不要相信我的爱情</div><div class="line">在涂满了油彩的面容之下</div><div class="line">我有的是颗戏子的心</div><div class="line">所以 请千万不要</div><div class="line">不要把我的悲哀当真</div><div class="line">也别随着我的表演心碎</div><div class="line">亲爱的朋友 今生今世</div><div class="line">我只是个戏子</div><div class="line">永远在别人的故事里</div><div class="line">流着自己的泪</div></pre></td></tr></table></figure>
 <p><img src="https://ws4.sinaimg.cn/large/006tNc79gy1fi1ilmtjjgj30g40aj0u2.jpg" alt=""></p>
 <p><img src="https://www.jianguoyun.com/c/tblv2/CK66GRIg7QD3KURI8JphOWseUGI3Y_7N7RXjxlyg1k6nbBIQI94/4X69f47afWo/l" alt=""></p>
 <p>this is a basic footnote<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="basic footnote content ">[1]</span></a></sup></p>
@@ -435,7 +504,7 @@
     <summary type="html">
     
       &lt;hr&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;请不要相信我的美丽&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;   也不要相信我的爱情&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;   在涂满了油彩的面容之下&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;   我有的是颗戏子的心&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;   所以 请千万不要&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;   不要把我的悲哀当真&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;   也别随着我的表演心碎&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;   亲爱的朋友 今生今世&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;   我只是个戏子&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;   永远在别人的故事里&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;   流着自己的泪&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;请不要相信我的美丽&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;也不要相信我的爱情&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;在涂满了油彩的面容之下&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;我有的是颗戏子的心&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;所以 请千万不要&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;不要把我的悲哀当真&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;也别随着我的表演心碎&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;亲爱的朋友 今生今世&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;我只是个戏子&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;永远在别人的故事里&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;流着自己的泪&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tNc79gy1fi1ilmtjjgj30g40aj0u2.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://www.jianguoyun.com/c/tblv2/CK66GRIg7QD3KURI8JphOWseUGI3Y_7N7RXjxlyg1k6nbBIQI94/4X69f47afWo/l&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;this is a basic footnote&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;basic footnote content &quot;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -507,26 +576,6 @@
   </entry>
   
   <entry>
-    <title>渡口</title>
-    <link href="http://tisfeng.com/2017/07/15/%E6%B8%A1%E5%8F%A3/"/>
-    <id>http://tisfeng.com/2017/07/15/渡口/</id>
-    <published>2017-07-15T06:21:58.000Z</published>
-    <updated>2017-07-15T06:22:59.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>让我与你握别<br>再轻轻抽出我的手<br>知道思念从此生根<br>浮云白日 山川庄严温柔<br>让我与你握别<br>再轻轻抽出我的手<br>华年从此停顿<br>热泪在心中汇成河流<br>是那样万般无奈的凝视<br>渡口旁找不到一朵可以相送的花<br>就把祝福别在襟上吧<br>而明日<br>明日又隔天涯</p>
-<p>—— 北岛</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>青春 (置顶测试5)</title>
     <link href="http://tisfeng.com/2017/07/15/%E9%9D%92%E6%98%A5/"/>
     <id>http://tisfeng.com/2017/07/15/青春/</id>
@@ -554,6 +603,26 @@
     
     
       <category term="诗和远方" scheme="http://tisfeng.com/tags/%E8%AF%97%E5%92%8C%E8%BF%9C%E6%96%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>渡口</title>
+    <link href="http://tisfeng.com/2017/07/15/%E6%B8%A1%E5%8F%A3/"/>
+    <id>http://tisfeng.com/2017/07/15/渡口/</id>
+    <published>2017-07-15T06:21:58.000Z</published>
+    <updated>2017-07-15T06:22:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>让我与你握别<br>再轻轻抽出我的手<br>知道思念从此生根<br>浮云白日 山川庄严温柔<br>让我与你握别<br>再轻轻抽出我的手<br>华年从此停顿<br>热泪在心中汇成河流<br>是那样万般无奈的凝视<br>渡口旁找不到一朵可以相送的花<br>就把祝福别在襟上吧<br>而明日<br>明日又隔天涯</p>
+<p>—— 北岛</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
+    
+    </summary>
+    
     
   </entry>
   
@@ -613,25 +682,6 @@
     <summary type="html">
     
       &lt;p&gt;秋波一转成姻缘──崔莺莺的求爱之路&lt;br&gt;《西厢记》之所以成为经典，就在于它一反以往“痴心女子负心汉”的故事线，通过塑造机灵聪颖的丫头红娘、大胆求爱的深闺小姐莺莺、痴心一片的书生张珙，最后求得个“天下有情人终成眷属”的大团圆结局。这样一份不被礼教不被世人所看好的爱情，其结局却如此圆满，不得不说对于当时的人们来说是一种莫大的冲击与震撼。官府禁而不止，民间争相誊写传阅，则一定程度上反应了人们对于伦理纲常禁锢情欲的挣脱之愿望，也体现了民间对于美好自由爱情的向往与追求。&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>光</title>
-    <link href="http://tisfeng.com/2017/07/15/%E5%85%89/"/>
-    <id>http://tisfeng.com/2017/07/15/光/</id>
-    <published>2017-07-15T05:30:33.000Z</published>
-    <updated>2017-07-15T05:39:41.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>我想在大地上<br>画满窗子<br>让所有习惯黑暗的眼睛<br>都习惯光明</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
     
     </summary>
     
