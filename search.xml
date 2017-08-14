@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[看4K视频所需的带宽]]></title>
+    <url>%2F2017%2F08%2F15%2F%E7%9C%8B4K%E8%A7%86%E9%A2%91%E6%89%80%E9%9C%80%E7%9A%84%E5%B8%A6%E5%AE%BD%2F</url>
+    <content type="text"><![CDATA[理论计算12345674k (3840*2160): 3840*2160*8*3*60 ≈ 12 Gbps2k (2560*1600): 2560*1440*1440 ≈ 5.3G1080p (1920*1080): 1920*1080*1440 ≈ 3G720p: 1280*720*1440 ≈ 1.3G （ 简单取值 1G≈1000M≈1000 000k） 一整屏像素的点数(屏幕长宽)为3840*2160 一个点需要rgb 3种颜色，一个颜色值8位，(颜色值范围：0~255=2^8 ) 一秒钟60帧 12G —— 即表示4K视频在一秒钟所需传输的数据量 #实际估测 由于当前大部分视频所采取的编码为H.265，其标准压缩比：350~1000 所以对应视频所需的带宽大致为： 12345674K: 12~40M2K: 5~15M1080p: 3~8M720p: 0.4M~1.3M 如果你家里的带宽有40M，那就可以顺畅看4K了。这个40M是指理论峰值，实际上可能20M就差不多了，稍稍卡顿的话缓冲一下也差不多。 \1. 理论计算（数据未压缩） 4K显示屏对应的解析度：3840*2160 4K内容需要的传输速率：384021608360≈12 Gbps （前提：不考虑数据中的其他信号；数据位数为8 bits/color；帧率为60fps） \2. 理论计算（数据压缩后） H.265标准的压缩比：350~1000 4K内容需要的传输速率（H.265标准压缩后）：12~40 Mbps \3. 实际数值 1) 各国4K内容现场试验中的传输速率：17.5~35 Mbps（H.265压缩标准下） 2) Netflix 4K: ≥20 Mbps （H.265压缩标准下） 3) Youtube 4K: ≥25 Mbps （VP9压缩标准下） &#x611f;&#35874;&#91;&#64;&#37101;&#x6cfd;&#x5b87;&#x5d;&#x28;&#x29;&#30340;&#25351;&#x6b63; 4) LG 4K: 15.6 Mbps （推测同样为H.265压缩标准） 备注1：相同的现实效果下，H.265 (或称HEVC)的压缩比是H.264 (或称AVC)的2倍左右。 备注2：带宽的单位为bps（即bit/s），如1M带宽对应的传输速度1Mbps。 https://www.zhihu.com/question/23455508]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[hexo · markdown样式]]></title>
     <url>%2F2017%2F08%2F10%2Fhexo%20markdown%E6%A0%B7%E5%BC%8F%2F</url>
     <content type="text"><![CDATA[在文档中增加图标 支持MarkdownHexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。 一件部署只需一条指令即可部署到Github Pages，或其他网站 丰富的插件Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。 123456- &lt;i class="fa fa-pencil"&gt;&lt;/i&gt;支持Markdown&lt;i&gt;Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。&lt;/i&gt;- &lt;i class="fa fa-cloud-upload"&gt;&lt;/i&gt;一件部署&lt;i&gt;只需一条指令即可部署到Github Pages，或其他网站&lt;/i&gt;- &lt;i class="fa fa-cog"&gt;&lt;/i&gt;丰富的插件&lt;i&gt;Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。&lt;/i&gt; &lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-github fa-lg&quot;&gt;&lt;/i&gt;&lt;i class=&quot;fa fa-github fa-2x&quot;&gt;&lt;/i&gt; 采用的是Font Awesome的图标。 图形边框效果 Download Now 12&lt;a id="download" href="https://git-scm.com/download/win"&gt;&lt;i class="fa fa-download"&gt;&lt;/i&gt;&lt;span&gt; Download Now&lt;/span&gt;&lt;/a&gt; 这也是调用了Font Awesome的方法。 诗歌居中1234567891011请不要相信我的美丽也不要相信我的爱情在涂满了油彩的面容之下我有的是颗戏子的心所以 请千万不要不要把我的悲哀当真也别随着我的表演心碎亲爱的朋友 今生今世我只是个戏子永远在别人的故事里流着自己的泪 戏子 请不要相信我的美丽也不要相信我的爱情在涂满了油彩的面容之下我有的是颗戏子的心所以 请千万不要不要把我的悲哀当真也别随着我的表演心碎亲爱的朋友 今生今世我只是个戏子永远在别人的故事里流着自己的泪 12简单居中 &lt;center&gt;戏子&lt;/center&gt;另一种 &#123;% cq %&#125; 戏子 &#123;% endcq %&#125; 戏子 戏子 请不要相信我的美丽 也不要相信我的爱情 在涂满了油彩的面容之下 我有的是颗戏子的心 所以 请千万不要 不要把我的悲哀当真 也别随着我的表演心碎 亲爱的朋友 今生今世 我只是个戏子 永远在别人的故事里 流着自己的泪 图片居中123&lt;div align = center&gt;——&gt;&gt;图片url&lt;/div&gt;]]></content>
@@ -54,8 +59,8 @@
     <content type="text"><![CDATA[测试，hexo搬迁到自有域名 test …..]]></content>
       <tags>
         <tag>hexo</tag>
-        <tag>nginx</tag>
         <tag>Ubuntu</tag>
+        <tag>nginx</tag>
       </tags>
   </entry>
   <entry>
@@ -160,7 +165,7 @@
   <entry>
     <title><![CDATA[test note]]></title>
     <url>%2F2017%2F07%2F15%2Ftest-note%2F</url>
-    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#119;&#x78;&#x66;&#55;&#50;&#x39;&#64;&#105;&#99;&#x6c;&#x6f;&#117;&#100;&#46;&#99;&#x6f;&#x6d; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
+    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#x77;&#120;&#102;&#x37;&#x32;&#57;&#x40;&#x69;&#x63;&#x6c;&#111;&#117;&#100;&#x2e;&#x63;&#111;&#x6d; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
   </entry>
   <entry>
     <title><![CDATA[markdown 测试]]></title>

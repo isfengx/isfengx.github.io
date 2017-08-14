@@ -700,6 +700,199 @@
 
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://tisfeng.com/2017/08/15/看4K视频所需的带宽/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Tisfeng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/You729.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="今宵别梦寒">
+    </span>
+
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/08/15/看4K视频所需的带宽/" itemprop="url">看4K视频所需的带宽</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-15T00:57:43+08:00">
+                2017-08-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+
+ <!-- 在下面的位置加上如下代码 -->
+
+
+ <!-- 在上面的位置加上如上代码 -->
+
+  
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/08/15/看4K视频所需的带宽/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/08/15/看4K视频所需的带宽/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+
+
+         
+    
+
+         <span class="post-time">
+     &nbsp; | &nbsp;
+           <span class="post-meta-item-icon">
+             <i class="fa fa-file-word-o"></i>
+           </span>
+           <span class="post-meta-item-text">WordCount:</span>
+           <span class="post-count">456字</span>
+           
+         </span>
+    
+      <span class="post-time">
+     &nbsp; | &nbsp;
+           <span class="post-meta-item-icon">
+             <i class="fa fa-clock-o"></i>
+           </span>
+           <span class="post-meta-item-text">min2read:</span>
+           <span class="post-count">2分钟</span>
+           
+         </span>
+
+
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<h1 id="理论计算"><a href="#理论计算" class="headerlink" title="理论计算"></a>理论计算</h1><figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">4k (3840<span class="number">*2160</span>): 3840<span class="number">*2160</span><span class="number">*8</span><span class="number">*3</span><span class="number">*60</span> ≈ 12 Gbps</div><div class="line"></div><div class="line">2k (2560<span class="number">*1600</span>): 2560<span class="number">*1440</span><span class="number">*1440</span> ≈ 5.3G</div><div class="line"></div><div class="line">1080p (1920<span class="number">*1080</span>): 1920<span class="number">*1080</span><span class="number">*1440</span> ≈ 3G</div><div class="line"></div><div class="line">720p: 1280<span class="number">*720</span><span class="number">*1440</span> ≈ 1.3G</div></pre></td></tr></table></figure>
+<p>（ 简单取值 1G≈1000M≈1000 000k）</p>
+<p>一整屏像素的点数(屏幕长宽)为<code>3840*2160</code></p>
+<p>一个点需要rgb 3种颜色，一个颜色值8位，(颜色值范围：0~255=2^8 )</p>
+<p>一秒钟60帧</p>
+<p>12G —— 即表示4K视频在一秒钟所需传输的数据量</p>
+<p>#实际估测</p>
+<p>由于当前大部分视频所采取的编码为H.265，其标准压缩比：350~1000</p>
+<p>所以对应视频所需的带宽大致为：</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">4K</span>:		 <span class="number">12</span>~<span class="number">40</span>M</div><div class="line"></div><div class="line"><span class="number">2</span><span class="attribute">K</span>:		 <span class="number">5</span>~<span class="number">15</span>M</div><div class="line"></div><div class="line"><span class="number">1080</span><span class="attribute">p</span>: 	 <span class="number">3</span>~<span class="number">8</span>M</div><div class="line"></div><div class="line"><span class="number">720</span><span class="attribute">p</span>:  	 <span class="number">0.4</span>M~<span class="number">1.3</span>M</div></pre></td></tr></table></figure>
+<p>如果你家里的带宽有40M，那就可以顺畅看4K了。这个40M是指理论峰值，实际上可能20M就差不多了，稍稍卡顿的话缓冲一下也差不多。</p>
+<hr>
+<p>\1. 理论计算（数据未压缩）</p>
+<p>4K显示屏对应的解析度：3840*2160</p>
+<p>4K内容需要的传输速率：3840<em>2160</em>8<em>3</em>60≈12 Gbps （前提：不考虑数据中的其他信号；数据位数为8 bits/color；帧率为60fps）</p>
+<p>\2. 理论计算（数据压缩后）</p>
+<p>H.265标准的压缩比：350~1000</p>
+<p>4K内容需要的传输速率（H.265标准压缩后）：12~40 Mbps</p>
+<p>\3. 实际数值</p>
+<p>1) 各国4K内容现场试验中的传输速率：17.5~35 Mbps（H.265压缩标准下）</p>
+<p>2) Netflix 4K: ≥20 Mbps （H.265压缩标准下）</p>
+<p>3) Youtube 4K: ≥25 Mbps （VP9压缩标准下）</p>
+<p><a href="&#x6d;&#x61;&#x69;&#x6c;&#116;&#111;&#x3a;&#x611f;&#35874;&#91;&#64;&#37101;&#x6cfd;&#x5b87;&#x5d;&#x28;&#x29;&#30340;&#25351;&#x6b63;">&#x611f;&#35874;&#91;&#64;&#37101;&#x6cfd;&#x5b87;&#x5d;&#x28;&#x29;&#30340;&#25351;&#x6b63;</a></p>
+<p>4) LG 4K: 15.6 Mbps （推测同样为H.265压缩标准）</p>
+<p>备注1：相同的现实效果下，H.265 (或称HEVC)的压缩比是H.264 (或称AVC)的2倍左右。</p>
+<p>备注2：带宽的单位为bps（即bit/s），如1M带宽对应的传输速度1Mbps。</p>
+<p><a href="https://www.zhihu.com/question/23455508" target="_blank" rel="external">https://www.zhihu.com/question/23455508</a></p>
+
+          
+        
+      
+    </div>
+
+<div style="text-align:center;color: #ccc;font-size:14px;"> —————— The End ——————</div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://tisfeng.com/2017/08/10/hexo markdown样式/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1962,204 +2155,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://tisfeng.com/2017/07/24/markdown-test/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Tisfeng">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/You729.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="今宵别梦寒">
-    </span>
-
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/07/24/markdown-test/" itemprop="url">markdown test</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-24T01:46:16+08:00">
-                2017-07-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-
- <!-- 在下面的位置加上如下代码 -->
-
-
- <!-- 在上面的位置加上如上代码 -->
-
-  
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/07/24/markdown-test/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2017/07/24/markdown-test/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-
-
-         
-    
-
-         <span class="post-time">
-     &nbsp; | &nbsp;
-           <span class="post-meta-item-icon">
-             <i class="fa fa-file-word-o"></i>
-           </span>
-           <span class="post-meta-item-text">WordCount:</span>
-           <span class="post-count">38字</span>
-           
-         </span>
-    
-      <span class="post-time">
-     &nbsp; | &nbsp;
-           <span class="post-meta-item-icon">
-             <i class="fa fa-clock-o"></i>
-           </span>
-           <span class="post-meta-item-text">min2read:</span>
-           <span class="post-count">1分钟</span>
-           
-         </span>
-
-
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="title1"><a href="#title1" class="headerlink" title="title1"></a>title1</h1><h2 id="title2"><a href="#title2" class="headerlink" title="title2"></a>title2</h2><h3 id="title3"><a href="#title3" class="headerlink" title="title3"></a>title3</h3><blockquote>
-<p>sdfdfdfdfdf</p>
-<p>dfdfdf</p>
-<blockquote>
-<p>dddd</p>
-<blockquote>
-<p>fffff</p>
-<p><em>wang</em></p>
-</blockquote>
-</blockquote>
-</blockquote>
-<ul>
-<li>first</li>
-<li>two</li>
-<li>three</li>
-</ul>
-<ol>
-<li>wang</li>
-<li>xun</li>
-<li>feng</li>
-</ol>
-<p><em>wangxunfeng</em></p>
-<p><strong>wangxunfeng</strong></p>
-<p><strong>wang</strong></p>
- <figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">wang</span></div><div class="line">xun</div><div class="line">feng</div></pre></td></tr></table></figure>
-<hr>
-<p>this is <a href="http://wowubuntu.com/markdown/" title="markdown yf" target="_blank" rel="external">mk</a></p>
-<p><code>wangddfdfdfdffdf</code></p>
-<pre><code>### link:
-</code></pre><p><code>&lt;https://google.com&gt;</code></p>
-<p><a href="https://google.com" target="_blank" rel="external">https://google.com</a></p>
-<p><code>[google](https://google.com)</code></p>
-<p><a href="https://google.com" title="go" target="_blank" rel="external">google</a></p>
-
-          
-        
-      
-    </div>
-
-<div style="text-align:center;color: #ccc;font-size:14px;"> —————— The End ——————</div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-
-
-
-    
   </section>
 
   
@@ -2210,7 +2205,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">25</span>
+                <span class="site-state-item-count">26</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
