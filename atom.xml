@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-08-14T18:26:56.000Z</updated>
+  <updated>2017-08-15T16:52:25.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -14,6 +14,43 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux下关于root/sudo的一些权限问题</title>
+    <link href="http://tisfeng.com/2017/08/15/linux%E4%B8%8B%E5%85%B3%E4%BA%8Eroot:sudo%E7%9A%84%E4%B8%80%E4%BA%9B%E6%9D%83%E9%99%90%E9%97%AE%E9%A2%98/"/>
+    <id>http://tisfeng.com/2017/08/15/linux下关于root:sudo的一些权限问题/</id>
+    <published>2017-08-15T13:01:37.000Z</published>
+    <updated>2017-08-15T16:52:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<p>#赋予普通用户sudo权限</p>
+<p>打开 <code>/etc/sudoers</code> 文件加入下面一行</p>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">your_user_name <span class="keyword">ALL</span>=(<span class="keyword">ALL</span>) <span class="keyword">ALL</span></div></pre></td></tr></table></figure>
+<p>默认5分钟后刚才输入的sodo密码过期，下次sudo需要重新输入密码，如果觉得在sudo的时候输入密码麻烦，把刚才的输入换成如下内容即可：</p>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">your_user_name <span class="keyword">ALL</span>=(<span class="keyword">ALL</span>) NOPASSWD: <span class="keyword">ALL</span></div></pre></td></tr></table></figure>
+<p>#更改sudoers权限报错</p>
+<p> <code>vi /etc/sudoers</code> 的时候发现提示说没有权限，即使使用了<code>sudo</code>也是<code>readonly</code></p>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">-r--r-----   <span class="number">1</span> root    wheel    <span class="number">2299</span> Aug <span class="number">23</span>  <span class="number">2015</span> sudoers</div></pre></td></tr></table></figure>
+<p>chmod 644 sudoers</p>
+<p>于是使用 <code>sudo chmod 777 sudoers</code> 获取了权限。可这样会带来一个问题，使用 <code>sudo</code>命令比如 <code>apt update</code> 就会报以下错误：</p>
+<figure class="highlight http"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">sudo</span>: /etc/sudoers is world writable</div><div class="line"></div><div class="line"><span class="http"><span class="attribute">sudo</span>: no valid sudoers sources found, quitting</span></div><div class="line"></div><div class="line"><span class="routeros">sudo: unable <span class="keyword">to</span> initialize<span class="built_in"> policy </span>plugin</span></div></pre></td></tr></table></figure>
+<p>解决办法是<code>su root</code>切换到 root 执行以下指令（一定要切换root不然会提示说需要<code>super user</code>权限）</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">pkexec chmod <span class="number">555</span> <span class="regexp">/etc/</span>sudoers</div><div class="line"></div><div class="line">pkexec chmod <span class="number">555</span> <span class="regexp">/etc/</span>sudoers.d<span class="regexp">/README</span></div></pre></td></tr></table></figure>
+<p>将<code>sudoers</code>的权限锁定即可</p>
+<p>#关于sudo的一个警告</p>
+<p>如果你更改了主机名，这时候 <code>sudo</code> 命令虽然正常可用，但会报这样一个警告 <code>sudo: unable to resolve host</code> 看起来很不爽</p>
+<p>打开 /etc/hosts 在localhost 的下一行加上你的主机名就好了</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">127<span class="selector-class">.0</span><span class="selector-class">.0</span><span class="selector-class">.1</span>       <span class="selector-tag">localhost</span> </div><div class="line"></div><div class="line">127<span class="selector-class">.0</span><span class="selector-class">.0</span><span class="selector-class">.1</span>       <span class="selector-tag">your_host_name</span></div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>看4K视频所需的带宽</title>
@@ -680,27 +717,6 @@
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>我感到有些冷﻿<br>因为我在蒙蒙细雨中﻿<br>独自前行﻿<br>我的手心和额头都湿了﻿<br>不知何时起 我变得阴暗﻿<br>似乎只要一直倚靠在这里﻿<br>就能等来光明    </p>
 <p>外面的无声细雨﻿<br>向我倾诉着一天之中<br>﻿不曾获知 也不曾期待的琐事﻿<br>静寂与燥热的白天﻿<br>都在雨滴的细语中悄然改变<br>﻿我听着这些声音﻿<br>不知何时 又像平时一样入睡了</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>关于历史</title>
-    <link href="http://tisfeng.com/2017/07/15/%E5%85%B3%E4%BA%8E%E5%8E%86%E5%8F%B2/"/>
-    <id>http://tisfeng.com/2017/07/15/关于历史/</id>
-    <published>2017-07-15T06:00:23.000Z</published>
-    <updated>2017-07-15T06:01:12.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>当年明月结束语：</p>
-<p>很多人问，为什么看历史，很多人回答，以史为鉴。<br>现在我来告诉你，以史为鉴，是不可能的。<br>因为我发现，其实历史没有变化，技术变了，衣服变了，饮食变了，这都是外壳，里面什么都没变化，还是几千年前那一套，转来转去，该犯的错误还是要犯，该杀的人还是要杀，岳飞会死，袁崇焕会死，再过一千年，还是会死。<br>所有发生的，是因为它有发生的理由，能超越历史的人，才叫以史为鉴，然而我们终究不能超越，因为我们自己的欲望和弱点。<br>所有的错误，我们都知道，然而终究改不掉。<br>能改的，叫做缺点，不能改的，叫做弱点。<br>顺便说下，能超越历史的人，还是有的，我们管这种人，叫做圣人。<br>因为看得历史比较多，所以我这个人比较有历史感，当然，这是文明的说法，粗点讲，就是悲观。<br>这并非开玩笑，我本人虽然经常幽默幽默，但对很多事情都很悲观，因为我经常看历史（就好比很多人看电视剧一样），不同的是，我看到的那些古文中，只有悲剧结局，无一例外。<br>每一个人，他的飞黄腾达和他的没落，对他本人而言，是几十年，而对我而言，只有几页，前一页他很牛，后一页就怂了。<br>王朝也是如此。<br>真没意思，没意思透了。<br>但我坚持幽默，是因为我明白，无论这个世界有多绝望，你自己都要充满希望。</p>
-<p>我们每个人都有自己的人性、欲望和弱点，只要摆脱不了，超脱不了，那么就回陷入历史的轮回中。我们这些人弱点可能就是太重情义太正直了吧……</p>
 ]]></content>
     
     <summary type="html">
