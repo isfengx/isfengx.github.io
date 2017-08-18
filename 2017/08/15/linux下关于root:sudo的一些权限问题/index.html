@@ -97,17 +97,17 @@
 
 
 
-<meta name="description" content="#赋予普通用户sudo权限 打开 /etc/sudoers 文件加入下面一行 1your_user_name ALL=(ALL) ALL 默认5分钟后刚才输入的sodo密码过期，下次sudo需要重新输入密码，如果觉得在sudo的时候输入密码麻烦，把刚才的输入换成如下内容即可： 1your_user_name ALL=(ALL) NOPASSWD: ALL #更改sudoers权限报错  vi">
+<meta name="description" content="赋予普通用户sudo权限打开 /etc/sudoers 文件加入下面一行 1your_user_name ALL=(ALL) ALL 默认5分钟后刚才输入的sodo密码过期，下次sudo需要重新输入密码，如果觉得在sudo的时候输入密码麻烦，把刚才的输入换成如下内容即可： 1your_user_name ALL=(ALL) NOPASSWD: ALL 更改sudoers权限报错 vi /et">
 <meta property="og:type" content="article">
 <meta property="og:title" content="linux下关于root&#x2F;sudo的一些权限问题">
 <meta property="og:url" content="http://tisfeng.com/2017/08/15/linux下关于root:sudo的一些权限问题/index.html">
 <meta property="og:site_name" content="今宵别梦寒">
-<meta property="og:description" content="#赋予普通用户sudo权限 打开 /etc/sudoers 文件加入下面一行 1your_user_name ALL=(ALL) ALL 默认5分钟后刚才输入的sodo密码过期，下次sudo需要重新输入密码，如果觉得在sudo的时候输入密码麻烦，把刚才的输入换成如下内容即可： 1your_user_name ALL=(ALL) NOPASSWD: ALL #更改sudoers权限报错  vi">
+<meta property="og:description" content="赋予普通用户sudo权限打开 /etc/sudoers 文件加入下面一行 1your_user_name ALL=(ALL) ALL 默认5分钟后刚才输入的sodo密码过期，下次sudo需要重新输入密码，如果觉得在sudo的时候输入密码麻烦，把刚才的输入换成如下内容即可： 1your_user_name ALL=(ALL) NOPASSWD: ALL 更改sudoers权限报错 vi /et">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-15T16:52:25.000Z">
+<meta property="og:updated_time" content="2017-08-18T16:06:04.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="linux下关于root&#x2F;sudo的一些权限问题">
-<meta name="twitter:description" content="#赋予普通用户sudo权限 打开 /etc/sudoers 文件加入下面一行 1your_user_name ALL=(ALL) ALL 默认5分钟后刚才输入的sodo密码过期，下次sudo需要重新输入密码，如果觉得在sudo的时候输入密码麻烦，把刚才的输入换成如下内容即可： 1your_user_name ALL=(ALL) NOPASSWD: ALL #更改sudoers权限报错  vi">
+<meta name="twitter:description" content="赋予普通用户sudo权限打开 /etc/sudoers 文件加入下面一行 1your_user_name ALL=(ALL) ALL 默认5分钟后刚才输入的sodo密码过期，下次sudo需要重新输入密码，如果觉得在sudo的时候输入密码麻烦，把刚才的输入换成如下内容即可： 1your_user_name ALL=(ALL) NOPASSWD: ALL 更改sudoers权限报错 vi /et">
 
 
 
@@ -415,7 +415,7 @@
              <i class="fa fa-file-word-o"></i>
            </span>
            <span class="post-meta-item-text">字数:</span>
-           <span class="post-count">323字</span>
+           <span class="post-count">341字</span>
            
          </span>
     
@@ -441,23 +441,19 @@
 
       
         <link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<p>#赋予普通用户sudo权限</p>
-<p>打开 <code>/etc/sudoers</code> 文件加入下面一行</p>
+<h1 id="赋予普通用户sudo权限"><a href="#赋予普通用户sudo权限" class="headerlink" title="赋予普通用户sudo权限"></a>赋予普通用户sudo权限</h1><p>打开 <code>/etc/sudoers</code> 文件加入下面一行</p>
 <figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">your_user_name <span class="keyword">ALL</span>=(<span class="keyword">ALL</span>) <span class="keyword">ALL</span></div></pre></td></tr></table></figure>
 <p>默认5分钟后刚才输入的sodo密码过期，下次sudo需要重新输入密码，如果觉得在sudo的时候输入密码麻烦，把刚才的输入换成如下内容即可：</p>
 <figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">your_user_name <span class="keyword">ALL</span>=(<span class="keyword">ALL</span>) NOPASSWD: <span class="keyword">ALL</span></div></pre></td></tr></table></figure>
-<p>#更改sudoers权限报错</p>
-<p> <code>vi /etc/sudoers</code> 的时候发现提示说没有权限，即使使用了<code>sudo</code>也是<code>readonly</code></p>
+<h1 id="更改sudoers权限报错"><a href="#更改sudoers权限报错" class="headerlink" title="更改sudoers权限报错"></a>更改sudoers权限报错</h1><p> <code>vi /etc/sudoers</code> 的时候发现提示说没有权限，即使使用了<code>sudo</code>也是<code>readonly</code> 打印一看原来文件的属性是只读的</p>
 <figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">-r--r-----   <span class="number">1</span> root    wheel    <span class="number">2299</span> Aug <span class="number">23</span>  <span class="number">2015</span> sudoers</div></pre></td></tr></table></figure>
-<p>chmod 644 sudoers</p>
-<p>于是使用 <code>sudo chmod 777 sudoers</code> 获取了权限。可这样会带来一个问题，使用 <code>sudo</code>命令比如 <code>apt update</code> 就会报以下错误：</p>
+<p>于是使用<code>chmod 644 sudoers</code>改写了文件的读写权限。可这样会带来一个问题，使用 <code>sudo</code>命令比如 <code>apt update</code> 就会报以下错误：</p>
 <figure class="highlight http"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">sudo</span>: /etc/sudoers is world writable</div><div class="line"></div><div class="line"><span class="http"><span class="attribute">sudo</span>: no valid sudoers sources found, quitting</span></div><div class="line"></div><div class="line"><span class="routeros">sudo: unable <span class="keyword">to</span> initialize<span class="built_in"> policy </span>plugin</span></div></pre></td></tr></table></figure>
 <p>解决办法是<code>su root</code>切换到 root 执行以下指令（一定要切换root不然会提示说需要<code>super user</code>权限）</p>
 <figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">pkexec chmod <span class="number">555</span> <span class="regexp">/etc/</span>sudoers</div><div class="line"></div><div class="line">pkexec chmod <span class="number">555</span> <span class="regexp">/etc/</span>sudoers.d<span class="regexp">/README</span></div></pre></td></tr></table></figure>
-<p>将<code>sudoers</code>的权限锁定即可</p>
-<p>#关于sudo的一个警告</p>
-<p>如果你更改了主机名，这时候 <code>sudo</code> 命令虽然正常可用，但会报这样一个警告 <code>sudo: unable to resolve host</code> 看起来很不爽</p>
-<p>打开 /etc/hosts 在localhost 的下一行加上你的主机名就好了</p>
+<p>将<code>sudoers</code>的权限还原锁定即可。</p>
+<h1 id="关于sudo的一个警告"><a href="#关于sudo的一个警告" class="headerlink" title="关于sudo的一个警告"></a>关于sudo的一个警告</h1><p>如果你更改了主机名，这时候 <code>sudo</code> 命令虽然正常可用，但会报这样一个警告 <code>sudo: unable to resolve host</code> 看起来很不爽</p>
+<p>打开 /etc/hosts，在localhost 的下一行加上你的主机名就好了</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">127<span class="selector-class">.0</span><span class="selector-class">.0</span><span class="selector-class">.1</span>       <span class="selector-tag">localhost</span> </div><div class="line"></div><div class="line">127<span class="selector-class">.0</span><span class="selector-class">.0</span><span class="selector-class">.1</span>       <span class="selector-tag">your_host_name</span></div></pre></td></tr></table></figure>
 
       
@@ -592,8 +588,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/You729.png"
@@ -716,6 +721,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#赋予普通用户sudo权限"><span class="nav-number">1.</span> <span class="nav-text">赋予普通用户sudo权限</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#更改sudoers权限报错"><span class="nav-number">2.</span> <span class="nav-text">更改sudoers权限报错</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#关于sudo的一个警告"><span class="nav-number">3.</span> <span class="nav-text">关于sudo的一个警告</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
