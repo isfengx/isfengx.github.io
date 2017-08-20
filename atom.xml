@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-08-18T16:06:04.000Z</updated>
+  <updated>2017-08-20T14:15:53.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ssh公钥登录问题</title>
+    <link href="http://tisfeng.com/2017/08/20/ssh%E5%85%AC%E9%92%A5%E7%99%BB%E5%BD%95%E9%97%AE%E9%A2%98/"/>
+    <id>http://tisfeng.com/2017/08/20/ssh公钥登录问题/</id>
+    <published>2017-08-20T14:04:24.000Z</published>
+    <updated>2017-08-20T14:15:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<h1 id="ssh登录被拒"><a href="#ssh登录被拒" class="headerlink" title="ssh登录被拒"></a>ssh登录被拒</h1><p>使用公钥登录，在把公钥上传到相应平台后，通过公钥ssh登录（通常第一次时）还是会被拒，显示</p>
+ <figure class="highlight lisp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Permission denied (<span class="name">publickey</span>)</div></pre></td></tr></table></figure>
+<p>解决方法：将对应的<code>ssh key</code>加入系统 <code>ssh</code>，终端执行：</p>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-<span class="keyword">add</span><span class="bash"> ~/.ssh/xxx</span></div></pre></td></tr></table></figure>
+<p><em>注：其中xxx为你ssh-key的文件夹名</em></p>
+<p><br></p>
+<p><a href="https://www.zhihu.com/question/21402411" target="_blank" rel="external">知乎：ssh登录提示Permission denied (publickey)</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>linux下关于root/sudo的一些权限问题</title>
@@ -672,6 +698,26 @@
   </entry>
   
   <entry>
+    <title>渡口</title>
+    <link href="http://tisfeng.com/2017/07/15/%E6%B8%A1%E5%8F%A3/"/>
+    <id>http://tisfeng.com/2017/07/15/渡口/</id>
+    <published>2017-07-15T06:21:58.000Z</published>
+    <updated>2017-07-15T06:22:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>让我与你握别<br>再轻轻抽出我的手<br>知道思念从此生根<br>浮云白日 山川庄严温柔<br>让我与你握别<br>再轻轻抽出我的手<br>华年从此停顿<br>热泪在心中汇成河流<br>是那样万般无奈的凝视<br>渡口旁找不到一朵可以相送的花<br>就把祝福别在襟上吧<br>而明日<br>明日又隔天涯</p>
+<p>—— 北岛</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>青春 (置顶测试5)</title>
     <link href="http://tisfeng.com/2017/07/15/%E9%9D%92%E6%98%A5/"/>
     <id>http://tisfeng.com/2017/07/15/青春/</id>
@@ -699,46 +745,6 @@
     
     
       <category term="诗和远方" scheme="http://tisfeng.com/tags/%E8%AF%97%E5%92%8C%E8%BF%9C%E6%96%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>渡口</title>
-    <link href="http://tisfeng.com/2017/07/15/%E6%B8%A1%E5%8F%A3/"/>
-    <id>http://tisfeng.com/2017/07/15/渡口/</id>
-    <published>2017-07-15T06:21:58.000Z</published>
-    <updated>2017-07-15T06:22:59.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>让我与你握别<br>再轻轻抽出我的手<br>知道思念从此生根<br>浮云白日 山川庄严温柔<br>让我与你握别<br>再轻轻抽出我的手<br>华年从此停顿<br>热泪在心中汇成河流<br>是那样万般无奈的凝视<br>渡口旁找不到一朵可以相送的花<br>就把祝福别在襟上吧<br>而明日<br>明日又隔天涯</p>
-<p>—— 北岛</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>雨之语</title>
-    <link href="http://tisfeng.com/2017/07/15/%E9%9B%A8%E4%B9%8B%E8%AF%AD/"/>
-    <id>http://tisfeng.com/2017/07/15/雨之语/</id>
-    <published>2017-07-15T06:06:20.000Z</published>
-    <updated>2017-07-15T06:06:28.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>我感到有些冷﻿<br>因为我在蒙蒙细雨中﻿<br>独自前行﻿<br>我的手心和额头都湿了﻿<br>不知何时起 我变得阴暗﻿<br>似乎只要一直倚靠在这里﻿<br>就能等来光明    </p>
-<p>外面的无声细雨﻿<br>向我倾诉着一天之中<br>﻿不曾获知 也不曾期待的琐事﻿<br>静寂与燥热的白天﻿<br>都在雨滴的细语中悄然改变<br>﻿我听着这些声音﻿<br>不知何时 又像平时一样入睡了</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
-    
-    </summary>
-    
     
   </entry>
   
