@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-08-20T14:15:53.000Z</updated>
+  <updated>2017-08-21T09:45:31.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -16,19 +16,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>ssh公钥登录问题</title>
-    <link href="http://tisfeng.com/2017/08/20/ssh%E5%85%AC%E9%92%A5%E7%99%BB%E5%BD%95%E9%97%AE%E9%A2%98/"/>
-    <id>http://tisfeng.com/2017/08/20/ssh公钥登录问题/</id>
+    <title>ssh公钥登录</title>
+    <link href="http://tisfeng.com/2017/08/20/ssh%E5%85%AC%E9%92%A5%E7%99%BB%E5%BD%95/"/>
+    <id>http://tisfeng.com/2017/08/20/ssh公钥登录/</id>
     <published>2017-08-20T14:04:24.000Z</published>
-    <updated>2017-08-20T14:15:53.000Z</updated>
+    <updated>2017-08-21T09:45:31.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<h1 id="ssh登录被拒"><a href="#ssh登录被拒" class="headerlink" title="ssh登录被拒"></a>ssh登录被拒</h1><p>使用公钥登录，在把公钥上传到相应平台后，通过公钥ssh登录（通常第一次时）还是会被拒，显示</p>
+<h1 id="ssh登录"><a href="#ssh登录" class="headerlink" title="ssh登录"></a>ssh登录</h1><p>考虑到直接使用密码登录不安全</p>
+<h1 id="ssh公钥登录被拒"><a href="#ssh公钥登录被拒" class="headerlink" title="ssh公钥登录被拒"></a>ssh公钥登录被拒</h1><p>使用公钥登录，即使把公钥上传到相应平台后，通过公钥ssh登录（通常第一次）还是会被拒，显示</p>
  <figure class="highlight lisp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Permission denied (<span class="name">publickey</span>)</div></pre></td></tr></table></figure>
 <p>解决方法：将对应的<code>ssh key</code>加入系统 <code>ssh</code>，终端执行：</p>
 <figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-<span class="keyword">add</span><span class="bash"> ~/.ssh/xxx</span></div></pre></td></tr></table></figure>
 <p><em>注：其中xxx为你ssh-key的文件夹名</em></p>
-<p><br></p>
 <p><a href="https://www.zhihu.com/question/21402411" target="_blank" rel="external">知乎：ssh登录提示Permission denied (publickey)</a></p>
 ]]></content>
     
@@ -38,6 +38,8 @@
     
     </summary>
     
+    
+      <category term="linux" scheme="http://tisfeng.com/tags/linux/"/>
     
   </entry>
   
