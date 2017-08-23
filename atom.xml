@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-08-21T09:45:31.000Z</updated>
+  <updated>2017-08-23T11:12:02.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://tisfeng.com/2017/08/20/ssh%E5%85%AC%E9%92%A5%E7%99%BB%E5%BD%95/"/>
     <id>http://tisfeng.com/2017/08/20/ssh公钥登录/</id>
     <published>2017-08-20T14:04:24.000Z</published>
-    <updated>2017-08-21T09:45:31.000Z</updated>
+    <updated>2017-08-23T11:12:02.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
 <h1 id="ssh登录"><a href="#ssh登录" class="headerlink" title="ssh登录"></a>ssh登录</h1><p>考虑到直接使用密码登录不安全</p>
@@ -81,11 +81,12 @@
     <link href="http://tisfeng.com/2017/08/15/%E7%9C%8B4K%E8%A7%86%E9%A2%91%E6%89%80%E9%9C%80%E7%9A%84%E5%B8%A6%E5%AE%BD/"/>
     <id>http://tisfeng.com/2017/08/15/看4K视频所需的带宽/</id>
     <published>2017-08-14T16:57:43.000Z</published>
-    <updated>2017-08-19T13:57:20.000Z</updated>
+    <updated>2017-08-23T11:46:32.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
 <h1 id="理论计算"><a href="#理论计算" class="headerlink" title="理论计算"></a>理论计算</h1><figure class="highlight routeros"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">4k (3840<span class="number">*2160</span>): 3840<span class="number">*2160</span><span class="number">*8</span><span class="number">*3</span><span class="number">*60</span> ≈ 12 Gbps</div><div class="line"></div><div class="line">2k (2560<span class="number">*1600</span>): 2560<span class="number">*1440</span><span class="number">*1440</span> ≈ 5.3 G</div><div class="line"></div><div class="line">1080p (1920<span class="number">*1080</span>): 1920<span class="number">*1080</span><span class="number">*1440</span> ≈ 3 G</div><div class="line"></div><div class="line">720p: 1280<span class="number">*720</span><span class="number">*1440</span> ≈ 1.3 G</div></pre></td></tr></table></figure>
 <p>（ 简单取值 1G≈1000M≈1000 000k）</p>
+<p><strong>对于4K视频：</strong></p>
 <p>一整屏像素的点数(屏幕长宽)为<code>3840*2160</code></p>
 <p>一个点需要rgb 3种颜色，一个颜色值8位，(颜色值范围：0~255=2^8 )</p>
 <p>一秒钟60帧</p>
@@ -93,7 +94,7 @@
 <h1 id="实际估测"><a href="#实际估测" class="headerlink" title="实际估测"></a>实际估测</h1><p>由于当前大部分视频所采取的编码为<code>H.265</code>，其标准压缩比：<strong>350~1000</strong></p>
 <p>所以对应视频所需的带宽大致为：</p>
 <figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">4K</span>:	<span class="number">12</span>~<span class="number">40</span>M</div><div class="line"></div><div class="line"><span class="number">2</span><span class="attribute">K</span>:	<span class="number">5</span>~<span class="number">15</span>M</div><div class="line"></div><div class="line"><span class="number">1080</span><span class="attribute">p</span>:	<span class="number">3</span>~<span class="number">8</span>M</div><div class="line"></div><div class="line"><span class="number">720</span><span class="attribute">p</span>:	<span class="number">0.4</span>M~<span class="number">1.3</span>M</div></pre></td></tr></table></figure>
-<p>如果你家里的带宽有40M，那就可以顺畅看4K了。这个40M是指理论峰值，实际上可能20M就差不多了，稍稍卡顿的话缓冲一下也差不多。</p>
+<p>如果你家里的带宽有40M，那就可以顺畅看4K了。这个40M是指理论峰值，考虑到国内的视频清晰度经常挂羊头卖狗肉（比如拿720p冒充1080p…），实际上可能一半带宽（20M）就差不多了，稍稍卡顿的话可以缓冲一下。</p>
 <p><br></p>
 <hr>
 <p> <a href="https://www.zhihu.com/question/23455508" target="_blank" rel="external">在线播放 4K 内容的需要多少带宽？（知乎）</a></p>
@@ -700,6 +701,26 @@
   </entry>
   
   <entry>
+    <title>渡口</title>
+    <link href="http://tisfeng.com/2017/07/15/%E6%B8%A1%E5%8F%A3/"/>
+    <id>http://tisfeng.com/2017/07/15/渡口/</id>
+    <published>2017-07-15T06:21:58.000Z</published>
+    <updated>2017-07-15T06:22:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>让我与你握别<br>再轻轻抽出我的手<br>知道思念从此生根<br>浮云白日 山川庄严温柔<br>让我与你握别<br>再轻轻抽出我的手<br>华年从此停顿<br>热泪在心中汇成河流<br>是那样万般无奈的凝视<br>渡口旁找不到一朵可以相送的花<br>就把祝福别在襟上吧<br>而明日<br>明日又隔天涯</p>
+<p>—— 北岛</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>青春 (置顶测试5)</title>
     <link href="http://tisfeng.com/2017/07/15/%E9%9D%92%E6%98%A5/"/>
     <id>http://tisfeng.com/2017/07/15/青春/</id>
@@ -727,26 +748,6 @@
     
     
       <category term="诗和远方" scheme="http://tisfeng.com/tags/%E8%AF%97%E5%92%8C%E8%BF%9C%E6%96%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>渡口</title>
-    <link href="http://tisfeng.com/2017/07/15/%E6%B8%A1%E5%8F%A3/"/>
-    <id>http://tisfeng.com/2017/07/15/渡口/</id>
-    <published>2017-07-15T06:21:58.000Z</published>
-    <updated>2017-07-15T06:22:59.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>让我与你握别<br>再轻轻抽出我的手<br>知道思念从此生根<br>浮云白日 山川庄严温柔<br>让我与你握别<br>再轻轻抽出我的手<br>华年从此停顿<br>热泪在心中汇成河流<br>是那样万般无奈的凝视<br>渡口旁找不到一朵可以相送的花<br>就把祝福别在襟上吧<br>而明日<br>明日又隔天涯</p>
-<p>—— 北岛</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
-    
-    </summary>
-    
     
   </entry>
   
