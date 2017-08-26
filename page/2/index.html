@@ -331,188 +331,6 @@
 
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://tisfeng.com/2017/07/31/hexo 小记/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Tisfeng">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/You729.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="今宵别梦寒">
-    </span>
-
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/07/31/hexo 小记/" itemprop="url">hexo小记</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-31T21:01:18+08:00">
-                2017-07-31
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-
- <!-- 在下面的位置加上如下代码 -->
-
-
- <!-- 在上面的位置加上如上代码 -->
-
-  
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/07/31/hexo 小记/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2017/07/31/hexo 小记/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-
-
-         
-    
-
-         <span class="post-time">
-     &nbsp; | &nbsp;
-           <span class="post-meta-item-icon">
-             <i class="fa fa-file-word-o"></i>
-           </span>
-           <span class="post-meta-item-text">WordCount:</span>
-           <span class="post-count">444字</span>
-           
-         </span>
-    
-      <span class="post-time">
-     &nbsp; | &nbsp;
-           <span class="post-meta-item-icon">
-             <i class="fa fa-clock-o"></i>
-           </span>
-           <span class="post-meta-item-text">min2read:</span>
-           <span class="post-count">2分钟</span>
-           
-         </span>
-
-
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<p>修改文章默认模板  hexo/scaffolds/post.md</p>
-<p>博客中使用到的插件包 hexo/package.json。哎，这个文件里居然不能写注释，像下面这样一写就报错。。。</p>
-<p>可使用 <code>npm ls --depth 0</code> 来排查</p>
-<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="string">"name"</span>: <span class="string">"hexo-site"</span>,</div><div class="line">  <span class="string">"version"</span>: <span class="string">"0.0.0"</span>,</div><div class="line">  <span class="string">"private"</span>: <span class="literal">true</span>,</div><div class="line">  <span class="string">"hexo"</span>: &#123;</div><div class="line">    <span class="string">"version"</span>: <span class="string">"3.3.7"</span></div><div class="line">  &#125;,</div><div class="line">  <span class="string">"dependencies"</span>: &#123;</div><div class="line">    <span class="string">"hexo"</span>: <span class="string">"^3.2.0"</span>,</div><div class="line">    <span class="string">"hexo-admin"</span>: <span class="string">"^2.2.1"</span>, <span class="comment">//简单后台管理</span></div><div class="line">    <span class="string">"hexo-algolia"</span>: <span class="string">"^1.1.0"</span>, <span class="comment">// algolia搜索</span></div><div class="line">    <span class="string">"hexo-deployer-git"</span>: <span class="string">"^0.3.0"</span>,  <span class="comment">//git部署</span></div><div class="line">    <span class="string">"hexo-deployer-rsync"</span>: <span class="string">"^0.1.3"</span>,  <span class="comment">// 远程同步上传</span></div><div class="line">    <span class="string">"hexo-fs"</span>: <span class="string">"^0.2.1"</span>,    <span class="comment">//文件相关，去除为函数未调用警告</span></div><div class="line">    <span class="string">"hexo-generator-archive"</span>: <span class="string">"^0.1.4"</span>,   <span class="comment">//文章归档</span></div><div class="line">    <span class="string">"hexo-generator-baidu-sitemap"</span>: <span class="string">"^0.1.2"</span>, <span class="comment">//百度站点地图</span></div><div class="line">    <span class="string">"hexo-generator-category"</span>: <span class="string">"^0.1.3"</span>,  <span class="comment">//文章分类</span></div><div class="line">    <span class="string">"hexo-generator-feed"</span>: <span class="string">"^1.2.0"</span>,    <span class="comment">//RSS订阅</span></div><div class="line">    <span class="string">"hexo-generator-index"</span>: <span class="string">"^0.2.1"</span>,   <span class="comment">//首页配置</span></div><div class="line">    <span class="string">"hexo-generator-searchdb"</span>: <span class="string">"^1.0.7"</span>,  <span class="comment">//本地搜索</span></div><div class="line">    <span class="string">"hexo-generator-sitemap"</span>: <span class="string">"^1.2.0"</span>, <span class="comment">//谷歌站点地图</span></div><div class="line">    <span class="string">"hexo-generator-tag"</span>: <span class="string">"^0.2.0"</span>,   <span class="comment">//生成文章页面</span></div><div class="line">    <span class="string">"hexo-helper-post-top"</span>: <span class="string">"0.0.1"</span>, <span class="comment">// 文章置顶</span></div><div class="line">    <span class="string">"hexo-reference"</span>: <span class="string">"^1.0.3"</span>,  <span class="comment">//添加注脚</span></div><div class="line">    <span class="string">"hexo-renderer-ejs"</span>: <span class="string">"^0.2.0"</span>,</div><div class="line">    <span class="string">"hexo-renderer-marked"</span>: <span class="string">"^0.2.10"</span>,</div><div class="line">    <span class="string">"hexo-renderer-stylus"</span>: <span class="string">"^0.3.1"</span>,</div><div class="line">    <span class="string">"hexo-server"</span>: <span class="string">"^0.2.0"</span>,        <span class="comment">//本地预览</span></div><div class="line">    <span class="string">"hexo-tag-aplayer"</span>: <span class="string">"^2.0.1"</span>,   <span class="comment">//插入音乐</span></div><div class="line">    <span class="string">"hexo-tag-dplayer"</span>: <span class="string">"^0.1.7"</span>, <span class="comment">//插入视频</span></div><div class="line">    <span class="string">"hexo-wordcount"</span>: <span class="string">"^3.0.2"</span>   <span class="comment">//统计字数</span></div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p> 每次写完新文章，发布都需要执行下面几步：</p>
-<figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">hexo -c  <span class="string">//</span> clean 清除缓存</div><div class="line">hexo -d	 <span class="string">//</span> <span class="keyword">deploy</span> 远程部署</div><div class="line">hexo -g  <span class="string">//</span> generator 生成页面</div></pre></td></tr></table></figure>
-<p> 即使综合起来一条命令</p>
-<figure class="highlight 1c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo clean <span class="meta">&amp;&amp; hexo d -g</span></div></pre></td></tr></table></figure>
-<p>感觉这样还是太繁琐了点，还想z再简化一下，咋办——使用<code>alias</code>取个简单别名</p>
-<p> 打开或创建文件：<code>vi ~/.bash.profile</code></p>
-<p>写入：<code>alias &#39;hexo-cdg&#39;=&#39;hexo clean &amp;&amp; hexo d -g&#39;</code></p>
-<p>重新加载： <code>source  ~/.bash.profile</code></p>
-<p>下次发布新文章就直接在hexo目录下执行 <code>hexo-cdg</code></p>
-<p>Ubuntu下的 <code>alias</code></p>
-<p>系统别名</p>
-<p><code>usr/share/base-files/.bash_aliases</code></p>
-
-          
-        
-      
-    </div>
-
-<div style="text-align:center;color: #ccc;font-size:14px;"> —————— The End ——————</div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://tisfeng.com/2017/07/29/hexo成功迁移到自由域名/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -2131,6 +1949,177 @@
 <p>—— 席慕蓉</p>
 
           
+        
+      
+    </div>
+
+<div style="text-align:center;color: #ccc;font-size:14px;"> —————— The End ——————</div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://tisfeng.com/2017/07/15/青春/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Tisfeng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/You729.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="今宵别梦寒">
+    </span>
+
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/07/15/青春/" itemprop="url">青春</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-15T14:21:58+08:00">
+                2017-07-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+
+ <!-- 在下面的位置加上如下代码 -->
+
+
+ <!-- 在上面的位置加上如上代码 -->
+
+  
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/07/15/青春/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/07/15/青春/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+
+
+         
+    
+
+         <span class="post-time">
+     &nbsp; | &nbsp;
+           <span class="post-meta-item-icon">
+             <i class="fa fa-file-word-o"></i>
+           </span>
+           <span class="post-meta-item-text">WordCount:</span>
+           <span class="post-count">536字</span>
+           
+         </span>
+    
+      <span class="post-time">
+     &nbsp; | &nbsp;
+           <span class="post-meta-item-icon">
+             <i class="fa fa-clock-o"></i>
+           </span>
+           <span class="post-meta-item-text">min2read:</span>
+           <span class="post-count">3分钟</span>
+           
+         </span>
+
+
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>所有的结局都已写好<br>所有的泪水也都已启程<br>却忽然忘了是怎麽样的一个开始<br>在那个古老的不再回来的夏日<br>无论我如何地去追索<br>年轻的你只如云影掠过<br>而你微笑的面容极浅极淡<br>逐渐隐没在日落後的群岚<br>遂翻开那发黄的扉页<br>命运将它装订得极为拙劣<br>含著泪 我一读再读<br>却不得不承认<br>青春是一本太仓促的书</p>
+<p>—— 席慕蓉</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/07/15/青春/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
