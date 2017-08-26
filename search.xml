@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[停滞]]></title>
+    <url>%2F2017%2F08%2F26%2F%E5%81%9C%E6%BB%9E%2F</url>
+    <content type="text"><![CDATA[我经历极其停滞的阶段。在这里，我并不是说我像大多数人那样，花费上一天又一天的时间写明信片，去回应什么人写给我的快函。我也不是说我像其他一些人那样，可以轻易地无限期推迟一些可被证明有用于我的事情，或者是可以给予我快乐的事情。我对自己的误解比这些要小得多。我是灵魂停滞了。我受害于一种意志的悬置，与此同时，感情和思想却天天在持续。我只能向别人表达自己，然后以语言，以行动，以习惯，在勃勃繁育的灵魂生活里，通过他们向自己作自我表达。 在这些影子般的时间里，我不能思想、感受或者愿望。我设法写下来的东西，只有数字或者仅仅是笔的停顿。我一无所感，甚至我所爱之人的死亡，似乎也会远远离我而去，成为一件用外语发生的事件。我也一无所为，就像我在睡觉，我的语言、姿势以及举动，仅仅是一种表面的呼吸，是一些器官按部就班的本能。于是日子和日子过去了，这些加起来的日子是我的多少生命，我说不清楚。我最终把停滞当成一件衣装脱下的时候，我想我不会像自己的想象中那样赤裸地站着，一些无形的外衣将会一直包装着我，遮掩我真正灵魂的永远缺席。我突然想到这一切，我的思想、感受以及愿望，也许是一种停滞的形式，是我更为个性化的思维方式和自己更为熟悉的感觉，是一个意志的失落之处——在那个迷宫里，我才真正成为自己。 无论这是不是真理，我都会听其自然。无论上帝和女神是否存在，我都会交出实在的我，听从任何一个送达而来的命运，听从任何一个提供与我的机会，对已经食言于我的许诺无限忠诚。]]></content>
+      <tags>
+        <tag>惶然录</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[ssh公钥登录]]></title>
     <url>%2F2017%2F08%2F20%2Fssh%E5%85%AC%E9%92%A5%E7%99%BB%E5%BD%95%2F</url>
     <content type="text"><![CDATA[ssh登录考虑到直接使用密码登录不安全 ssh公钥登录被拒使用公钥登录，即使把公钥上传到相应平台后，通过公钥ssh登录（通常第一次）还是会被拒，显示 1Permission denied (publickey) 解决方法：将对应的ssh key加入系统 ssh，终端执行： 1ssh-add ~/.ssh/xxx 注：其中xxx为你ssh-key的文件夹名 知乎：ssh登录提示Permission denied (publickey)]]></content>
@@ -178,7 +186,7 @@
   <entry>
     <title><![CDATA[test note]]></title>
     <url>%2F2017%2F07%2F15%2Ftest-note%2F</url>
-    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#x77;&#x78;&#x66;&#x37;&#50;&#57;&#64;&#105;&#x63;&#x6c;&#111;&#117;&#x64;&#46;&#99;&#111;&#x6d; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
+    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#119;&#x78;&#102;&#55;&#x32;&#57;&#64;&#105;&#x63;&#x6c;&#111;&#117;&#100;&#46;&#x63;&#111;&#109; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
   </entry>
   <entry>
     <title><![CDATA[markdown 测试]]></title>
