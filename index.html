@@ -615,7 +615,7 @@
              <i class="fa fa-file-word-o"></i>
            </span>
            <span class="post-meta-item-text">WordCount:</span>
-           <span class="post-count">236字</span>
+           <span class="post-count">240字</span>
            
          </span>
     
@@ -644,7 +644,7 @@
         
           
             <link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<p>今天突然发现ss-libev不行了，而且这台机器上的原版shadosocks端口似乎也又抽风了（几周前这个python版ss有过端口被封的前科，换了端口又可以继续X墙^^），怀疑是防火墙的问题，就跑去vps上瞧了下</p>
+<p>今天突然发现ss-libev不行了，而且这台机器上的原版shadosocks端口似乎也又抽风了（几周前这个python版ss有过端口被封的前科，换了端口后又可以愉快X墙了^^），怀疑是防火墙的问题，就跑去vps上瞧了下</p>
 <figure class="highlight subunit"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo ufw status</div><div class="line"><span class="keyword">ERROR: </span>problem running ip6tables</div></pre></td></tr></table></figure>
 <p>wtf……</p>
 <p>这个ip6是默认开启的，之前都管它怎么这会突然来搞事了？</p>
@@ -654,9 +654,9 @@
 <p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1fj4knlxo41j31dk0vugu6.jpg" alt=""></p>
 <p>具体出了啥问题还不清楚，不过这招确实管用。。。</p>
 <p>又试了下，把ip6打开，果然还是不行。。</p>
-<h1 id="不死心"><a href="#不死心" class="headerlink" title="不死心"></a>不死心</h1><p>后面在关闭ip6的前提下，把ufw关闭又重启来回折腾了几次甚至还<code>reboot</code> 重启了下机器，再去关闭ip6， 测试</p>
+<h1 id="不死心"><a href="#不死心" class="headerlink" title="不死心"></a>不死心</h1><p>后面在关闭ip6的前提下，把ufw关闭又重启来回折腾了几次甚至还 <code>reboot</code> 重启了下机器，再去关闭ip6， 测试</p>
 <figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">sudo ufw status</span></div></pre></td></tr></table></figure>
-<p>居然就好了。</p>
+<p>居然就正常了。。</p>
 <p>真的好了。</p>
 <h1 id="完"><a href="#完" class="headerlink" title="完"></a>完</h1>
           
