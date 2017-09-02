@@ -615,7 +615,7 @@
              <i class="fa fa-file-word-o"></i>
            </span>
            <span class="post-meta-item-text">WordCount:</span>
-           <span class="post-count">244字</span>
+           <span class="post-count">498字</span>
            
          </span>
     
@@ -625,7 +625,7 @@
              <i class="fa fa-clock-o"></i>
            </span>
            <span class="post-meta-item-text">min2read:</span>
-           <span class="post-count">1分钟</span>
+           <span class="post-count">2分钟</span>
            
          </span>
 
@@ -658,7 +658,20 @@
 <figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">sudo ufw status</span></div></pre></td></tr></table></figure>
 <p>居然就正常了。。</p>
 <p>真的好了。</p>
-<h1 id="完"><a href="#完" class="headerlink" title="完"></a>完</h1>
+<h1 id="完"><a href="#完" class="headerlink" title="完"></a>完</h1><hr>
+<p>额</p>
+<p>O__O “…</p>
+<p>今天一看ufw就又回去了，记得好像是重启过一次机器</p>
+<figure class="highlight subunit"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo ufw status</div><div class="line"><span class="keyword">ERROR: </span>problem running ip6tables</div></pre></td></tr></table></figure>
+<p>这个情况虽然有点莫名其妙，不过有一点可以确定的是这个ufw ip6问题会影响到原版ss端口连接（某些端口可以正常连接而另外一些却不行），还有docker上的ss-libev也受影响不运作了。</p>
+<p>我记得昨天调好这个问题后，确定是关了防火墙的</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">sudo ufw diable</span></div></pre></td></tr></table></figure>
+<p>今天一看又出了问题，在关闭ip6后查看防火墙状态</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">sudo ufw status</span></div></pre></td></tr></table></figure>
+<p>ufw居然莫名又开了。。猜测还是那一个隐藏的bug影响了防火墙，部分端口被关闭，遂导致相关端口上的应用挂了。。</p>
+<p>最后老老实实关了ip6，再关了ufw，果然，ss-libev正常了，原来受影响不能连接的python-ss也可以了。。</p>
+<p>折腾了这么久对于这种情况，我只想想两个字</p>
+<h1 id="wo艹"><a href="#wo艹" class="headerlink" title="wo艹"></a>wo艹</h1>
           
         
       
