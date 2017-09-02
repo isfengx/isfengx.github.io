@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-09-02T13:06:37.000Z</updated>
+  <updated>2017-09-02T16:39:46.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://tisfeng.com/2017/09/02/%E9%98%B2%E7%81%AB%E5%A2%99%E6%8A%A5%E9%94%99-ERROR-problem-running-ip6tables/"/>
     <id>http://tisfeng.com/2017/09/02/防火墙报错-ERROR-problem-running-ip6tables/</id>
     <published>2017-09-01T17:16:55.000Z</published>
-    <updated>2017-09-02T13:06:37.000Z</updated>
+    <updated>2017-09-02T16:39:46.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
 <p>今天突然发现ss-libev不行了，而且这台机器上的原版shadosocks端口似乎也又抽风了（因为几周前这个python版的ss有过端口被封前科，只是在换了端口后又可以愉快X墙^^），怀疑是防火墙的问题，就跑去vps上瞧了下</p>
@@ -40,7 +40,7 @@
 <h1 id="完"><a href="#完" class="headerlink" title="完"></a>完</h1><hr>
 <p>额</p>
 <p>O__O “…</p>
-<p>今天一看ufw就又回去了，记得好像是重启过一次机器</p>
+<p>今天 (9.3) 一看ufw就又回去了，记得好像中途重启过一次机器</p>
 <figure class="highlight subunit"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo ufw status</div><div class="line"><span class="keyword">ERROR: </span>problem running ip6tables</div></pre></td></tr></table></figure>
 <p>这个情况虽然有点莫名其妙，不过有一点可以确定的是这个ufw ip6问题会影响到原版ss端口连接（某些端口可以正常连接而另外一些却不行），还有docker上的ss-libev也受影响不运作了。</p>
 <p>我记得昨天调好这个问题后，确定是关了防火墙的</p>
