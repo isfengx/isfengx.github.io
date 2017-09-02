@@ -615,7 +615,7 @@
              <i class="fa fa-file-word-o"></i>
            </span>
            <span class="post-meta-item-text">WordCount:</span>
-           <span class="post-count">498字</span>
+           <span class="post-count">502字</span>
            
          </span>
     
@@ -669,8 +669,8 @@
 <p>今天一看又出了问题，在关闭ip6后查看防火墙状态</p>
 <figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">sudo ufw status</span></div></pre></td></tr></table></figure>
 <p>ufw居然莫名又开了。。猜测还是那一个隐藏的bug影响了防火墙，部分端口被关闭，遂导致相关端口上的应用挂了。。</p>
-<p>最后老老实实关了ip6，再关了ufw，果然，ss-libev正常了，原来受影响不能连接的python-ss也可以了。。</p>
-<p>折腾了这么久对于这种情况，我只想想两个字</p>
+<p>最后老老实实关了ip6，再关了ufw，果然，ss-libev正常了，原来受影响某些端口不能连接的ss-python也可以了。。</p>
+<p>折腾了这么久，对于这种情况，我只想想两个字——</p>
 <h1 id="wo艹"><a href="#wo艹" class="headerlink" title="wo艹"></a>wo艹</h1>
           
         
