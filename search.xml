@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[你不是真的快乐]]></title>
+    <url>%2F2017%2F09%2F08%2F%E4%BD%A0%E4%B8%8D%E6%98%AF%E7%9C%9F%E7%9A%84%E5%BF%AB%E4%B9%90%2F</url>
+    <content type="text"><![CDATA[你不是真的快乐人群中 哭着 你只想变成透明的颜色你再也不会梦 或痛 或心动了你已经决定了 你已经决定了 你 静静 忍着 紧紧把昨天在拳心握着而回忆越是甜 就是 越伤人了越是在 手心留下 密密麻麻 深深浅浅的刀割 你不是真正的快乐你的笑只是你穿的保护色你决定不恨了也决定不爱了把你的灵魂 关在永远 锁上的躯壳 这世界笑了 于是你合群的一起笑了当生存是规则 不是 你的选择于是你 含着眼泪 飘飘荡荡 跌跌撞撞的走着 你不是真正的快乐你的笑只是你穿的保护色你决定不恨了 也决定不爱了把你的灵魂 关在永远 锁上的躯壳 你不是真正的快乐你的伤从不肯完全的愈合我站在你左侧 却像隔着银河难道就真的 抱着遗憾 一直到老了然后才后悔着 你值得真正的快乐你应该脱下你穿的保护色为什么失去了 还要被惩罚呢能不能就让 悲伤全部 结束在此刻重新开始活着 —— 五月天·后青春期的诗]]></content>
+      <tags>
+        <tag>五月天</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[表裹一体]]></title>
     <url>%2F2017%2F09%2F04%2F%E8%A1%A8%E8%A3%B9%E4%B8%80%E4%BD%93%2F</url>
     <content type="text"><![CDATA[貪戀著清晨 宣洩著黑夜 如此生存乃我的本性 翻騰激揚的這份感情 究竟是白&emsp;抑或是黑 嚮往的未來 以及棄置於背後的過去 糾結扭曲 一層又一層地 緊緊纏繞 逐漸消逝的命運螺旋 我覷眼細細查看 從不可思議的夢裏 探出身來 表裏一体 指尖拋彈出的硬幣 在空中旋轉飛舞 而我究竟 在祈求著 何種結局 表裏一体 光芒越是耀眼 黑影越是陰暗 如此一來 又該往何處去 重疊交錯的 這兩種 未來 Woo-woo- 欺騙是偶然也是必然 相連的岔道上 無論何時 無處不在 緊追隨而來的影子 該將其吞沒嗎 還是將其照亮 是該选择抗拒 還是原諒一切 光明黑暗 愛情憎惡 抱持著同根而出強韌的情感 在記憶的另一端 伸出手來 悄悄地受吸引 前往有你的地方 表裡如一 明知命中註定一切都將消失 因此 絕對不會放開這隻手的 盛者必衰 染上鮮血 緋紅的沖動 切斷鎖鏈 甦醒的現在 去見證吧 真實的世界 在陰陽的縫隙之間 聆聽心的悸動 點與線 相連而繫 仿彿時光消逝的安魂曲 表裡如一 指間彈起的硬幣 飛舞在空中 我到底 在祈願著哪邊的終結 表裡如一 光芒越是耀眼 黑影越是陰暗 就連未曾消失的過去 都無法移開視線 定睛凝視 消逝的螺旋 眨眼的瞬間 光與影交疊 索性就這樣 點綴著時辰 重疊共生的 兩個未來 —— HUNTER×HUNTER]]></content>
@@ -93,8 +101,8 @@
     <content type="text"><![CDATA[测试，hexo搬迁到自有域名 test …..]]></content>
       <tags>
         <tag>hexo</tag>
-        <tag>Ubuntu</tag>
         <tag>nginx</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -199,7 +207,7 @@
   <entry>
     <title><![CDATA[test note]]></title>
     <url>%2F2017%2F07%2F15%2Ftest-note%2F</url>
-    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#119;&#120;&#x66;&#55;&#50;&#57;&#x40;&#x69;&#x63;&#108;&#x6f;&#117;&#x64;&#46;&#x63;&#x6f;&#x6d; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
+    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#x77;&#x78;&#102;&#55;&#50;&#x39;&#x40;&#x69;&#99;&#x6c;&#x6f;&#x75;&#x64;&#46;&#x63;&#x6f;&#109; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
   </entry>
   <entry>
     <title><![CDATA[markdown 测试]]></title>
