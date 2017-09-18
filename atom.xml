@@ -534,9 +534,9 @@
     
       <category term="hexo" scheme="http://tisfeng.com/tags/hexo/"/>
     
-      <category term="nginx" scheme="http://tisfeng.com/tags/nginx/"/>
-    
       <category term="Ubuntu" scheme="http://tisfeng.com/tags/Ubuntu/"/>
+    
+      <category term="nginx" scheme="http://tisfeng.com/tags/nginx/"/>
     
   </entry>
   
