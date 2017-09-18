@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[关于hexo-next不显示分类/标签问题]]></title>
+    <url>%2F2017%2F09%2F18%2F%E5%85%B3%E4%BA%8Ehexo-next%E4%B8%8D%E6%98%BE%E7%A4%BA%E5%88%86%E7%B1%BB-%E6%A0%87%E7%AD%BE%E9%97%AE%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[问题描述刚发现使用Hexo-Next (Mist)写文章，即使在文章首部YML设置了 categories tags 该文章也不会在首页相应的分类、标签页面显示，而个人侧边栏头像下的分类、标签也处于不可点击状态。诡异的是，若是进入该文章页面，从此处的分类或标签却可以正常查看。。 前一篇blog的YML，有两个tags 123456title: 我只希望被爱date: 2017-09-18 15:03:12type: "tags"tags: - 日剧台词 - 四重奏 这是从首页查看到的tags页面，显示什么都没有 而这是从文章里面点击查看到的tags页面 解决方法由于tags确实存在并且可以显示，只是不再首页正常显示，猜测是该网页的index文件没有正确设置，查看标签文件 hexo/source/tags 下的 index.md 12title: tagsdate: 2017-09-18 16:02:54 添加一行类型属性 1type: "tags" 保存，hexo clean &amp;&amp; hexo d- g 清理缓存并重新生成页面发布]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[我只希望被爱]]></title>
     <url>%2F2017%2F09%2F18%2F%E6%88%91%E5%8F%AA%E5%B8%8C%E6%9C%9B%E8%A2%AB%E7%88%B1%2F</url>
     <content type="text"><![CDATA[我只希望被爱，我不会主动爱别人； 我尽量让自己不要喜欢上别人， —— 因为对方也会喜欢自己的几率极低。]]></content>
@@ -114,8 +122,8 @@
     <content type="text"><![CDATA[测试，hexo搬迁到自有域名 test …..]]></content>
       <tags>
         <tag>hexo</tag>
-        <tag>nginx</tag>
         <tag>Ubuntu</tag>
+        <tag>nginx</tag>
       </tags>
   </entry>
   <entry>
@@ -179,17 +187,17 @@
       </categories>
   </entry>
   <entry>
+    <title><![CDATA[渡口]]></title>
+    <url>%2F2017%2F07%2F15%2F%E6%B8%A1%E5%8F%A3%2F</url>
+    <content type="text"><![CDATA[让我与你握别再轻轻抽出我的手知道思念从此生根浮云白日 山川庄严温柔让我与你握别再轻轻抽出我的手华年从此停顿热泪在心中汇成河流是那样万般无奈的凝视渡口旁找不到一朵可以相送的花就把祝福别在襟上吧而明日明日又隔天涯 —— 北岛]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[青春]]></title>
     <url>%2F2017%2F07%2F15%2F%E9%9D%92%E6%98%A5%2F</url>
     <content type="text"><![CDATA[所有的结局都已写好所有的泪水也都已启程却忽然忘了是怎麽样的一个开始在那个古老的不再回来的夏日无论我如何地去追索年轻的你只如云影掠过而你微笑的面容极浅极淡逐渐隐没在日落後的群岚遂翻开那发黄的扉页命运将它装订得极为拙劣含著泪 我一读再读却不得不承认青春是一本太仓促的书 —— 席慕蓉 12时光不会倒着走，我也不会再回头流水若是会回头，落花亦会再驻留 123456789101112// Custom styles.// 为next主题的主页文章添加阴影效果.post &#123; margin-top: 30px; margin-bottom: 30px; padding: 25px; -webkit-box-shadow: 0 0 5px rgba(76, 76, 76, .5); -moz-box-shadow: 0 0 5px rgba(76, 76, 76, .5); &#125; 123int main(void) &#123; return "123"; //ddddd&#125; 123456789101112131415161718int main(void) &#123; return "123"; //ddddd&#125;int main(void) &#123; return "123"; //ddddd&#125;int main(void) &#123; return "123"; //ddddd&#125;int main(void) &#123; return "123"; //ddddd&#125;int main(void) &#123; return "123"; //ddddd&#125;int main(void) &#123; return "123"; //ddddd&#125; 12345678910public static Picasso with(Context context) &#123; if (singleton == null) &#123; synchronized (Picasso.class) &#123; if (singleton == null) &#123; singleton = new Builder(context).build(); &#125; &#125; &#125; return singleton;&#125; 123456@implementation QNFileRecorder+ (NSString *)pathJoin:(NSString *)key path:(NSString *)path &#123; return [[NSString alloc] initWithFormat:@"%@/%@", path, key];&#125; 1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798// QNFileRecorder.m// QiniuSDK//// Created by bailong on 14/10/5.// Copyright (c) 2014年 Qiniu. All rights reserved.//#import "QNFileRecorder.h"#import "QNUrlSafeBase64.h"@interface QNFileRecorder ()@property (copy, readonly) NSString *directory;@property BOOL encode;@end@implementation QNFileRecorder- (NSString *)pathOfKey:(NSString *)key &#123; return [QNFileRecorder pathJoin:key path:_directory];&#125;+ (NSString *)pathJoin:(NSString *)key path:(NSString *)path &#123; return [[NSString alloc] initWithFormat:@"%@/%@", path, key];&#125;+ (instancetype)fileRecorderWithFolder:(NSString *)directory error:(NSError *__autoreleasing *)perror &#123; return [QNFileRecorder fileRecorderWithFolder:directory encodeKey:false error:perror];&#125;+ (instancetype)fileRecorderWithFolder:(NSString *)directory encodeKey:(BOOL)encode error:(NSError *__autoreleasing *)perror &#123; NSError *error; [[NSFileManager defaultManager] createDirectoryAtPath:directory withIntermediateDirectories:YES attributes:nil error:&amp;error]; if (error != nil) &#123; if (perror) &#123; *perror = error; &#125; return nil; &#125; return [[QNFileRecorder alloc] initWithFolder:directory encodeKey:encode];&#125;- (instancetype)initWithFolder:(NSString *)directory encodeKey:(BOOL)encode &#123; if (self = [super init]) &#123; _directory = directory; _encode = encode; &#125; return self;&#125;- (NSError *)set:(NSString *)key data:(NSData *)value &#123; NSError *error; if (_encode) &#123; key = [QNUrlSafeBase64 encodeString:key]; &#125; [value writeToFile:[self pathOfKey:key] options:NSDataWritingAtomic error:&amp;error]; return error;&#125;- (NSData *)get:(NSString *)key &#123; if (_encode) &#123; key = [QNUrlSafeBase64 encodeString:key]; &#125; return [NSData dataWithContentsOfFile:[self pathOfKey:key]];&#125;- (NSError *)del:(NSString *)key &#123; NSError *error; if (_encode) &#123; key = [QNUrlSafeBase64 encodeString:key]; &#125; [[NSFileManager defaultManager] removeItemAtPath:[self pathOfKey:key] error:&amp;error]; return error;&#125;+ (void)removeKey:(NSString *)key directory:(NSString *)dir encodeKey:(BOOL)encode &#123; if (encode) &#123; key = [QNUrlSafeBase64 encodeString:key]; &#125; NSError *error; NSString *path = [QNFileRecorder pathJoin:key path:dir]; [[NSFileManager defaultManager] removeItemAtPath:path error:&amp;error];&#125;- (NSString *)description &#123; return [NSString stringWithFormat:@"&lt;%@: %p, dir: %@&gt;", NSStringFromClass([self class]), self, _directory];&#125;@end]]></content>
       <tags>
         <tag>诗和远方</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[渡口]]></title>
-    <url>%2F2017%2F07%2F15%2F%E6%B8%A1%E5%8F%A3%2F</url>
-    <content type="text"><![CDATA[让我与你握别再轻轻抽出我的手知道思念从此生根浮云白日 山川庄严温柔让我与你握别再轻轻抽出我的手华年从此停顿热泪在心中汇成河流是那样万般无奈的凝视渡口旁找不到一朵可以相送的花就把祝福别在襟上吧而明日明日又隔天涯 —— 北岛]]></content>
   </entry>
   <entry>
     <title><![CDATA[雨之语]]></title>
@@ -219,7 +227,7 @@
   <entry>
     <title><![CDATA[test note]]></title>
     <url>%2F2017%2F07%2F15%2Ftest-note%2F</url>
-    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#x77;&#x78;&#x66;&#55;&#x32;&#x39;&#64;&#x69;&#99;&#108;&#111;&#x75;&#100;&#x2e;&#99;&#x6f;&#x6d; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
+    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#x77;&#120;&#x66;&#x37;&#50;&#57;&#x40;&#x69;&#99;&#x6c;&#111;&#117;&#x64;&#46;&#99;&#x6f;&#109; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
   </entry>
   <entry>
     <title><![CDATA[markdown 测试]]></title>
