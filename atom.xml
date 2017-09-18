@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tisfeng.com/"/>
-  <updated>2017-09-18T08:05:57.000Z</updated>
+  <updated>2017-09-18T08:07:21.000Z</updated>
   <id>http://tisfeng.com/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我只希望被爱</title>
+    <link href="http://tisfeng.com/2017/09/18/%E6%88%91%E5%8F%AA%E5%B8%8C%E6%9C%9B%E8%A2%AB%E7%88%B1/"/>
+    <id>http://tisfeng.com/2017/09/18/我只希望被爱/</id>
+    <published>2017-09-18T07:03:12.000Z</published>
+    <updated>2017-09-18T08:07:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
+<p>我只希望被爱，我不会主动爱别人；</p>
+<p>我尽量让自己不要喜欢上别人，</p>
+<p>—— 因为对方也会喜欢自己的几率极低。</p>
+<p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1fjnqbn6y0cj30er0gvmz0.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/css/DPlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/DPlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=&quot;/as
+    
+    </summary>
+    
+    
+      <category term="日剧台词" scheme="http://tisfeng.com/tags/%E6%97%A5%E5%89%A7%E5%8F%B0%E8%AF%8D/"/>
+    
+      <category term="四重奏" scheme="http://tisfeng.com/tags/%E5%9B%9B%E9%87%8D%E5%A5%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>你不是真的快乐</title>
@@ -507,9 +534,9 @@
     
       <category term="hexo" scheme="http://tisfeng.com/tags/hexo/"/>
     
-      <category term="Ubuntu" scheme="http://tisfeng.com/tags/Ubuntu/"/>
-    
       <category term="nginx" scheme="http://tisfeng.com/tags/nginx/"/>
+    
+      <category term="Ubuntu" scheme="http://tisfeng.com/tags/Ubuntu/"/>
     
   </entry>
   
@@ -717,89 +744,6 @@
     
       <category term="iBook" scheme="http://tisfeng.com/categories/iBook/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>戏子</title>
-    <link href="http://tisfeng.com/2017/07/15/%E6%88%8F%E5%AD%90/"/>
-    <id>http://tisfeng.com/2017/07/15/戏子/</id>
-    <published>2017-07-15T14:58:46.000Z</published>
-    <updated>2017-08-10T12:54:09.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">请不要相信我的美丽</div><div class="line">也不要相信我的爱情</div><div class="line">在涂满了油彩的面容之下</div><div class="line">我有的是颗戏子的心</div><div class="line">所以 请千万不要</div><div class="line">不要把我的悲哀当真</div><div class="line">也别随着我的表演心碎</div><div class="line">亲爱的朋友 今生今世</div><div class="line">我只是个戏子</div><div class="line">永远在别人的故事里</div><div class="line">流着自己的泪</div></pre></td></tr></table></figure>
-<p><img src="https://ws4.sinaimg.cn/large/006tNc79gy1fi1ilmtjjgj30g40aj0u2.jpg" alt=""></p>
-<p><img src="https://www.jianguoyun.com/c/tblv2/CK66GRIg7QD3KURI8JphOWseUGI3Y_7N7RXjxlyg1k6nbBIQI94/4X69f47afWo/l" alt=""></p>
-<p>this is a basic footnote<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="basic footnote content ">[1]</span></a></sup></p>
-<!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 -->
-<!-- 其中 class="blockquote-center" 是必须的 -->
-<blockquote class="blockquote-center">blah blah blah</blockquote>
-
-<!-- 标签 方式，要求版本在0.4.5或以上 -->
-<blockquote class="blockquote-center"><p>blah blah blah</p>
-</blockquote>
-<!-- 标签别名 -->
-<blockquote class="blockquote-center"><p>blah blah blah </p>
-</blockquote>
-<a id="more"></a>
-<h1 id="图片居中"><a href="#图片居中" class="headerlink" title="图片居中"></a>图片居中</h1><div align="center"><br><br><a href="https://img.icos8.cc/image/B7p7" target="_blank" rel="external"><img src="https://img.icos8.cc/images/2017/07/29/Leaf_leave11.md.jpg" alt="Leaf_leave11.md.jpg"></a><br><br></div>
-
-
-
-<blockquote>
-<p>111222333444555666777888</p>
-<blockquote>
-<p>aaa</p>
-<blockquote>
-<p>bbb</p>
-<p>ccc</p>
-<p>ddd</p>
-<p>eee</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div></pre></td><td class="code"><pre><div class="line">//</div><div class="line">//  MPUtilities.m</div><div class="line">//  MacDown</div><div class="line">//</div><div class="line">//  Created by Tzu-ping Chung  on 8/06/2014.</div><div class="line">//  Copyright (c) 2014 Tzu-ping Chung . All rights reserved.</div><div class="line">//</div><div class="line"></div><div class="line">#import &quot;MPUtilities.h&quot;</div><div class="line">#import &quot;NSString+Lookup.h&quot;</div><div class="line">#import &lt;JavaScriptCore/JavaScriptCore.h&gt;</div><div class="line"></div><div class="line">NSString * const kMPStylesDirectoryName = @&quot;Styles&quot;;</div><div class="line">NSString * const kMPStyleFileExtension = @&quot;css&quot;;</div><div class="line">NSString * const kMPThemesDirectoryName = @&quot;Themes&quot;;</div><div class="line">NSString * const kMPThemeFileExtension = @&quot;style&quot;;</div><div class="line">NSString * const kMPPlugInsDirectoryName = @&quot;PlugIns&quot;;</div><div class="line">NSString * const kMPPlugInFileExtension = @&quot;plugin&quot;;</div><div class="line"></div><div class="line">static NSString *MPDataRootDirectory()</div><div class="line">&#123;</div><div class="line">    static NSString *path = nil;</div><div class="line">    if (!path)</div><div class="line">    &#123;</div><div class="line">        NSArray *paths =</div><div class="line">            NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory,</div><div class="line">                                                NSUserDomainMask, YES);</div><div class="line">        NSCAssert(paths.count &gt; 0,</div><div class="line">                  @&quot;Cannot find directory for NSApplicationSupportDirectory.&quot;);</div><div class="line">        NSDictionary *infoDictionary = [NSBundle mainBundle].infoDictionary;</div><div class="line">        path = [NSString pathWithComponents:@[paths[0],</div><div class="line">                                              infoDictionary[@&quot;CFBundleName&quot;]]];</div><div class="line">    &#125;</div><div class="line">    return path;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">&lt;!-- JiaThis Button BEGIN --&gt;</div><div class="line">&lt;div class="jiathis_style_24x24"&gt;</div><div class="line">	&lt;a class="jiathis_button_qzone"&gt;&lt;/a&gt;</div><div class="line">	&lt;a class="jiathis_button_tsina"&gt;&lt;/a&gt;</div><div class="line">	&lt;a class="jiathis_button_tqq"&gt;&lt;/a&gt;</div><div class="line">	&lt;a class="jiathis_button_weixin"&gt;&lt;/a&gt;</div><div class="line">	&lt;a class="jiathis_button_renren"&gt;&lt;/a&gt;</div><div class="line">	&lt;a href="http://www.jiathis.com/share?uid=2139285" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"&gt;&lt;/a&gt;</div><div class="line">	&lt;a class="jiathis_counter_style"&gt;&lt;/a&gt;</div><div class="line">&lt;/div&gt;</div><div class="line">&lt;script type="text/javascript"&gt;</div><div class="line">var jiathis_config = &#123;data_track_clickback:'true'&#125;;</div><div class="line">&lt;/script&gt;</div><div class="line">&lt;script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=2139285" charset="utf-8"&gt;&lt;/script&gt;</div><div class="line">&lt;!-- JiaThis Button END --&gt;</div></pre></td></tr></table></figure>
-<blockquote>
-<p>888</p>
-<blockquote>
-<p>fff</p>
-<blockquote>
-<p>ggg</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">basic footnote content<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-    
-    <summary type="html">
-    
-      &lt;hr&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;请不要相信我的美丽&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;也不要相信我的爱情&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;在涂满了油彩的面容之下&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;我有的是颗戏子的心&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;所以 请千万不要&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;不要把我的悲哀当真&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;也别随着我的表演心碎&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;亲爱的朋友 今生今世&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;我只是个戏子&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;永远在别人的故事里&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;流着自己的泪&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tNc79gy1fi1ilmtjjgj30g40aj0u2.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://www.jianguoyun.com/c/tblv2/CK66GRIg7QD3KURI8JphOWseUGI3Y_7N7RXjxlyg1k6nbBIQI94/4X69f47afWo/l&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;this is a basic footnote&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;basic footnote content &quot;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;
-&lt;!-- 其中 class=&quot;blockquote-center&quot; 是必须的 --&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;blah blah blah&lt;/blockquote&gt;
-
-&lt;!-- 标签 方式，要求版本在0.4.5或以上 --&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;blah blah blah&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;!-- 标签别名 --&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;blah blah blah &lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://tisfeng.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-      <category term="瞬间" scheme="http://tisfeng.com/categories/%E9%9A%8F%E7%AC%94/%E7%9E%AC%E9%97%B4/"/>
-    
-    
-      <category term="test" scheme="http://tisfeng.com/tags/test/"/>
-    
-      <category term="blog" scheme="http://tisfeng.com/tags/blog/"/>
     
   </entry>
   

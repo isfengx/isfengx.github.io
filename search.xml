@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[我只希望被爱]]></title>
+    <url>%2F2017%2F09%2F18%2F%E6%88%91%E5%8F%AA%E5%B8%8C%E6%9C%9B%E8%A2%AB%E7%88%B1%2F</url>
+    <content type="text"><![CDATA[我只希望被爱，我不会主动爱别人； 我尽量让自己不要喜欢上别人， —— 因为对方也会喜欢自己的几率极低。]]></content>
+      <tags>
+        <tag>日剧台词</tag>
+        <tag>四重奏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[你不是真的快乐]]></title>
     <url>%2F2017%2F09%2F08%2F%E4%BD%A0%E4%B8%8D%E6%98%AF%E7%9C%9F%E7%9A%84%E5%BF%AB%E4%B9%90%2F</url>
     <content type="text"><![CDATA[人群中 哭着 你只想变成透明的颜色你再也不会梦 或痛 或心动了你已经决定了 你已经决定了 你 静静 忍着 紧紧把昨天在拳心握着而回忆越是甜 就是 越伤人了越是在 手心留下 密密麻麻 深深浅浅的刀割 你不是真正的快乐你的笑只是你穿的保护色你决定不恨了也决定不爱了把你的灵魂 关在永远 锁上的躯壳 这世界笑了 于是你合群的一起笑了当生存是规则 不是 你的选择于是你 含着眼泪 飘飘荡荡 跌跌撞撞的走着 你不是真正的快乐你的笑只是你穿的保护色你决定不恨了 也决定不爱了把你的灵魂 关在永远 锁上的躯壳 你不是真正的快乐你的伤从不肯完全的愈合我站在你左侧 却像隔着银河难道就真的 抱着遗憾 一直到老了然后才后悔着 你值得真正的快乐你应该脱下你穿的保护色为什么失去了 还要被惩罚呢能不能就让 悲伤全部 结束在此刻重新开始活着 —— 五月天·后青春期的诗]]></content>
@@ -105,8 +114,8 @@
     <content type="text"><![CDATA[测试，hexo搬迁到自有域名 test …..]]></content>
       <tags>
         <tag>hexo</tag>
-        <tag>Ubuntu</tag>
         <tag>nginx</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -211,7 +220,7 @@
   <entry>
     <title><![CDATA[test note]]></title>
     <url>%2F2017%2F07%2F15%2Ftest-note%2F</url>
-    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#x77;&#x78;&#102;&#x37;&#50;&#x39;&#64;&#x69;&#99;&#x6c;&#x6f;&#x75;&#x64;&#x2e;&#99;&#111;&#x6d; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
+    <content type="text"><![CDATA[wang xunfengduanfenfen 1E = mc^2 [x] one 无序列表 duanfenfen luotingting longzhongmei girls one two 文字删除线 樱花落 one 1234123fdfdfdffdfdffdfadfad 注脚内容[^注脚内容] &#119;&#x78;&#102;&#55;&#50;&#x39;&#x40;&#105;&#x63;&#x6c;&#111;&#117;&#x64;&#x2e;&#x63;&#x6f;&#109; http://www.jianshu.com 插入图片 插入连接这是一个连接 [link][http://b.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=7260f21552afa40f3cc6c9db935f6472/adaf2edda3cc7cd98c8071fe3101213fb80e9163.jpg][1] 粗体 chuti 斜体 xieti 顶顶顶顶对对对对对对 我#import &quot;AppDelegate.h&quot; 123456789101112#import "AppDelegate.h"#import "MainViewController.h"@implementation AppDelegate- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions&#123;self.viewController = [[MainViewController alloc] init];return [super application:application didFinishLaunchingWithOptions:launchOptions];&#125;@end one two three duan luo long 1 2 3]]></content>
   </entry>
   <entry>
     <title><![CDATA[markdown 测试]]></title>
