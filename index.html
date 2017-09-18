@@ -529,7 +529,7 @@
 
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://tisfeng.com/2017/09/18/关于hexo-next不显示分类-标签问题/">
+    <link itemprop="mainEntityOfPage" href="http://tisfeng.com/2017/09/18/关于Hexo-Next不显示分类-标签问题/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Tisfeng">
@@ -549,7 +549,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/09/18/关于hexo-next不显示分类-标签问题/" itemprop="url">关于hexo-next不显示分类/标签问题 </a></h1>
+                <a class="post-title-link" href="/2017/09/18/关于Hexo-Next不显示分类-标签问题/" itemprop="url">关于Hexo-Next不显示分类/标签问题 </a></h1>
         
 
         <div class="post-meta">
@@ -587,9 +587,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2017/09/18/关于hexo-next不显示分类-标签问题/#comments" itemprop="discussionUrl">
+                <a href="/2017/09/18/关于Hexo-Next不显示分类-标签问题/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2017/09/18/关于hexo-next不显示分类-标签问题/" itemprop="commentCount"></span>
+                        data-disqus-identifier="2017/09/18/关于Hexo-Next不显示分类-标签问题/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -615,7 +615,7 @@
              <i class="fa fa-file-word-o"></i>
            </span>
            <span class="post-meta-item-text">WordCount:</span>
-           <span class="post-count">265字</span>
+           <span class="post-count">322字</span>
            
          </span>
     
@@ -645,18 +645,22 @@
           
             <link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><hr>
 <h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>刚发现使用<code>Hexo-Next (Mist)</code>写文章，即使在文章首部YML设置了 <code>categories</code> <code>tags</code> 该文章也不会在首页相应的分类、标签页面显示，而个人侧边栏头像下的分类、标签也处于不可点击状态。诡异的是，若是进入该文章页面，从此处的分类或标签却可以正常查看。。</p>
-<p>前一篇blog的YML，有两个tags</p>
+<p>例如前一篇blog的YML，打有两个tag</p>
 <figure class="highlight subunit"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">title: 我只希望被爱</div><div class="line">date: 2017<span class="string">-09</span><span class="string">-18</span> 15:03:12</div><div class="line">type: "tags"</div><div class="line"><span class="keyword">tags:</span> </div><div class="line"> - 日剧台词</div><div class="line"> - 四重奏</div></pre></td></tr></table></figure>
-<p><strong>这是从首页查看到的tags页面，显示什么都没有</strong></p>
+<p><strong>从首页点击看到的tags页面，却显示什么都没有</strong></p>
 <p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1fjntl7rstuj31kw0v4tdh.jpg" alt=""></p>
-<p><strong>而这是从文章里面点击查看到的tags页面</strong></p>
+<p><strong>而这是从该文章里面点击查看到的tags页面</strong></p>
 <p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1fjntrfqf7tj31kw0uzwiu.jpg" alt=""></p>
-<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><p>由于tags确实存在并且可以显示，只是不再首页正常显示，猜测是该网页的index文件没有正确设置，查看标签文件 <code>hexo/source/tags</code> 下的 index.md </p>
+<p>有木有很诡异👻</p>
+<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><p>由于tags确实存在并且可以查看，只是不在首页正常显示，因此猜测是该网页的index文件没有正确设置所导致，查看标签文件 <code>hexo/source/tags</code> 下的 index.md </p>
 <figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">title:</span> tags</div><div class="line"><span class="symbol">date:</span> <span class="number">2017</span><span class="number">-09</span><span class="number">-18</span> <span class="number">16</span>:<span class="number">02</span>:<span class="number">54</span></div></pre></td></tr></table></figure>
-<p>添加一行类型属性</p>
+<p>添加一行类型属性（分类也一样，在对应文件下添加 <code>type: &quot;categories&quot;</code> 即可 ）</p>
 <figure class="highlight scala"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">type</span></span>: <span class="string">"tags"</span></div></pre></td></tr></table></figure>
 <p>保存，<code>hexo clean &amp;&amp; hexo d- g</code>  清理缓存并重新生成页面发布</p>
+<p>再查看tags页面果然正常了，侧边栏的标签也可以点击了</p>
+<div align="center"><br><br><img src="https://ws2.sinaimg.cn/large/006tKfTcgy1fjnu4p2au8j31kw0v843c.jpg" alt=""><br><br></div>
 
+<h1 id="perfect"><a href="#perfect" class="headerlink" title="perfect"></a>perfect</h1><h3 id="完"><a href="#完" class="headerlink" title="完"></a>完</h3>
           
         
       
@@ -825,8 +829,7 @@
 <p>我只希望被爱，我不会主动爱别人；</p>
 <p>我尽量让自己不要喜欢上别人，</p>
 <p>—— 因为对方也会喜欢自己的几率极低。</p>
-<p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1fjnqbn6y0cj30er0gvmz0.jpg" alt=""></p>
-
+<div align="center"><br><br><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1fjnqbn6y0cj30er0gvmz0.jpg" alt=""><br><br></div>
           
         
       
