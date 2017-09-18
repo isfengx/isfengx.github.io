@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://tisfeng.com/tags/index.html</loc>
+    
+    <lastmod>2017-09-18T08:43:45.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tisfeng.com/2017/07/15/%E6%88%8F%E5%AD%90/</loc>
+    
+    <lastmod>2017-09-18T08:42:15.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tisfeng.com/2017/07/18/ibook/</loc>
+    
+    <lastmod>2017-09-18T08:40:01.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://tisfeng.com/categories/index.html</loc>
     
     <lastmod>2017-09-18T08:32:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tisfeng.com/tags/index.html</loc>
-    
-    <lastmod>2017-09-18T08:32:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tisfeng.com/tags/%E8%A2%AB%E7%88%B1.html</loc>
-    
-    <lastmod>2017-09-18T08:27:46.000Z</lastmod>
     
   </url>
   
@@ -96,13 +103,6 @@
     <loc>http://tisfeng.com/2017/08/10/hexo%20markdown%E6%A0%B7%E5%BC%8F/</loc>
     
     <lastmod>2017-08-11T01:17:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tisfeng.com/2017/07/15/%E6%88%8F%E5%AD%90/</loc>
-    
-    <lastmod>2017-08-10T12:54:09.000Z</lastmod>
     
   </url>
   
@@ -187,13 +187,6 @@
     <loc>http://tisfeng.com/about/index.html</loc>
     
     <lastmod>2017-07-18T08:27:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tisfeng.com/2017/07/18/ibook/</loc>
-    
-    <lastmod>2017-07-17T18:20:21.000Z</lastmod>
     
   </url>
   
